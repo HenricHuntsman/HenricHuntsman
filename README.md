@@ -1,33 +1,46 @@
-# Henric's GitHub projects
+# Hi, I'm Henric 👋
 
-A practical index of maintained projects, local experiments, and upstream-tracking repositories in this account.
+I build and experiment with **local-first AI, developer tools, game tooling, and creative software**. My projects focus on practical workflows, reproducible testing, and learning by building.
 
-## Actively maintained projects
+> **Current focus:** reviving my development tools, improving Ollama-based coding workflows, and keeping experimental work separate from stable releases.
 
-- [AgentFoundry Instantly](https://github.com/SpidermanTotro/AgentFoundry-instantly) — local-first AI development workspace and Electron desktop tooling; build, tests, audits, and startup-helper CI enabled
-- [QuestMaster Pro](https://github.com/SpidermanTotro/azeroth-pilot-reloaded-Pro-) — WoW guide addon; Lua 5.1, Luacheck, XML, and TOC integrity CI enabled
-- [Book Publish Forge](https://github.com/SpidermanTotro/book-publish-forge) — local desktop writing and publishing tools with automated helper tests
-- [RepoForge Dashboard](https://github.com/SpidermanTotro/repo-manager-ultimate) — non-destructive repository health, CI, and duplicate-review dashboard
-- [Trinity Studio Architecture](https://github.com/SpidermanTotro/Trinity-Studio-Architecture) — tested reference architecture and planning for Trinity tooling
+## Featured projects
 
-## Local AI and application experiments
+| Project | What it does | Status |
+| --- | --- | --- |
+| [Rabbit Code](https://github.com/SpidermanTotro/rabbit-foundry) | Local-first Python coding agent and Ollama-compatible model gateway | Active development |
+| [AgentFoundry Instantly](https://github.com/SpidermanTotro/AgentFoundry-instantly) | AI-assisted developer workspace and tooling | Development |
+| [RepoForge](https://github.com/SpidermanTotro/repo-manager-ultimate) | Repository inventory, health checks and review tools | Development |
+| [QuestMaster Pro](https://github.com/SpidermanTotro/QuestMaster-Pro) | World of Warcraft Lua addon and guide tooling | Development |
+| [Book Publish Forge](https://github.com/SpidermanTotro/book-publish-forge) | Writing and publishing workflow tools | Development |
+| [NebulaUltimate](https://github.com/SpidermanTotro/NebulaUltimate) | Experimental development platform and local AI skills | Prototype |
+| [Trinity Studio Architecture](https://github.com/SpidermanTotro/Trinity-Studio-Architecture) | Architecture and tooling ideas for Trinity-related development | Reference / development |
 
-- [OpenCode Local](https://github.com/SpidermanTotro/opencode-local) — local Ollama configuration and coding-model experiments
-- [NebulaUltimate](https://github.com/SpidermanTotro/NebulaUltimate) — offline development-platform prototype with pluggable local AI skills
+## AI and programming experiments
 
-## Upstream-tracking and large inherited codebases
+- [mini-AGI](https://github.com/SpidermanTotro/mini-AGI) — a **separate experimental research track**, not part of the FORGE codebase.
+- [AgentFoundry TrinityCore Studio](https://github.com/SpidermanTotro/AgentFoundry-TrinityCore-Studio) — game-server development tooling experiments.
+- [LisaAI Dating App](https://github.com/SpidermanTotro/LisaAI-DatingApp) — application development project.
 
-These repositories primarily track or extend external projects. Account-specific changes should remain on clearly named branches so upstream synchronization stays manageable.
+My local development workflow includes **Linux, Python, TypeScript, Node.js, Git, Ollama and CUDA-capable NVIDIA hardware**. I aim to test changes before merging and prefer tools that can work without mandatory cloud services.
 
-- [Azeroth Pilot Reloaded](https://github.com/SpidermanTotro/azeroth-pilot-reloaded)
-- [Codex](https://github.com/SpidermanTotro/codex)
-- [Continue](https://github.com/SpidermanTotro/continue)
-- [Gemini CLI](https://github.com/SpidermanTotro/gemini-cli)
-- [Kimi K2](https://github.com/SpidermanTotro/Kimi-K2)
-- [nvm](https://github.com/SpidermanTotro/nvm)
-- [TrinityCore](https://github.com/SpidermanTotro/TrinityCore)
-- [Vitruvian](https://github.com/SpidermanTotro/Vitruvian)
+## FORGE: work in progress
 
-## Cleanup policy
+**FORGE** is my broader direction for local developer tooling. I am exploring how coding assistants, project management, model gateways, and desktop workflows can work together while remaining modular. It is a **development goal**, not a claim of a finished operating system or integrated release.
 
-Private repositories, empty repositories, placeholder-only projects, malformed-name tests, and unresolved duplicates are intentionally omitted from this public index. They are reviewed before any archival, deletion, rename, visibility change, or history rewrite; omission here does not modify them.
+## Upstream-tracking and reference repositories
+
+I also maintain copies or experiments based on external codebases, including [Azeroth Pilot Reloaded](https://github.com/SpidermanTotro/azeroth-pilot-reloaded), [Codex](https://github.com/SpidermanTotro/codex), [Continue](https://github.com/SpidermanTotro/continue), [Gemini CLI](https://github.com/SpidermanTotro/gemini-cli), [Kimi K2](https://github.com/SpidermanTotro/Kimi-K2), [TrinityCore](https://github.com/SpidermanTotro/TrinityCore), and [nvm](https://github.com/SpidermanTotro/nvm).
+
+These are not presented as entirely original projects; see each repository for upstream authorship, licenses, and contribution history.
+
+## How I work
+
+- **Local-first where practical:** prefer on-device models and explicit network boundaries.
+- **Test before release:** use linting, automated tests, build checks and small reproducible fixes.
+- **Preserve history:** review duplicates and old experiments before archiving or deleting.
+- **Keep projects distinct:** experiments, reference forks, and production-ready tools have different expectations.
+
+---
+
+*Some projects are prototypes or undergoing revival. Links and status descriptions reflect the public repositories reviewed in October 2026; they do not guarantee a current passing build.*
