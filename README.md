@@ -32,6 +32,8 @@ I'm building a practical toolkit around local AI, coding agents, game-developmen
 
 **[Repository audit — 31 projects, October 2026](docs/REPOSITORY-AUDIT-2026-10-14.md)** · Includes verified branches, README coverage, outstanding migration issues and next checks.
 
+**[Huntsman project naming catalogue](docs/PROJECT-NAMING-CATALOGUE-2026-10-14.md)** · Friendly titles for all 26 public repositories; GitHub URLs and upstream credits remain unchanged.
+
 ## 📌 Profile at a glance
 
 | Item | Verified information |
@@ -55,10 +57,10 @@ Browse [all public repositories](https://github.com/HenricHuntsman?tab=repositor
 | --- | --- | --- |
 | [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) | Local-first Python coding agent and Ollama-compatible model gateway | Active development |
 | [AgentFoundry Instantly](https://github.com/HenricHuntsman/AgentFoundry-instantly) | AI-assisted developer workspace and tooling | Development |
-| [RepoForge](https://github.com/HenricHuntsman/repo-manager-ultimate) | Repository inventory, health checks and review tools | Development |
+| [Huntsman Repo Manager (RepoForge)](https://github.com/HenricHuntsman/repo-manager-ultimate) | Repository inventory, health checks and review tools | Development |
 | [QuestMaster Pro](https://github.com/HenricHuntsman/QuestMaster-Pro) | World of Warcraft Lua addon and guide tooling | Development |
 | [Book Publish Forge](https://github.com/HenricHuntsman/book-publish-forge) | Writing and publishing workflow tools | Development |
-| [NebulaUltimate](https://github.com/HenricHuntsman/NebulaUltimate) | Experimental development platform and local AI skills | Prototype |
+| [Nebula Ultimate](https://github.com/HenricHuntsman/NebulaUltimate) | Experimental development platform and local AI skills | Prototype |
 | [Trinity Studio Architecture](https://github.com/HenricHuntsman/Trinity-Studio-Architecture) | Architecture and tooling ideas for Trinity-related development | Reference / development |
 
 ## 📚 Other projects and preserved work
