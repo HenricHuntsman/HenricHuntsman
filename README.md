@@ -103,7 +103,15 @@ These are not presented as entirely original projects; see each repository for u
 | Build health | Check each project | Actual CI workflows and test results, not decorative badges |
 | Development progress | Milestones below | Verified checklist items, not guessed percentages |
 
-**Optional future tracker:** [WakaTime](https://wakatime.com/) or a self-managed local CSV timer. I will only display totals after you explicitly choose a source and approve publication.
+**Local-first option:** [Developer-hours tracker](tools/dev-hours/README.md) records sessions in a private local CSV and generates a monthly report. No time logs are uploaded automatically; publishing a summary is a separate, opt-in step.
+
+## 🛡️ Engineering principles
+
+- **Privacy:** keep raw coding-time logs local; never publish private repository names or working directories by default.
+- **Reproducibility:** document commands, environment and test evidence for each project.
+- **Open-source credit:** distinguish original work from forks, mirrors and upstream-derived code.
+- **Accessibility:** use meaningful link labels, readable text and alt text; never rely on a colour-only status.
+- **Honest metrics:** only display measured hours, verified checks and explicitly defined milestones.
 
 ## 📊 Verified progress
 
