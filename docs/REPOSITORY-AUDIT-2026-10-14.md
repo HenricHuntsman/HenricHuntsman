@@ -57,3 +57,43 @@ The five private repositories were included in the counts and checked for root R
 5. Local development hours remain unmeasured until the opt-in timer is run on a machine.
 
 **Do not treat repository size, a README, or an open-issues count as evidence of a passing build.**
+
+## GitHub Actions evidence (checked 14 October 2026)
+
+**Interpretation:** latest recorded workflow run, not necessarily a test/build; `success` for a bot/comment workflow is **not** a passing build. Skipped, cancelled and no-runs are **not** passes. Some workflows may be stale.
+
+| Repository | Latest workflow | Latest conclusion | Date (UTC) |
+| --- | --- | --- | --- |
+| mini-AGI | Tests | success | 2026-10-14 |
+| rabbit-foundry | Rabbit Code tests | success | 2026-10-14 |
+| AgentFoundry-instantly | CI | success | 2026-10-14 |
+| QuestMaster-Pro | Lua validation | success | 2026-10-08 |
+| book-publish-forge | CI | success | 2026-10-09 |
+| nxdumptool | Test local content verifier | success | 2026-10-09 |
+| repo-manager-ultimate | CI | success | 2026-07-18 |
+| NebulaUltimate | CI | success | 2026-07-18 |
+| nEW-tEST (private) | CI | success | 2026-07-18 |
+| Test-New- (private) | CI | success | 2026-07-18 |
+| azeroth-pilot-reloaded | Localization ping | **failure** | 2026-10-13 |
+| Trinity-Studio-Architecture | CI/CD Pipeline | **failure** | 2025-12-09 |
+| Henric-Programming (private) | CI | **failure** | 2026-10-14 |
+| kilocode | Community label | skipped | 2026-10-09 |
+| opencode-local (private) | docs-update | skipped | 2026-10-14 |
+| gemini-cli | PR comment workflow | cancelled | 2026-04-04 |
+| Kimi-K2 | PR comment workflow | success | 2026-04-04 |
+| LisaAI-DatingApp | Running Copilot | success | 2025-11-11 |
+| TrinityCore | Running Copilot | success | 2025-11-08 |
+| AgentFoundry-TrinityCore-Studio | PR comment workflow | success | 2025-12-09 |
+| -https-SpidermanTotro.github.io-nebula-ultimate- | PR comment workflow | success | 2025-12-11 |
+| QuestMasterPro | None returned | unverified | — |
+| https-github.com-SpidermanTotro-genspark-os | None returned | unverified | — |
+| 4NXCI | None returned | unverified | — |
+| Vitruvian | None returned | unverified | — |
+| nvm | None returned | unverified | — |
+| codex | None returned | unverified | — |
+| continue | None returned | unverified | — |
+| LLM4Decompile | None returned | unverified | — |
+| luna-levdeling-guide- (private) | None returned | unverified | — |
+| HenricHuntsman | None returned | unverified | — |
+
+**Prioritize:** inspect the failing `Henric-Programming` CI and `azeroth-pilot-reloaded` localization workflow, then the stale `Trinity-Studio-Architecture` CI. Validate workflows against their default branches before changing code. No workflows were triggered or rerun during this audit.
