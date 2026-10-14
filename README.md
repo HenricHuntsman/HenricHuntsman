@@ -22,7 +22,18 @@ I'm building a practical toolkit around local AI, coding agents, game-developmen
 
 **What I'm working on:** Rabbit Code, AgentFoundry, RepoForge, the DevTerminal revival, and separate mini-AGI research. I also develop World of Warcraft tooling and writing/publishing projects.
 
-**Design direction:** real Australian huntsman wildlife photography, charcoal and forest-teal accents, readable GitHub Markdown, and authentic technology badges. The existing illustrated banner remains a placeholder until a licensed photograph is selected.
+**Profile status:** The HenricHuntsman profile README is live. The illustrated banner is temporary; a genuine, appropriately licensed huntsman photograph is still planned.
+
+## 📌 Profile at a glance
+
+| Item | Verified information |
+| --- | --- |
+| GitHub identity | **[HenricHuntsman](https://github.com/HenricHuntsman)** |
+| Public profile README | **[HenricHuntsman/HenricHuntsman](https://github.com/HenricHuntsman/HenricHuntsman)** |
+| Repository inventory | **31 repositories** (26 public, 5 private) checked 14 October 2026 |
+| Profile activation | **100% complete** (4 of 4 milestones) |
+| Development hours | **Not yet measured** — opt-in local tracker available |
+| Contribution activity | See GitHub's [live contribution calendar](https://github.com/HenricHuntsman) rather than a hard-coded count |
 
 ## 🧭 Explore my projects
 
@@ -115,14 +126,14 @@ These are not presented as entirely original projects; see each repository for u
 
 ## 📊 Verified progress
 
-**GitHub profile migration — 2 of 4 checked milestones (50%)**
+**GitHub profile activation — 4 of 4 checked milestones (100%)**
 
-`█████░░░░░ 50%` — *This is migration checklist completion, not coding progress or overall project completeness.*
+`██████████ 100%` — *This measures profile activation only, not project completeness.*
 
 - [x] GitHub username shows as **HenricHuntsman**
 - [x] README draft links updated to the new account name
-- [ ] Review and merge the README pull request
-- [ ] Rename the profile README repository from `SpidermanTotro` to `HenricHuntsman`, then verify the public profile
+- [x] README pull request merged into `main`
+- [x] Profile repository renamed to `HenricHuntsman/HenricHuntsman` and README verified on `main`
 
 **Project development:** In progress. Numeric completion percentages will be added only when each project has an agreed, measurable milestone list.
 
@@ -153,6 +164,6 @@ These are not presented as entirely original projects; see each repository for u
 
 ---
 
-*Profile migration note: GitHub account username is now HenricHuntsman, but the special profile README repository is still named SpidermanTotro. Rename that repository to HenricHuntsman after reviewing the migration checklist; no repository rename is performed by this README change.*
+*Profile migration completed and verified on 14 October 2026. Older links may still appear in external services and should be audited individually.*
 
 *Some projects are prototypes or undergoing revival. Links and status descriptions reflect the public repositories reviewed in October 2026; they do not guarantee a current passing build.*
