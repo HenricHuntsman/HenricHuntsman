@@ -16,6 +16,13 @@ I build and experiment with **local-first AI, developer tools, game tooling, and
 | [NebulaUltimate](https://github.com/SpidermanTotro/NebulaUltimate) | Experimental development platform and local AI skills | Prototype |
 | [Trinity Studio Architecture](https://github.com/SpidermanTotro/Trinity-Studio-Architecture) | Architecture and tooling ideas for Trinity-related development | Reference / development |
 
+## Other projects and preserved work
+
+- [QuestMasterPro archive](https://github.com/SpidermanTotro/QuestMasterPro) — older addon bundles and project history; distinct from the active QuestMaster-Pro repository.
+- [Azeroth Pilot Reloaded](https://github.com/SpidermanTotro/azeroth-pilot-reloaded) — addon code and upstream-tracking work.
+- [LLM4Decompile](https://github.com/SpidermanTotro/LLM4Decompile) — model/decompilation research repository; check its upstream attribution and license.
+- [4NXCI](https://github.com/SpidermanTotro/4NXCI) and [nxdumptool](https://github.com/SpidermanTotro/nxdumptool) — Nintendo Switch tooling repositories; follow applicable laws and project licenses.
+
 ## AI and programming experiments
 
 - [mini-AGI](https://github.com/SpidermanTotro/mini-AGI) — a **separate experimental research track**, not part of the FORGE codebase.
@@ -23,6 +30,10 @@ I build and experiment with **local-first AI, developer tools, game tooling, and
 - [LisaAI Dating App](https://github.com/SpidermanTotro/LisaAI-DatingApp) — application development project.
 
 My local development workflow includes **Linux, Python, TypeScript, Node.js, Git, Ollama and CUDA-capable NVIDIA hardware**. I aim to test changes before merging and prefer tools that can work without mandatory cloud services.
+
+## DevTerminal revival
+
+**DevTerminal** is being revived in a **private** repository. Current priorities include verifying the Node.js build, Ollama integration, permissions and local-only behavior. Because the repository is private, no source link is provided here.
 
 ## FORGE: work in progress
 
@@ -33,6 +44,13 @@ My local development workflow includes **Linux, Python, TypeScript, Node.js, Git
 I also maintain copies or experiments based on external codebases, including [Azeroth Pilot Reloaded](https://github.com/SpidermanTotro/azeroth-pilot-reloaded), [Codex](https://github.com/SpidermanTotro/codex), [Continue](https://github.com/SpidermanTotro/continue), [Gemini CLI](https://github.com/SpidermanTotro/gemini-cli), [Kimi K2](https://github.com/SpidermanTotro/Kimi-K2), [TrinityCore](https://github.com/SpidermanTotro/TrinityCore), and [nvm](https://github.com/SpidermanTotro/nvm).
 
 These are not presented as entirely original projects; see each repository for upstream authorship, licenses, and contribution history.
+
+## Current roadmap
+
+1. Reproduce builds and tests on Ubuntu before calling a project stable.
+2. Strengthen local Ollama workflows, permissions, and failure handling.
+3. Improve repository inventory and carefully resolve confusing names and duplicates.
+4. Keep FORGE components modular; publish integrations only after they are validated.
 
 ## How I work
 
