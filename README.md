@@ -1,15 +1,12 @@
 <div align="center">
 
-![Henric — local-first AI and creative development](assets/profile-banner.svg)
+![Henric — Build, Test, Explore](assets/profile-banner.svg)
 
 # Hi, I'm Henric 👋
 
-[![Linux](https://img.shields.io/badge/Linux-Development-2563eb?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/SpidermanTotro)
-[![Python](https://img.shields.io/badge/Python-Projects-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/SpidermanTotro?tab=repositories)
-[![Ollama](https://img.shields.io/badge/Ollama-Local_AI-6d28d9?style=for-the-badge)](https://github.com/SpidermanTotro/rabbit-foundry)
-[![Open Source](https://img.shields.io/badge/Explore-Projects-059669?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpidermanTotro?tab=repositories)
+**Local-first AI · Developer tools · Game tooling · Creative software**
 
-**Build · Test · Explore**
+[View repositories](https://github.com/SpidermanTotro?tab=repositories) · [Rabbit Code](https://github.com/SpidermanTotro/rabbit-foundry) · [QuestMaster-Pro](https://github.com/SpidermanTotro/QuestMaster-Pro)
 
 </div>
 
@@ -21,7 +18,7 @@ I build and experiment with **local-first AI, developer tools, game tooling, and
 
 Browse [all public repositories](https://github.com/SpidermanTotro?tab=repositories), or start with the projects below. The status labels describe development maturity, not a guarantee of successful installation.
 
-**Status guide:** 🛠️ active development · 🧪 prototype / experiment · 📚 reference or archive
+**Status guide:** 🛠️ development · 🧪 prototype / experiment · 📚 reference or archive. These are editorial labels, not automated GitHub status reports.
 
 ## 🚀 Featured projects
 
@@ -50,7 +47,16 @@ Browse [all public repositories](https://github.com/SpidermanTotro?tab=repositor
 
 ### 🧰 Tech stack
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) ![CUDA](https://img.shields.io/badge/NVIDIA_CUDA-76B900?logo=nvidia&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white) ![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white)
+These are real Shields.io badges using technology logos, not generated illustrations.
+
+![Linux](https://img.shields.io/badge/Linux-333?style=flat-square&logo=linux&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
 My local development workflow includes **Linux, Python, TypeScript, Node.js, Git, Ollama and CUDA-capable NVIDIA hardware**. I aim to test changes before merging and prefer tools that can work without mandatory cloud services.
 
