@@ -97,3 +97,11 @@ The five private repositories were included in the counts and checked for root R
 | HenricHuntsman | None returned | unverified | — |
 
 **Prioritize:** inspect the failing `Henric-Programming` CI and `azeroth-pilot-reloaded` localization workflow, then the stale `Trinity-Studio-Architecture` CI. Validate workflows against their default branches before changing code. No workflows were triggered or rerun during this audit.
+
+## Failure triage — 14 October 2026
+
+- **Henric-Programming:** Latest failed run [38499991318](https://github.com/HenricHuntsman/Henric-Programming/actions/runs/38499991318) is a **pull request** on `chore/devterminal-revival-20261014`, not a failing default-branch run. The `npm audit --omit=dev --audit-level=high` step reported **7 vulnerabilities (5 moderate, 1 high, 1 critical)**, including DOMPurify and proxy-addr dependency advisories. Keep the audit gate; update the dependency tree and lockfile in the PR branch and rerun tests before merging.
+- **azeroth-pilot-reloaded:** Latest failed scheduled [localization run 38437440593](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/38437440593) received **HTTP 401 Unauthorized** when exporting CurseForge localization. Review API credentials/permissions and workflow secret wiring. Do not disable the job or commit a secret.
+- **Trinity-Studio-Architecture:** Historical failed [PR run 20073440937](https://github.com/HenricHuntsman/Trinity-Studio-Architecture/actions/runs/20073440937) on `copilot/expand-wow-emulator-system`; jobs named Test (20.x) and Security Scan failed, but log retrieval returned HTTP 410. Inspect workflow and branch before proposing a code fix.
+
+**Remediation rule:** Do not remove failing checks, weaken security thresholds, invent passing results, or modify unrelated upstream forks. Fixes require the relevant workflow/configuration and tests.
