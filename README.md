@@ -24,6 +24,12 @@ I'm building a practical toolkit around local AI, coding agents, game-developmen
 
 **Profile status:** The HenricHuntsman profile README is live. The illustrated banner is temporary; a genuine, appropriately licensed huntsman photograph is still planned.
 
+## ⚡ Quick links
+
+[![Repositories](https://img.shields.io/badge/Explore-Repositories-0D9488?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenricHuntsman?tab=repositories)
+[![mini-AGI](https://img.shields.io/badge/Research-mini--AGI-263238?style=for-the-badge&logo=python&logoColor=white)](https://github.com/HenricHuntsman/mini-AGI)
+[![QuestMaster](https://img.shields.io/badge/Gaming-QuestMaster-4C1D95?style=for-the-badge&logo=lua&logoColor=white)](https://github.com/HenricHuntsman/QuestMaster-Pro)
+
 ## 📌 Profile at a glance
 
 | Item | Verified information |
@@ -102,6 +108,12 @@ These are not presented as entirely original projects; see each repository for u
 - **[QuestMaster-Pro](https://github.com/HenricHuntsman/QuestMaster-Pro)** — active WoW addon development.
 - **[QuestMasterPro](https://github.com/HenricHuntsman/QuestMasterPro)** — separate historical archive.
 - **[mini-AGI](https://github.com/HenricHuntsman/mini-AGI)** — independent AI research, not FORGE.
+
+## 📈 Live repository signals
+
+GitHub's native [contribution calendar](https://github.com/HenricHuntsman) shows activity over time. Individual project workflows and release pages are the source of truth for builds and releases; no unverifiable green "passing" badges are displayed here.
+
+**Milestone policy:** A project progress percentage appears only when the project has a published checklist with verifiable completion criteria. **Profile activation: 100%** is not a claim that the projects are finished.
 
 ## ⏱️ Development hours & activity
 
