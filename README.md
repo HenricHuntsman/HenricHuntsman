@@ -92,6 +92,43 @@ These are not presented as entirely original projects; see each repository for u
 - **[QuestMasterPro](https://github.com/HenricHuntsman/QuestMasterPro)** — separate historical archive.
 - **[mini-AGI](https://github.com/HenricHuntsman/mini-AGI)** — independent AI research, not FORGE.
 
+## ⏱️ Development hours & activity
+
+**Hours logged:** Not yet tracked consistently. I don't publish an estimated lifetime total because Git commits and GitHub activity are **not** reliable measures of hours worked.
+
+| Metric | Current state | How it will be measured |
+| --- | --- | --- |
+| Coding hours | Tracking setup pending | Opt-in local time log; publish monthly totals only |
+| Project activity | [GitHub contributions](https://github.com/HenricHuntsman) | GitHub's native contribution calendar |
+| Build health | Check each project | Actual CI workflows and test results, not decorative badges |
+| Development progress | Milestones below | Verified checklist items, not guessed percentages |
+
+**Optional future tracker:** [WakaTime](https://wakatime.com/) or a self-managed local CSV timer. I will only display totals after you explicitly choose a source and approve publication.
+
+## 📊 Verified progress
+
+**GitHub profile migration — 2 of 4 checked milestones (50%)**
+
+`█████░░░░░ 50%` — *This is migration checklist completion, not coding progress or overall project completeness.*
+
+- [x] GitHub username shows as **HenricHuntsman**
+- [x] README draft links updated to the new account name
+- [ ] Review and merge the README pull request
+- [ ] Rename the profile README repository from `SpidermanTotro` to `HenricHuntsman`, then verify the public profile
+
+**Project development:** In progress. Numeric completion percentages will be added only when each project has an agreed, measurable milestone list.
+
+## 🧭 What comes next
+
+| Area | Next verifiable milestone |
+| --- | --- |
+| Rabbit Code | Run and document a clean local test suite |
+| DevTerminal | Reproduce build and permissions checks on Ubuntu |
+| RepoForge | Validate repository audit results without destructive changes |
+| mini-AGI | Preserve independent benchmarks and compare reproducibly |
+| QuestMaster-Pro | Verify Lua addon packaging and checks |
+| Profile design | Select and credit a genuine, reusable huntsman photo |
+
 ## 🗺️ Current roadmap
 
 1. Reproduce builds and tests on Ubuntu before calling a project stable.
