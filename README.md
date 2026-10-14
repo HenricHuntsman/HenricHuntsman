@@ -30,6 +30,8 @@ I'm building a practical toolkit around local AI, coding agents, game-developmen
 [![mini-AGI](https://img.shields.io/badge/Research-mini--AGI-263238?style=for-the-badge&logo=python&logoColor=white)](https://github.com/HenricHuntsman/mini-AGI)
 [![QuestMaster](https://img.shields.io/badge/Gaming-QuestMaster-4C1D95?style=for-the-badge&logo=lua&logoColor=white)](https://github.com/HenricHuntsman/QuestMaster-Pro)
 
+**[Repository audit — 31 projects, October 2026](docs/REPOSITORY-AUDIT-2026-10-14.md)** · Includes verified branches, README coverage, outstanding migration issues and next checks.
+
 ## 📌 Profile at a glance
 
 | Item | Verified information |
