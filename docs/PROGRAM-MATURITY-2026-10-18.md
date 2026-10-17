@@ -165,3 +165,9 @@ Paths below are navigational snapshots from the file inventory, not claims every
 Reviewed default-branch README excerpts, sampled repository release collections, sampled default-branch workflow runs, selected workflow definitions and earlier complete file listings. No local application builds were run in this assessment. Release collections queried belong to these repositories; upstream release pages and registries were not substituted. Empty release results do not imply an upstream project has no releases. Private project names and findings are deliberately excluded.
 
 [Cleanup audit](REPOSITORY-AUDIT-2026-10-18.md) · [Bundle inspection](../archive/BUNDLE-INSPECTION-2026-10-18.md)
+
+## Executed maintenance follow-up
+
+The N64/LLM4Decompile maintenance suite was run against checkout `9ca9a1aa6e`: 32 tests passed, 2 tensor tests skipped, with no static-check errors. The synthetic prompt dry run and five-case GCC host reference harness also passed. [Full verification record](https://github.com/HenricHuntsman/LLM4Decompile/blob/main/docs/MAINTENANCE-VERIFICATION-2026-10-18.md). This supersedes the initial no-local-checks statement for this project's lightweight maintenance paths only; model inference, CUDA, real Ghidra/MIPS and N64 execution remain unverified.
+
+APR's sampled localization job failed with CurseForge HTTP 401 Unauthorized. That is an external authentication blocker; it does not establish that the addon itself fails to build or run.
