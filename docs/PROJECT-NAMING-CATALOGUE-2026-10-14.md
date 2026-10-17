@@ -31,7 +31,7 @@
 | `continue` | Continue (Upstream Fork) |
 | `HenricHuntsman` | HenricHuntsman Profile |
 
-Private repositories: 5, deliberately omitted from this public catalogue.
+This is the 14 October naming snapshot. For the current inventory, see [18 October audit](REPOSITORY-AUDIT-2026-10-18.md). Private repositories are omitted.
 
 ## Naming rules
 - Friendly names do not change repository URLs.

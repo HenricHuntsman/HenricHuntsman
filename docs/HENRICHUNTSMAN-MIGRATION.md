@@ -1,31 +1,23 @@
-# HenricHuntsman profile migration checklist
+# HenricHuntsman profile migration status
 
-Checked 2026-10-14 using connected GitHub repository inventory.
+Updated 18 October 2026.
 
-## Confirmed
-- Account owner now appears as `HenricHuntsman`.
-- 31 repositories are visible in the connected account inventory (26 public, 5 private).
-- The old profile README repository is still `HenricHuntsman/SpidermanTotro`.
-- No repository named `HenricHuntsman/HenricHuntsman` was found.
-- The profile README refresh exists on branch `docs/profile-refresh-20261014` (PR #4 from before the account rename).
-- Existing original README on `main` still contains old `SpidermanTotro` links.
+## Verified
 
-## Must-do manual steps (do not automate without approval)
-1. Review the open profile README pull request and merge only after verifying the links and content.
-2. In `https://github.com/HenricHuntsman/SpidermanTotro/settings`, rename the repository **SpidermanTotro** to **HenricHuntsman**. This is what activates GitHub's special profile README.
-3. Confirm `https://github.com/HenricHuntsman` displays the README from the new `HenricHuntsman/HenricHuntsman` repository.
-4. Check GitHub Pages and any domains, OAuth callbacks, Actions badges, release links, packages and integrations.
-5. Search local repositories for `SpidermanTotro` and update hard-coded URLs and remotes as needed.
-6. Keep five private repositories private; do not publish internal paths or secrets.
-7. Replace the placeholder SVG with a properly licensed, credited huntsman photograph only after sourcing it.
+- The connected repository owner is `HenricHuntsman`.
+- The public profile repository is `HenricHuntsman/HenricHuntsman`, with default branch `main`.
+- The profile README is present on main. Repository rename and README migration are complete.
+- Current accessible inventory: 37 repositories (31 public, 6 private).
+- The profile links use the current account name.
 
-## Safe local inspection
+The earlier checklist describing a pending rename was stale and has been replaced.
 
-```bash
-gh auth status
-gh repo list HenricHuntsman --limit 100 --json name,visibility,url --jq '.[] | [.name,.visibility,.url] | @tsv'
-git remote -v
-git grep -n -I 'SpidermanTotro' || true
-```
+## Remaining checks
 
-Do not delete or force-push any repository as part of this migration.
+- Inspect external integrations, Pages domains, callbacks and local Git remotes individually.
+- Review the two public repository slugs containing the previous username before renaming them.
+- Review the repository About/Website setting separately; the older audit reported an old profile URL, but that setting was not reverified in this pass.
+- Keep private repository names, contents and credentials out of public documentation.
+- Keep upstream credits and licences intact.
+
+See the [current audit](REPOSITORY-AUDIT-2026-10-18.md) for scope and limitations.

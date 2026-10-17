@@ -1,0 +1,7 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local development timer state
+/tools/dev-hours/active.json
+/tools/dev-hours/sessions.csv

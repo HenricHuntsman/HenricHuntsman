@@ -4,182 +4,65 @@
 
 # Hi, I'm Henric 👋
 
-**Local-first AI · Developer tools · Game tooling · Creative software**
+**Australian developer · Local-first AI · Developer tools · Game tooling**
 
-[View repositories](https://github.com/HenricHuntsman?tab=repositories) · [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) · [QuestMaster-Pro](https://github.com/HenricHuntsman/QuestMaster-Pro)
+[Explore repositories](https://github.com/HenricHuntsman?tab=repositories) · [OpenCode](https://github.com/HenricHuntsman/opencode) · [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) · [mini-AGI](https://github.com/HenricHuntsman/mini-AGI)
 
 </div>
 
-I build and experiment with **local-first AI, developer tools, game tooling, and creative software**. My projects focus on practical workflows, reproducible testing, and learning by building.
+I learn by building, testing and improving practical software. My interests include local AI on Linux, terminal coding assistants, game tools and creative applications.
 
-> **Current focus:** reviving my development tools, improving Ollama-based coding workflows, and keeping experimental work separate from stable releases.
+My current focus is **OpenCode revival, local Ollama workflows, and reproducible development**. Projects here range from experiments to maintained community forks; check each repository's documentation, tests and releases for its current state.
 
-## 🕷️ HenricHuntsman
+## Featured work
 
-**Australian developer · Local-first AI · Open-source experimentation**
-
-I'm building a practical toolkit around local AI, coding agents, game-development tools, and creative software. This profile highlights public work, preserved archives and research without claiming unfinished prototypes are production-ready.
-
-**What I'm working on:** Rabbit Code, AgentFoundry, RepoForge, the DevTerminal revival, and separate mini-AGI research. I also develop World of Warcraft tooling and writing/publishing projects.
-
-**Profile status:** The HenricHuntsman profile README is live. The illustrated banner is temporary; a genuine, appropriately licensed huntsman photograph is still planned.
-
-## ⚡ Quick links
-
-[![Repositories](https://img.shields.io/badge/Explore-Repositories-0D9488?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenricHuntsman?tab=repositories)
-[![mini-AGI](https://img.shields.io/badge/Research-mini--AGI-263238?style=for-the-badge&logo=python&logoColor=white)](https://github.com/HenricHuntsman/mini-AGI)
-[![QuestMaster](https://img.shields.io/badge/Gaming-QuestMaster-4C1D95?style=for-the-badge&logo=lua&logoColor=white)](https://github.com/HenricHuntsman/QuestMaster-Pro)
-
-**[Repository audit — 31 projects, October 2026](docs/REPOSITORY-AUDIT-2026-10-14.md)** · Includes verified branches, README coverage, outstanding migration issues and next checks.
-
-**[Huntsman project naming catalogue](docs/PROJECT-NAMING-CATALOGUE-2026-10-14.md)** · Friendly titles for all 26 public repositories; GitHub URLs and upstream credits remain unchanged.
-
-## 📌 Profile at a glance
-
-| Item | Verified information |
+| Project | Focus |
 | --- | --- |
-| GitHub identity | **[HenricHuntsman](https://github.com/HenricHuntsman)** |
-| Public profile README | **[HenricHuntsman/HenricHuntsman](https://github.com/HenricHuntsman/HenricHuntsman)** |
-| Repository inventory | **31 repositories** (26 public, 5 private) checked 14 October 2026 |
-| Profile activation | **100% complete** (4 of 4 milestones) |
-| Development hours | **Not yet measured** — opt-in local tracker available |
-| Contribution activity | See GitHub's [live contribution calendar](https://github.com/HenricHuntsman) rather than a hard-coded count |
+| [OpenCode — Welcome Back Edition](https://github.com/HenricHuntsman/opencode) | Community continuation of the original OpenCode terminal assistant, including local model endpoints and reusable skills |
+| [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) | Local-first Python coding agent, model gateway and experimental Linux workspace |
+| [mini-AGI / Greenlight](https://github.com/HenricHuntsman/mini-AGI) | Separate AI research track: training, checkpoints, evaluation and tooling |
+| [Huntsman Repo Manager](https://github.com/HenricHuntsman/repo-manager-ultimate) | Repository inventory and review tools |
+| [QuestMaster Pro](https://github.com/HenricHuntsman/QuestMaster-Pro) | World of Warcraft addon and guide tooling |
+| [Book Publish Forge](https://github.com/HenricHuntsman/book-publish-forge) | Writing and publishing workflows |
+| [AgentFoundry Instantly](https://github.com/HenricHuntsman/AgentFoundry-instantly) | Experimental developer workspace and application tooling |
 
-## 🧭 Explore my projects
+## More to explore
 
-Browse [all public repositories](https://github.com/HenricHuntsman?tab=repositories), or start with the projects below. The status labels describe development maturity, not a guarantee of successful installation.
+- **Creative tools:** [Wordcraft](https://github.com/HenricHuntsman/wordcraft), [Artcraft](https://github.com/HenricHuntsman/artcraft), and [Nebula Ultimate](https://github.com/HenricHuntsman/NebulaUltimate).
+- **Game development:** [Azeroth Pilot Reloaded](https://github.com/HenricHuntsman/azeroth-pilot-reloaded), [Trinity Studio Architecture](https://github.com/HenricHuntsman/Trinity-Studio-Architecture), and the separate [QuestMasterPro legacy collection](https://github.com/HenricHuntsman/QuestMasterPro).
+- **Reverse-engineering research:** [REA](https://github.com/HenricHuntsman/rea) and [LLM4Decompile](https://github.com/HenricHuntsman/LLM4Decompile).
+- **Upstream-derived work and references:** [Codex](https://github.com/HenricHuntsman/codex), [Continue](https://github.com/HenricHuntsman/continue), [Gemini CLI](https://github.com/HenricHuntsman/gemini-cli), [Kilo Code](https://github.com/HenricHuntsman/kilocode), and [TrinityCore](https://github.com/HenricHuntsman/TrinityCore).
 
-**Status guide:** 🛠️ development · 🧪 prototype / experiment · 📚 reference or archive. These are editorial labels, not automated GitHub status reports.
+Upstream authorship, notices and licences belong with each project. A repository on my account can contain upstream code, my changes, or preserved experiments.
 
-## 🚀 Featured projects
+## My development setup
 
-| Project | What it does | Status |
-| --- | --- | --- |
-| [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) | Local-first Python coding agent and Ollama-compatible model gateway | Active development |
-| [AgentFoundry Instantly](https://github.com/HenricHuntsman/AgentFoundry-instantly) | AI-assisted developer workspace and tooling | Development |
-| [Huntsman Repo Manager (RepoForge)](https://github.com/HenricHuntsman/repo-manager-ultimate) | Repository inventory, health checks and review tools | Development |
-| [QuestMaster Pro](https://github.com/HenricHuntsman/QuestMaster-Pro) | World of Warcraft Lua addon and guide tooling | Development |
-| [Book Publish Forge](https://github.com/HenricHuntsman/book-publish-forge) | Writing and publishing workflow tools | Development |
-| [Nebula Ultimate](https://github.com/HenricHuntsman/NebulaUltimate) | Experimental development platform and local AI skills | Prototype |
-| [Trinity Studio Architecture](https://github.com/HenricHuntsman/Trinity-Studio-Architecture) | Architecture and tooling ideas for Trinity-related development | Reference / development |
+![Linux](https://img.shields.io/badge/Linux-333?logo=linux&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white)
 
-## 📚 Other projects and preserved work
+Linux, Python, TypeScript, Node.js, Git, Ollama and NVIDIA GPU tooling are part of my workflow. I prefer on-device models and tools that can operate without mandatory cloud services.
 
-- [QuestMasterPro archive](https://github.com/HenricHuntsman/QuestMasterPro) — older addon bundles and project history; distinct from the active QuestMaster-Pro repository.
-- [Azeroth Pilot Reloaded](https://github.com/HenricHuntsman/azeroth-pilot-reloaded) — addon code and upstream-tracking work.
-- [LLM4Decompile](https://github.com/HenricHuntsman/LLM4Decompile) — model/decompilation research repository; check its upstream attribution and license.
-- [4NXCI](https://github.com/HenricHuntsman/4NXCI) and [nxdumptool](https://github.com/HenricHuntsman/nxdumptool) — Nintendo Switch tooling repositories; follow applicable laws and project licenses.
+## How I work
 
-## 🧪 AI and programming experiments
+- Test changes and record what actually ran.
+- Keep experimental research, stable work and historical archives distinct.
+- Preserve checkpoints, history and upstream credit.
+- Make tools readable, accessible and practical.
+- Publish measured results; use each project's CI and releases for build status.
 
-- [mini-AGI](https://github.com/HenricHuntsman/mini-AGI) — a **separate experimental research track**, not part of the FORGE codebase.
-- [AgentFoundry TrinityCore Studio](https://github.com/HenricHuntsman/AgentFoundry-TrinityCore-Studio) — game-server development tooling experiments.
-- [LisaAI Dating App](https://github.com/HenricHuntsman/LisaAI-DatingApp) — application development project.
+FORGE is my broader direction for modular local developer tooling. It remains work in progress.
 
-### 🧰 Tech stack
+## Repository guide
 
-These are real Shields.io badges using technology logos, not generated illustrations.
+This profile repository holds the banner, documentation, a local [development-hours tracker](tools/dev-hours/README.md), and [preserved early prototypes](archive/README.md).
 
-![Linux](https://img.shields.io/badge/Linux-333?style=flat-square&logo=linux&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/NVIDIA-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+The [18 October repository audit](docs/REPOSITORY-AUDIT-2026-10-18.md) records the current inventory, file-structure findings and remaining checks. The connected inventory contains **37 repositories: 31 public and 6 private**, checked 18 October 2026 (Australia/Melbourne). Private project details are excluded from the public catalogue.
 
-My local development workflow includes **Linux, Python, TypeScript, Node.js, Git, Ollama and CUDA-capable NVIDIA hardware**. I aim to test changes before merging and prefer tools that can work without mandatory cloud services.
+[Migration status](docs/HENRICHUNTSMAN-MIGRATION.md) · [Naming catalogue](docs/PROJECT-NAMING-CATALOGUE-2026-10-14.md) · [Live GitHub activity](https://github.com/HenricHuntsman)
 
-## 💻 DevTerminal revival
+Development hours are not yet published. Git commits are not a measure of time worked.
 
-**DevTerminal** is being revived in a **private** repository. Current priorities include verifying the Node.js build, Ollama integration, permissions and local-only behavior. Because the repository is private, no source link is provided here.
-
-## 🔧 FORGE: work in progress
-
-**FORGE** is my broader direction for local developer tooling. I am exploring how coding assistants, project management, model gateways, and desktop workflows can work together while remaining modular. It is a **development goal**, not a claim of a finished operating system or integrated release.
-
-## 🌱 Upstream-tracking and reference repositories
-
-I also maintain copies or experiments based on external codebases, including [Azeroth Pilot Reloaded](https://github.com/HenricHuntsman/azeroth-pilot-reloaded), [Codex](https://github.com/HenricHuntsman/codex), [Continue](https://github.com/HenricHuntsman/continue), [Gemini CLI](https://github.com/HenricHuntsman/gemini-cli), [Kimi K2](https://github.com/HenricHuntsman/Kimi-K2), [TrinityCore](https://github.com/HenricHuntsman/TrinityCore), and [nvm](https://github.com/HenricHuntsman/nvm).
-
-These are not presented as entirely original projects; see each repository for upstream authorship, licenses, and contribution history.
-
-## 🔗 Start here
-
-- **[All public repositories](https://github.com/HenricHuntsman?tab=repositories)** — explore source code, experiments and references.
-- **[Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry)** — local-first coding-agent development.
-- **[QuestMaster-Pro](https://github.com/HenricHuntsman/QuestMaster-Pro)** — active WoW addon development.
-- **[QuestMasterPro](https://github.com/HenricHuntsman/QuestMasterPro)** — separate historical archive.
-- **[mini-AGI](https://github.com/HenricHuntsman/mini-AGI)** — independent AI research, not FORGE.
-
-## 📈 Live repository signals
-
-GitHub's native [contribution calendar](https://github.com/HenricHuntsman) shows activity over time. Individual project workflows and release pages are the source of truth for builds and releases; no unverifiable green "passing" badges are displayed here.
-
-**Milestone policy:** A project progress percentage appears only when the project has a published checklist with verifiable completion criteria. **Profile activation: 100%** is not a claim that the projects are finished.
-
-## ⏱️ Development hours & activity
-
-**Hours logged:** Not yet tracked consistently. I don't publish an estimated lifetime total because Git commits and GitHub activity are **not** reliable measures of hours worked.
-
-| Metric | Current state | How it will be measured |
-| --- | --- | --- |
-| Coding hours | Tracking setup pending | Opt-in local time log; publish monthly totals only |
-| Project activity | [GitHub contributions](https://github.com/HenricHuntsman) | GitHub's native contribution calendar |
-| Build health | Check each project | Actual CI workflows and test results, not decorative badges |
-| Development progress | Milestones below | Verified checklist items, not guessed percentages |
-
-**Local-first option:** [Developer-hours tracker](tools/dev-hours/README.md) records sessions in a private local CSV and generates a monthly report. No time logs are uploaded automatically; publishing a summary is a separate, opt-in step.
-
-## 🛡️ Engineering principles
-
-- **Privacy:** keep raw coding-time logs local; never publish private repository names or working directories by default.
-- **Reproducibility:** document commands, environment and test evidence for each project.
-- **Open-source credit:** distinguish original work from forks, mirrors and upstream-derived code.
-- **Accessibility:** use meaningful link labels, readable text and alt text; never rely on a colour-only status.
-- **Honest metrics:** only display measured hours, verified checks and explicitly defined milestones.
-
-## 📊 Verified progress
-
-**GitHub profile activation — 4 of 4 checked milestones (100%)**
-
-`██████████ 100%` — *This measures profile activation only, not project completeness.*
-
-- [x] GitHub username shows as **HenricHuntsman**
-- [x] README draft links updated to the new account name
-- [x] README pull request merged into `main`
-- [x] Profile repository renamed to `HenricHuntsman/HenricHuntsman` and README verified on `main`
-
-**Project development:** In progress. Numeric completion percentages will be added only when each project has an agreed, measurable milestone list.
-
-## 🧭 What comes next
-
-| Area | Next verifiable milestone |
-| --- | --- |
-| Rabbit Code | Run and document a clean local test suite |
-| DevTerminal | Reproduce build and permissions checks on Ubuntu |
-| RepoForge | Validate repository audit results without destructive changes |
-| mini-AGI | Preserve independent benchmarks and compare reproducibly |
-| QuestMaster-Pro | Verify Lua addon packaging and checks |
-| Profile design | Select and credit a genuine, reusable huntsman photo |
-
-## 🗺️ Current roadmap
-
-1. Reproduce builds and tests on Ubuntu before calling a project stable.
-2. Strengthen local Ollama workflows, permissions, and failure handling.
-3. Improve repository inventory and carefully resolve confusing names and duplicates.
-4. Keep FORGE components modular; publish integrations only after they are validated.
-
-## 🤝 How I work
-
-- **Local-first where practical:** prefer on-device models and explicit network boundaries.
-- **Test before release:** use linting, automated tests, build checks and small reproducible fixes.
-- **Preserve history:** review duplicates and old experiments before archiving or deleting.
-- **Keep projects distinct:** experiments, reference forks, and production-ready tools have different expectations.
-
----
-
-*Profile migration completed and verified on 14 October 2026. Older links may still appear in external services and should be audited individually.*
-
-*Some projects are prototypes or undergoing revival. Links and status descriptions reflect the public repositories reviewed in October 2026; they do not guarantee a current passing build.*
+*Updated 18 October 2026. Project links describe scope, not a guarantee of a passing build.*
