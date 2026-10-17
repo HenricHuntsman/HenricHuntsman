@@ -55,6 +55,10 @@ Linux, Python, TypeScript, Node.js, Git, Ollama and NVIDIA GPU tooling are part 
 
 FORGE is my broader direction for modular local developer tooling. It remains work in progress.
 
+## Recovery queue
+
+[**Working tools, repairable prototypes, research, planning seeds and archives**](docs/RECOVERY-BOARD-2026-10-18.md) — each public project has a separate next milestone.
+
 ## Project catalogue
 
 [**All project names, maturity and remaining work**](docs/PROJECT-CATALOGUE.md) · [Claims corrected](docs/CLAIMS-REVIEW-2026-10-18.md)
