@@ -50,11 +50,11 @@ These are conservative review assessments, not official maintainer version decla
 | [LLM4Decompile](https://github.com/HenricHuntsman/LLM4Decompile) | Alpha / research; Python/Ghidra/MIPS lab | No default-branch Actions runs returned in the sampled query | Run real local checkpoint and Ghidra/MIPS fixture; verify emulator behavior |
 | [mini-AGI](https://github.com/HenricHuntsman/mini-AGI) | Alpha / research; Python/PyTorch training and tools | [Tests: success](https://github.com/HenricHuntsman/mini-AGI/actions/runs/38505247412) at `3f2dc7a665` | Keep CPU CI separate from RTX 5060 Ti resume, optimizer and router-balance evidence |
 
-### Alpha / unverified integration
+### Prototype — simulated integration
 
 | Project | Assessment | Build / validation evidence | Next milestone |
 | --- | --- | --- | --- |
-| [Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | Alpha / unverified integration; Python FORGE integration over upstream model reference | No default-branch Actions runs returned in the sampled query | Verify implemented tool paths and benchmarks; historical completion claims are not established |
+| [Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | Prototype — simulated integration; Python prompt/export/demo lab; model and tool execution simulated | No default-branch Actions runs returned in the sampled query | Verify implemented tool paths and benchmarks; historical completion claims are not established |
 
 ### Prototype
 
@@ -171,3 +171,7 @@ Reviewed default-branch README excerpts, sampled repository release collections,
 The N64/LLM4Decompile maintenance suite was run against checkout `9ca9a1aa6e`: 32 tests passed, 2 tensor tests skipped, with no static-check errors. The synthetic prompt dry run and five-case GCC host reference harness also passed. [Full verification record](https://github.com/HenricHuntsman/LLM4Decompile/blob/main/docs/MAINTENANCE-VERIFICATION-2026-10-18.md). This supersedes the initial no-local-checks statement for this project's lightweight maintenance paths only; model inference, CUDA, real Ghidra/MIPS and N64 execution remain unverified.
 
 APR's sampled localization job failed with CurseForge HTTP 401 Unauthorized. That is an external authentication blocker; it does not establish that the addon itself fails to build or run.
+
+## Naming and claims refresh
+
+Use the [current named catalogue](PROJECT-CATALOGUE.md) and [source-based claim corrections](CLAIMS-REVIEW-2026-10-18.md). AgentFoundry's 22 tests and web build passed in the review environment. Kimi/FORGE is now explicitly classified as a simulated prototype. No code-level demonstration outputs were converted into real model/media/OS implementations.

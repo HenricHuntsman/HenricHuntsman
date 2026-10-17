@@ -24,7 +24,7 @@ My current focus is **OpenCode revival, local Ollama workflows, and reproducible
 | [Huntsman Repo Manager](https://github.com/HenricHuntsman/repo-manager-ultimate) | Repository inventory and review tools |
 | [QuestMaster Pro](https://github.com/HenricHuntsman/QuestMaster-Pro) | World of Warcraft addon and guide tooling |
 | [Book Publish Forge](https://github.com/HenricHuntsman/book-publish-forge) | Writing and publishing workflows |
-| [AgentFoundry Instantly](https://github.com/HenricHuntsman/AgentFoundry-instantly) | Experimental developer workspace and application tooling |
+| [AgentFoundry Workspace](https://github.com/HenricHuntsman/AgentFoundry-instantly) | Experimental developer workspace and application tooling |
 
 ## More to explore
 
@@ -54,6 +54,10 @@ Linux, Python, TypeScript, Node.js, Git, Ollama and NVIDIA GPU tooling are part 
 - Publish measured results; use each project's CI and releases for build status.
 
 FORGE is my broader direction for modular local developer tooling. It remains work in progress.
+
+## Project catalogue
+
+[**All project names, maturity and remaining work**](docs/PROJECT-CATALOGUE.md) · [Claims corrected](docs/CLAIMS-REVIEW-2026-10-18.md)
 
 ## Development status
 
