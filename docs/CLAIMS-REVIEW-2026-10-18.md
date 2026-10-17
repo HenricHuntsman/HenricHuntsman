@@ -13,7 +13,7 @@
 
 Original READMEs and installation instructions were preserved as labelled legacy files where replaced. AgentFoundry's root project reports were labelled historical, with current status delegated to its README. Kimi's 15 Markdown documentation inputs were labelled as historical/unverified; these files are consumed by its prompt loader, so runtime output based on old capability descriptions remains a qualification gap.
 
-## Source evidence
+## Initial source evidence (before runtime correction)
 
 - Kimi `build_system.py`: `build_video_editor` and `build_linux_os` print readiness strings. Source ZIP/checksum creation does not construct an ISO.
 - Kimi `kimi_forge_unified.py`: `generate` simulates a model response; `execute_tool` returns a success-shaped dictionary instead of executing the named implementations.
@@ -28,6 +28,10 @@ AgentFoundry's locked dependency install with scripts disabled, 22 existing test
 
 ## Scope limits and remaining work
 
-All accessible repository file trees and public root README excerpts were inventoried in the earlier pass. This deeper pass inspected source and scanned claims in the Kimi and AgentFoundry checkouts, plus the small planning/legacy repositories. **It is not an every-line content, security or dependency audit of all 37 repositories.** Historical text remains intentionally preserved and marked; runtime canned success messages still need explicit demo handling or replacement in a separately tested code change.
+All accessible repository file trees and public root README excerpts were inventoried in the earlier pass. This deeper pass inspected source and scanned claims in the Kimi and AgentFoundry checkouts, plus the small planning/legacy repositories. **It is not an every-line content, security or dependency audit of all 37 repositories.** Historical text remains intentionally preserved and marked; remaining GUI canned success messages and benchmark estimates still need explicit demo handling or replacement.
 
 Display-name changes do not rename GitHub URLs or internal package IDs. Renaming a repository or changing an application ID requires integration/upgrade review; no such renames were performed.
+
+## Runtime follow-up
+
+Kimi/FORGE's model/tool wrapper now labels demonstrations and reports nonexecution; its full build fails explicitly at unimplemented video/OS steps. The test target now propagates syntax and regression failures. Six new regression tests passed locally and failed against the previous implementation; a malformed-source fixture returned nonzero through `make test`. See [the source change](https://github.com/HenricHuntsman/Kimi-K2/commit/7d0caee0d2150b159ce8a1c623b05cc192aa2b7b). Python 3.11/3.14 hosted checks were added; their outcome is separate from the local result. This repairs false completion signals, not the missing implementations.
