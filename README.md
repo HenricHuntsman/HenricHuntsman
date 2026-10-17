@@ -55,6 +55,12 @@ Linux, Python, TypeScript, Node.js, Git, Ollama and NVIDIA GPU tooling are part 
 
 FORGE is my broader direction for modular local developer tooling. It remains work in progress.
 
+## Development status
+
+[**Program maturity and catch-up catalogue — 18 October 2026**](docs/PROGRAM-MATURITY-2026-10-18.md)
+
+OpenCode has a published development release. Rabbit Code, RepoForge, QuestMaster Pro and the Book Publish Forge desktop app are beta candidates for controlled testing. Other projects range from alpha research to planning and upstream references. These are review assessments; none is qualified as RC or RTM by this review.
+
 ## Repository guide
 
 This profile repository holds the banner, documentation, a local [development-hours tracker](tools/dev-hours/README.md), and [preserved early prototypes](archive/README.md).
