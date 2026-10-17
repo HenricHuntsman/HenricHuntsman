@@ -82,3 +82,5 @@ Development hours are not yet published. Git commits are not a measure of time w
 *Updated 18 October 2026. Project links describe scope, not a guarantee of a passing build.*
 
 [Linux projects: folders, preserved history and revival milestones](docs/linux/README.md).
+
+[Latest repository-wide catch-up: upstream gaps, update PRs and new findings](docs/REPOSITORY-CATCH-UP-2026-10-18.md).

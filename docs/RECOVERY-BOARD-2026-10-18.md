@@ -1,3 +1,5 @@
+> Follow-up: [repository-wide catch-up and prepared source updates](REPOSITORY-CATCH-UP-2026-10-18.md). The original evidence below is retained as an earlier snapshot.
+
 # Project recovery board — 18 October 2026
 
 All 31 public repositories are assigned to a recovery lane. Six private repositories have a separate personal queue. This organises existing work; it does not claim every project is revived.

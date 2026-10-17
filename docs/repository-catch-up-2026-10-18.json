@@ -1,0 +1,910 @@
+{
+  "review_date": "2026-10-18",
+  "timezone": "Australia/Melbourne",
+  "scope": "Metadata, ancestry, recent workflow samples and draft update candidates; not full runtime qualification",
+  "repositories": [
+    {
+      "repository": "HenricHuntsman/HenricHuntsman",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "6d709d663c9d46023189a28045c18fe8d354a527",
+      "upstream": null,
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Profile/catalogue hub; this report and Linux index are the current account overview."
+    },
+    {
+      "repository": "HenricHuntsman/LisaAI-DatingApp",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "355c4a2ca0dffea742985c1705b5d2b7c06b0bde",
+      "upstream": null,
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Prototype; no default-branch Actions runs or release returned. Qualify an actual iOS build and device workflow."
+    },
+    {
+      "repository": "HenricHuntsman/azeroth-pilot-reloaded",
+      "visibility": "public",
+      "default_branch": "dev",
+      "head": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+      "upstream": {
+        "repository": "Azeroth-Pilot-Reloaded/azeroth-pilot-reloaded",
+        "head": "c286c7e3cecf9e7e7f64ddccbe7aa506d239b7e6",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 107,
+        "status": "behind"
+      },
+      "default_branch_workflow_sample": [
+        {
+          "name": "PR Test Report",
+          "head": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/39075226196"
+        },
+        {
+          "name": "PR Test Report",
+          "head": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/39074674730"
+        },
+        {
+          "name": "Localization ping",
+          "head": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+          "status": "completed",
+          "conclusion": "failure",
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/39056571920"
+        },
+        {
+          "name": "Localization ping",
+          "head": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+          "status": "completed",
+          "conclusion": "failure",
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/39036410357"
+        },
+        {
+          "name": "Update TOC Interface versions",
+          "head": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/39018044462"
+        }
+      ],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/pull/5",
+        "number": 5,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "head": "c286c7e3cecf9e7e7f64ddccbe7aa506d239b7e6"
+      },
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/TrinityCore",
+      "visibility": "public",
+      "default_branch": "master",
+      "head": "4dc5b8c198de9a516b30d64fdc60828258937068",
+      "upstream": {
+        "repository": "TrinityCore/TrinityCore",
+        "head": "f7cac245da88185d632c682983bd8c33cac34089",
+        "ahead_at_initial_review": 2,
+        "behind_at_initial_review": 1542,
+        "status": "diverged"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/TrinityCore/pull/4",
+        "number": 4,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "head": "35f70d32071b3476348a49d9a1d8f7ff0e3a3dd3"
+      },
+      "note": "Published canonical expansion-ID fix 4dc5b8c198de9a516b30d64fdc60828258937068. Full server/database build untested."
+    },
+    {
+      "repository": "HenricHuntsman/QuestMaster-Pro",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "4b3eccec267cfce9bab128d795831051c539ba7b",
+      "upstream": null,
+      "default_branch_workflow_sample": [
+        {
+          "name": "Lua validation",
+          "head": "4b3eccec267cfce9bab128d795831051c539ba7b",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/QuestMaster-Pro/actions/runs/37850715181"
+        },
+        {
+          "name": "Lua validation",
+          "head": "90ea775de48e5e7b14ffeed7c1e2d393cf7fcafc",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/QuestMaster-Pro/actions/runs/37850590515"
+        },
+        {
+          "name": "Lua validation",
+          "head": "fdf1eb8d1773bbf3d0b04ffb0be5e8fe57f256b1",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/QuestMaster-Pro/actions/runs/37850267395"
+        },
+        {
+          "name": "Lua validation",
+          "head": "ef0d7519425d918dc11cf05163fade71116d479a",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/QuestMaster-Pro/actions/runs/29172574659"
+        },
+        {
+          "name": "Lua validation",
+          "head": "54900d7f5a52136a387c929361889765a5c65bd7",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/QuestMaster-Pro/actions/runs/29135050877"
+        }
+      ],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Lua validation passed; in-game addon behaviour still needs a matching supported-client test."
+    },
+    {
+      "repository": "HenricHuntsman/book-publish-forge",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "ae9900a4f4b2d7feced19b00846eb362b97fa4e9",
+      "upstream": null,
+      "default_branch_workflow_sample": [
+        {
+          "name": "CI",
+          "head": "ae9900a4f4b2d7feced19b00846eb362b97fa4e9",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/book-publish-forge/actions/runs/37878180468"
+        },
+        {
+          "name": "CI",
+          "head": "f94c8ddf7bb4a9baba0af36a1ed1a361af9dda07",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/book-publish-forge/actions/runs/29637900325"
+        },
+        {
+          "name": "CI",
+          "head": "42c9dd2fd71c7f34aac738f7946b29464fba4bf7",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/book-publish-forge/actions/runs/29634464768"
+        }
+      ],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Latest CI passed; qualify installation and full edit/save/export workflow."
+    },
+    {
+      "repository": "HenricHuntsman/QuestMasterPro",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "d036a65a0c160cb7a40ad3f3b4c6cb8de48895cc",
+      "upstream": null,
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Historical addon collection; retain unique archives and keep separate from QuestMaster-Pro."
+    },
+    {
+      "repository": "HenricHuntsman/Kimi-K2",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "1c6b805b296b40c9651a4d134da4dee8046be2ac",
+      "upstream": {
+        "repository": "MoonshotAI/Kimi-K2",
+        "head": "1b4022bbb7187cf4011a8bdf0b4cd10e2daa26c4",
+        "ahead_at_initial_review": 36,
+        "behind_at_initial_review": 0,
+        "status": "ahead"
+      },
+      "default_branch_workflow_sample": [
+        {
+          "name": "Prototype integrity checks",
+          "head": "1c6b805b296b40c9651a4d134da4dee8046be2ac",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/Kimi-K2/actions/runs/39079934933"
+        },
+        {
+          "name": "Prototype integrity checks",
+          "head": "76b0b344d8922b436d10b142c9a8c2c0b53bae79",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/Kimi-K2/actions/runs/39079678516"
+        },
+        {
+          "name": "Prototype integrity checks",
+          "head": "ac8ba6e99f496e979a3e96b329c65e3e25117ba2",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/Kimi-K2/actions/runs/39079157149"
+        },
+        {
+          "name": "Prototype integrity checks",
+          "head": "ab21d5abe6c66133d1926f4d714b58d0938f68a9",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/Kimi-K2/actions/runs/39077479888"
+        },
+        {
+          "name": "Prototype integrity checks",
+          "head": "4a80f6392969a7d6a68e6474b2eede1aa0c22d0c",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/Kimi-K2/actions/runs/39076780952"
+        }
+      ],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "22 tests passed locally, from extracted sources and in Python 3.11/3.14 CI. Demo, not model inference or OS."
+    },
+    {
+      "repository": "HenricHuntsman/-https-SpidermanTotro.github.io-nebula-ultimate-",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "48d0700326d7dfb0f3809aae956d035f6a35e353",
+      "upstream": null,
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Historical web snapshot; keep separate from NebulaUltimate."
+    },
+    {
+      "repository": "HenricHuntsman/NebulaUltimate",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "dc01a532366566a4ef2b41a1d19c57c291ac5095",
+      "upstream": null,
+      "default_branch_workflow_sample": [
+        {
+          "name": "CI",
+          "head": "dc01a532366566a4ef2b41a1d19c57c291ac5095",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/NebulaUltimate/actions/runs/29656493840"
+        },
+        {
+          "name": "Pylint",
+          "head": "9c10ea1cfc30e4bb5ac0aa85348dfd335645c75e",
+          "status": "completed",
+          "conclusion": "failure",
+          "url": "https://github.com/HenricHuntsman/NebulaUltimate/actions/runs/29212221994"
+        },
+        {
+          "name": "Pylint",
+          "head": "0350e91f3b4ceb4d7f4699288ca9d66c6536cb58",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "url": "https://github.com/HenricHuntsman/NebulaUltimate/actions/runs/19912393595"
+        },
+        {
+          "name": "Pylint",
+          "head": "55bb0b3f7e22de06d61f6838380b1aa94fd1f189",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "url": "https://github.com/HenricHuntsman/NebulaUltimate/actions/runs/19908351205"
+        }
+      ],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Latest CI passed; historical Pylint failure is a separate run, not proof the entire app is qualified."
+    },
+    {
+      "repository": "HenricHuntsman/AgentFoundry-instantly",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "cac47e07a359f00dbb2f39f2b2c9e42db7206585",
+      "upstream": null,
+      "default_branch_workflow_sample": [
+        {
+          "name": "CI",
+          "head": "cac47e07a359f00dbb2f39f2b2c9e42db7206585",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39079938509"
+        },
+        {
+          "name": "CI",
+          "head": "9148f81548a12b285ff702710fa7dd4b9971fd91",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39079675272"
+        },
+        {
+          "name": "CI",
+          "head": "e7eb7e11db70d52977edf9faa49d391a9f5a561d",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39042068488"
+        },
+        {
+          "name": "CI",
+          "head": "ca5d9b5f308d33a7ea50050d2c7a415e1abc1f2d",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39042043117"
+        },
+        {
+          "name": "CI",
+          "head": "cbb5483d4f05ea0381cb7b6856cb82a0b38c2bd7",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39041991349"
+        }
+      ],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Latest cleanup/instruction CI passed. 56 reports archived; Linux installer workflow remains unqualified."
+    },
+    {
+      "repository": "HenricHuntsman/https-github.com-SpidermanTotro-genspark-os",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "d50c5c06af6b6243dfb3f0640b9b0c66ca8e8b93",
+      "upstream": null,
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Concept only; requirements and image/boot/install milestones remain open."
+    },
+    {
+      "repository": "HenricHuntsman/AgentFoundry-TrinityCore-Studio",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "f5dba3e27e1b94d81c02c6835f2fe87539c41c60",
+      "upstream": null,
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Planning/integration seed; no default-branch CI/release returned."
+    },
+    {
+      "repository": "HenricHuntsman/Trinity-Studio-Architecture",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "093d52c9b205172881b9c8a35d6ac8f68eaaf22f",
+      "upstream": null,
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Architecture planning; no runnable product qualification established."
+    },
+    {
+      "repository": "HenricHuntsman/repo-manager-ultimate",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "017b7a13b5c988a748cea6f2d167d776329267d5",
+      "upstream": null,
+      "default_branch_workflow_sample": [
+        {
+          "name": "CI",
+          "head": "017b7a13b5c988a748cea6f2d167d776329267d5",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/39079941954"
+        },
+        {
+          "name": "CI",
+          "head": "ac2bbed0075465a3bc0ac495cdabc6b493afb22a",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/39079681607"
+        },
+        {
+          "name": "CI",
+          "head": "d2a2845e30d21b73e5d2521f675c898ff391f4f5",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/39042044795"
+        },
+        {
+          "name": "CI",
+          "head": "b1aa14a871d9f0db544dd24914295d841ef8c224",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/29656496367"
+        },
+        {
+          "name": "CI",
+          "head": "e33a05287bdc8e3d3c8887862a484efd29491d09",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/29633392618"
+        }
+      ],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Latest CI passed; installation and desktop package smoke tests remain open."
+    },
+    {
+      "repository": "HenricHuntsman/codex",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "6a57d7980bca3121ca6d0e9b795304ec2d294208",
+      "upstream": {
+        "repository": "openai/codex",
+        "head": "7b44ac1661433ae3a6f375fde873fa7123c935fe",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 9566,
+        "status": "behind"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/codex/pull/2",
+        "number": 2,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "head": "7b44ac1661433ae3a6f375fde873fa7123c935fe"
+      },
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/nvm",
+      "visibility": "public",
+      "default_branch": "master",
+      "head": "ec8906b284d000b414da78855be90d7ae8152b77",
+      "upstream": {
+        "repository": "nvm-sh/nvm",
+        "head": "b1b3a0038c0666c7436cb5d383608b4b72c8300b",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 172,
+        "status": "behind"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/nvm/pull/2",
+        "number": 2,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "unstable",
+        "head": "b1b3a0038c0666c7436cb5d383608b4b72c8300b"
+      },
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/gemini-cli",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "bd590bbde66f9aa7695940635b816d17f80a05ed",
+      "upstream": {
+        "repository": "google-gemini/gemini-cli",
+        "head": "ed96faedfd5571f055c44f2c9509d62321d1138d",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 1213,
+        "status": "behind"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/gemini-cli/pull/3",
+        "number": 3,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "head": "ed96faedfd5571f055c44f2c9509d62321d1138d"
+      },
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/Vitruvian",
+      "visibility": "public",
+      "default_branch": "master",
+      "head": "f1532bc1ec5944e1a4dfa34b05262dae07ebec4d",
+      "upstream": {
+        "repository": "VitruvianOS/Vitruvian",
+        "head": "606e0333580c7170037f97b74e0c51ca35803dc2",
+        "ahead_at_initial_review": 2,
+        "behind_at_initial_review": 876,
+        "status": "diverged"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/Vitruvian/pull/2",
+        "number": 2,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "head": "c9a4d518991a7c2ee19b1c69ebc6ec76bf879484"
+      },
+      "note": "Upstream 0.6.2 has amd64/arm64 images and checksums. Own fork has no release; image boot remains untested."
+    },
+    {
+      "repository": "HenricHuntsman/continue",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "a1ead04122664b308131bdf1c3345ead00146bbc",
+      "upstream": {
+        "repository": "continuedev/continue",
+        "head": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 77,
+        "status": "behind"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/continue/pull/2",
+        "number": 2,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "head": "5522c6f44ca0ac3528b37244818fbfa39b5af470"
+      },
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/mini-AGI",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "3f2dc7a665e29f8d3feff92d7370386e76f44ef0",
+      "upstream": {
+        "repository": "volotat/mini-AGI",
+        "head": "95e901e0196c34da08ffa13c01c53d74ccc7c766",
+        "ahead_at_initial_review": 139,
+        "behind_at_initial_review": 5,
+        "status": "diverged"
+      },
+      "default_branch_workflow_sample": [
+        {
+          "name": "Tests",
+          "head": "3f2dc7a665e29f8d3feff92d7370386e76f44ef0",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/mini-AGI/actions/runs/38505247412"
+        },
+        {
+          "name": "Tests",
+          "head": "d92c9b5261ac2581413604463b33ea6c0d1517b7",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/mini-AGI/actions/runs/38096385912"
+        },
+        {
+          "name": "Tests",
+          "head": "2f991be7eed6a84659857e1df5becb376f36b1f5",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/mini-AGI/actions/runs/38095951460"
+        },
+        {
+          "name": "Tests",
+          "head": "0e0efc1a18188f9def61a533aa3226299d773bba",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/mini-AGI/actions/runs/38095749616"
+        },
+        {
+          "name": "Tests",
+          "head": "a86417a1de10cee7a6f0b4a28f953dcec441d1b9",
+          "status": "completed",
+          "conclusion": "failure",
+          "url": "https://github.com/HenricHuntsman/mini-AGI/actions/runs/38046990291"
+        }
+      ],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/mini-AGI/pull/43",
+        "number": 43,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "unstable",
+        "head": "2063613a6c93fbaf1fb613e5a1d4c7da38d12db6"
+      },
+      "note": "Default CPU baseline CI passed. Resolved upstream candidate: 180 CPU tests ran, one optional lifecycle skipped; strengthened pruning regression passed. GPU and production checkpoint qualification remain open."
+    },
+    {
+      "repository": "HenricHuntsman/LLM4Decompile",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "09077026542220583340859b87a9f31a5b77f283",
+      "upstream": {
+        "repository": "albertan017/LLM4Decompile",
+        "head": "85b364bf093eb2ee4f3687cfe38a203fca89f23e",
+        "ahead_at_initial_review": 6,
+        "behind_at_initial_review": 0,
+        "status": "ahead"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Research, not a qualified decompiler product. Earlier lightweight checks passed; no live GPU/MIPS qualification."
+    },
+    {
+      "repository": "HenricHuntsman/rabbit-foundry",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "b17ca50ad3d09feae0e0e96c8fdba9d0f3cfaa37",
+      "upstream": null,
+      "default_branch_workflow_sample": [
+        {
+          "name": "Rabbit Code tests",
+          "head": "b17ca50ad3d09feae0e0e96c8fdba9d0f3cfaa37",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/rabbit-foundry/actions/runs/39040752949"
+        },
+        {
+          "name": "Rabbit Code tests",
+          "head": "0471bac33a610046c332eaa64dddc908d7e6266a",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/rabbit-foundry/actions/runs/38505267038"
+        },
+        {
+          "name": "Rabbit Code tests",
+          "head": "4954712b72853c569799e7a3de79118b626a04be",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/rabbit-foundry/actions/runs/37862697799"
+        },
+        {
+          "name": "Rabbit Code tests",
+          "head": "5f4f1cf2cd2ab828f796262e7fb8ce5d696e6685",
+          "status": "completed",
+          "conclusion": "failure",
+          "url": "https://github.com/HenricHuntsman/rabbit-foundry/actions/runs/37732602107"
+        },
+        {
+          "name": "Rabbit Code tests",
+          "head": "7fa0b10391e55ed75816fab3a1a332f2ed3b7a7b",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "url": "https://github.com/HenricHuntsman/rabbit-foundry/actions/runs/37732579111"
+        }
+      ],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Latest tests passed; qualify the complete local model/tool workflow and installation."
+    },
+    {
+      "repository": "HenricHuntsman/nxdumptool",
+      "visibility": "public",
+      "default_branch": "rewrite",
+      "head": "ade1a481121498ec649fbc832afe733050790acd",
+      "upstream": {
+        "repository": "DarkMatterCore/nxdumptool",
+        "head": "ade1a481121498ec649fbc832afe733050790acd",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 0,
+        "status": "identical"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/kilocode",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "b3036eb73b3dd0ff755faeb9eb802e447420a4a3",
+      "upstream": {
+        "repository": "Kilo-Org/kilocode",
+        "head": "2a1903f29186e25adec0bace14f6ee589095f7eb",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 343,
+        "status": "behind"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/kilocode/pull/5",
+        "number": 5,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "unstable",
+        "head": "2a1903f29186e25adec0bace14f6ee589095f7eb"
+      },
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/4NXCI",
+      "visibility": "public",
+      "default_branch": "master",
+      "head": "8f0b076dd0cdeb386ca13f90022d7cd96a668f44",
+      "upstream": {
+        "repository": "tiliarou/4NXCI",
+        "head": "8f0b076dd0cdeb386ca13f90022d7cd96a668f44",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 0,
+        "status": "identical"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/artcraft",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373",
+      "upstream": {
+        "repository": "storytold/artcraft",
+        "head": "d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 0,
+        "status": "identical"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": null,
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/wordcraft",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "04f6f53b8a4d8140c7bb62f949b0a6099a473da1",
+      "upstream": {
+        "repository": "storytold/wordcraft",
+        "head": "2f6311cc37776dad81998f4e4e50114476c2882c",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 277,
+        "status": "behind"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/wordcraft/pull/2",
+        "number": 2,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "head": "2f6311cc37776dad81998f4e4e50114476c2882c"
+      },
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/rea",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "2c7583599b9ac1c847bd77b1940930fd8d4594c7",
+      "upstream": {
+        "repository": "morluto/rea",
+        "head": "d205c528e31897f1f2919b80a4245356b502c703",
+        "ahead_at_initial_review": 0,
+        "behind_at_initial_review": 264,
+        "status": "behind"
+      },
+      "default_branch_workflow_sample": [],
+      "latest_release": null,
+      "update_pr": {
+        "url": "https://github.com/HenricHuntsman/rea/pull/2",
+        "number": 2,
+        "draft": true,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "head": "d205c528e31897f1f2919b80a4245356b502c703"
+      },
+      "note": "Upstream reference fork; source/build qualification is separate from ancestry."
+    },
+    {
+      "repository": "HenricHuntsman/opencode",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "9c101864c3d4b6eb5580c5b154948187a87f3b9c",
+      "upstream": {
+        "repository": "opencode-ai/opencode",
+        "head": "73ee493265acf15fcd8caab2bc8cd3bd375b63cb",
+        "ahead_at_initial_review": 11,
+        "behind_at_initial_review": 0,
+        "status": "ahead"
+      },
+      "default_branch_workflow_sample": [
+        {
+          "name": "ci",
+          "head": "9c101864c3d4b6eb5580c5b154948187a87f3b9c",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/opencode/actions/runs/39037592465"
+        },
+        {
+          "name": "build",
+          "head": "9c101864c3d4b6eb5580c5b154948187a87f3b9c",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/opencode/actions/runs/39037592522"
+        },
+        {
+          "name": "ci",
+          "head": "5f4804eb768978de9d5982896dc08d76ca7dae39",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/opencode/actions/runs/39033977782"
+        },
+        {
+          "name": "build",
+          "head": "5f4804eb768978de9d5982896dc08d76ca7dae39",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/opencode/actions/runs/39033977805"
+        },
+        {
+          "name": "ci",
+          "head": "403856bfb6aa4ea3381971a6a34691e932e21a3f",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/opencode/actions/runs/39033845245"
+        }
+      ],
+      "latest_release": {
+        "tag": "v0.0.56",
+        "url": "https://github.com/HenricHuntsman/opencode/releases/tag/v0.0.56",
+        "prerelease": false
+      },
+      "update_pr": null,
+      "note": "Original Go lineage: CI/build passed; published development release v0.0.56."
+    },
+    {
+      "repository": "HenricHuntsman/dragonforge-code",
+      "visibility": "public",
+      "default_branch": "main",
+      "head": "c43d87efea65155f7fe3c537b420e70f12e7342f",
+      "upstream": null,
+      "default_branch_workflow_sample": [
+        {
+          "name": "DragonForge local-first labs",
+          "head": "c43d87efea65155f7fe3c537b420e70f12e7342f",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39076259514"
+        },
+        {
+          "name": "ci",
+          "head": "c43d87efea65155f7fe3c537b420e70f12e7342f",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39076259520"
+        },
+        {
+          "name": "build",
+          "head": "c43d87efea65155f7fe3c537b420e70f12e7342f",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39076259543"
+        },
+        {
+          "name": "ci",
+          "head": "7171428a3fb5841e999bc0024e2fceaf15f17889",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39075074024"
+        },
+        {
+          "name": "DragonForge local-first labs",
+          "head": "7171428a3fb5841e999bc0024e2fceaf15f17889",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39075074073"
+        }
+      ],
+      "latest_release": {
+        "tag": "upstream-v0.0.9",
+        "url": "https://github.com/HenricHuntsman/dragonforge-code/releases/tag/upstream-v0.0.9",
+        "prerelease": false
+      },
+      "update_pr": null,
+      "note": "Latest labs/CI/build passed. upstream-v0.0.9 is a historical upstream mirror, not a newly qualified stable fork release."
+    }
+  ]
+}
