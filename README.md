@@ -80,3 +80,5 @@ The [18 October repository audit](docs/REPOSITORY-AUDIT-2026-10-18.md) records t
 Development hours are not yet published. Git commits are not a measure of time worked.
 
 *Updated 18 October 2026. Project links describe scope, not a guarantee of a passing build.*
+
+[Linux projects: folders, preserved history and revival milestones](docs/linux/README.md).
