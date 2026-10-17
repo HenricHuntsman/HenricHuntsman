@@ -7,7 +7,7 @@ These files previously lived at the profile repository root. They were organised
 
 These are historical experiments, not verified installable releases. There is no root Xcode project or Swift package manifest connecting the loose source files. GhostTracker uses a simulated IP address; ThemeEngine only logs an accent colour; DreamWeaver returns a fixed text template. Camera and audio components still need app integration, permissions and device testing.
 
-ZIP contents have not been extracted or validated. The 43-byte LisaAI install package is too small to assume it contains a usable application. Bundle filenames such as FULL, REAL and FOR_BUILD are historical names, not verified capability claims.
+Bundle contents have now been listed and CRC-checked where readable; see [inspection results](BUNDLE-INSPECTION-2026-10-18.md). The 43-byte LisaAI install package proved to be plain text and was renamed to .placeholder.txt. Several other project files are placeholders. Bundle filenames such as FULL, REAL and FOR_BUILD are historical names, not verified capability claims.
 
 ## File move inventory
 
@@ -18,7 +18,7 @@ ZIP contents have not been extracted or validated. The 43-byte LisaAI install pa
 | EmotionLog.swift | [swift-prototypes/EmotionLog.swift](swift-prototypes/EmotionLog.swift) | 526 | `c5526032dbbb9aebe11b29de22ad5b4d383494d1` |
 | GhostScanner_OTA_Bundle_REAL.zip | [bundles/GhostScanner_OTA_Bundle_REAL.zip](bundles/GhostScanner_OTA_Bundle_REAL.zip) | 13517 | `1c1078b621ae0ac0e5ad646c259d7230981612eb` |
 | GhostTracker.swift | [swift-prototypes/GhostTracker.swift](swift-prototypes/GhostTracker.swift) | 684 | `b403f01705671369dd6d7a651fb9f91ed9f10386` |
-| LisaAI_Install_Package.zip | [bundles/LisaAI_Install_Package.zip](bundles/LisaAI_Install_Package.zip) | 43 | `2cc13104e99aa8b7c2bfe7c3aab6ccf77320e555` |
+| LisaAI_Install_Package.zip | [bundles/LisaAI_Install_Package.placeholder.txt](bundles/LisaAI_Install_Package.placeholder.txt) | 43 | `2cc13104e99aa8b7c2bfe7c3aab6ccf77320e555` |
 | LisaAI_XcodeProject.zip | [bundles/LisaAI_XcodeProject.zip](bundles/LisaAI_XcodeProject.zip) | 4217 | `b74ee14d74c94b47a2c9ef6281a2a71863d22e6f` |
 | LisaCam.swift | [swift-prototypes/LisaCam.swift](swift-prototypes/LisaCam.swift) | 1186 | `c5b6b568099bc0e95b7733bc4edb8ed812002d4a` |
 | LisaCodeIDE_XcodeProject_FOR_BUILD.zip | [bundles/LisaCodeIDE_XcodeProject_FOR_BUILD.zip](bundles/LisaCodeIDE_XcodeProject_FOR_BUILD.zip) | 1155 | `989ab96583607196277decd7076a45b7c6c33015` |

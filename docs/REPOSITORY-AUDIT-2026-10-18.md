@@ -87,3 +87,11 @@ Further source changes belong in each project's own reviewed change set. In part
 - Trinity Studio placeholder documentation commit: `f5dba3e27e1b94d81c02c6835f2fe87539c41c60`.
 - Verified resulting default-branch file listings: only the four intended bytecode files were removed from Kimi-K2; its source files and distribution artifacts were preserved. The other two repositories changed only their README.
 - No runtime code or dependencies were changed. Application tests were not run for these cache/documentation changes.
+
+## Bundle and CI follow-up
+
+[Bundle inspection](../archive/BUNDLE-INSPECTION-2026-10-18.md) records valid ZIPs, placeholder Xcode configurations, and the plain-text install placeholder renamed with a .txt suffix. These findings supersede the initial uninspected-bundle observations above.
+
+The byte-identical misfiled Book Publish Forge archive was removed from QuestMasterPro; its correct-repository copy and Git history remain. Other experimental addon archives were retained.
+
+[CI snapshot](CI-SNAPSHOT-2026-10-18.md) records branch-specific results and in-progress runs for eight projects. This supersedes the initial statement that no CI review was performed; no application builds were run locally.
