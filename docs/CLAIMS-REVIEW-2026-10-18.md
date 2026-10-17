@@ -35,3 +35,7 @@ Display-name changes do not rename GitHub URLs or internal package IDs. Renaming
 ## Runtime follow-up
 
 Kimi/FORGE's model/tool wrapper now labels demonstrations and reports nonexecution; its full build fails explicitly at unimplemented video/OS steps. The test target now propagates syntax and regression failures. Six new regression tests passed locally and failed against the previous implementation; a malformed-source fixture returned nonzero through `make test`. See [the source change](https://github.com/HenricHuntsman/Kimi-K2/commit/7d0caee0d2150b159ce8a1c623b05cc192aa2b7b). Python 3.11/3.14 hosted checks were added; their outcome is separate from the local result. This repairs false completion signals, not the missing implementations.
+
+## Web-demo follow-up
+
+Kimi/FORGE GUI now uses the real document loader, returns explicit unimplemented/unknown-tool HTTP responses, identifies chat as a demo echo, and reports zero executable capabilities. The splash screen no longer animates to 865 implemented tools. Its development server binds to loopback with debug disabled. Combined local suite: 12 tests passed, including six GUI/startup tests; the previous GUI failed the route regressions. [Source change](https://github.com/HenricHuntsman/Kimi-K2/commit/4a80f6392969a7d6a68e6474b2eede1aa0c22d0c). Hosted checks are separate; live model/media functionality remains unimplemented.
