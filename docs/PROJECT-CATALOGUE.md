@@ -18,7 +18,7 @@ Alpha means incomplete implementation/integration; beta candidate means suitable
 | codex | [codex](https://github.com/HenricHuntsman/codex) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | continue | [continue](https://github.com/HenricHuntsman/continue) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | DragonForge Code | [dragonforge-code](https://github.com/HenricHuntsman/dragonforge-code) | Alpha | Finish branding/install/release migration and test standalone binary |
-| FORGE Integration Lab — Kimi K2 | [Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | Prototype — simulated integration | Replace simulated model/tools and fixed success outputs; qualify one real local workflow |
+| FORGE Integration Lab — Kimi K2 / Local Qwen | [Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | Prototype — opt-in local Ollama adapter | Run actual local Qwen smoke; tool execution, training and OS creation remain unimplemented |
 | gemini-cli | [gemini-cli](https://github.com/HenricHuntsman/gemini-cli) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | Genspark OS Concept | [https-github.com-SpidermanTotro-genspark-os](https://github.com/HenricHuntsman/https-github.com-SpidermanTotro-genspark-os) | Planning | Define scope; no bootable OS or installer verified |
 | Henric — Project Hub | [HenricHuntsman](https://github.com/HenricHuntsman/HenricHuntsman) | Documentation | Maintain project status catalogue and distinguish snapshots from current checks |
@@ -55,3 +55,5 @@ Upstream-derived/reference rows remain unqualified as local builds. Mature upstr
 [Build evidence and folder guide](PROGRAM-MATURITY-2026-10-18.md) · [Misleading-claims review](CLAIMS-REVIEW-2026-10-18.md) · [Cleanup audit](REPOSITORY-AUDIT-2026-10-18.md)
 
 Private projects are assessed separately and are not named here.
+
+Kimi follow-up: local Ollama CLI/GUI protocol paths and measured one-request smoke reporting are implemented. Forty-one Python and two frontend tests passed locally, from an extracted source bundle, and in hosted CI on Python 3.11/3.14. These use a loopback fixture, not live Qwen weights. Training exports now fail explicitly and benchmark gains remain unknown. [Current local model guide](https://github.com/HenricHuntsman/Kimi-K2/blob/main/docs/local-models/README.md).
