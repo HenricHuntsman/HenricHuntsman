@@ -31,3 +31,7 @@ Kimi now has a guarded local Ollama client, opt-in GUI routing and --smoke repor
 [QEMU boot evidence run](https://github.com/HenricHuntsman/Vitruvian/actions/runs/39130337741) was started on the upstream integration branch. It downloads the amd64 raw image from run 39080372001, checks the included SHA-256 files and boots an isolated, network-disabled snapshot. Screenshots at 30/60/90 seconds and serial/QEMU logs are retained for review. Job success means evidence collection, not desktop functionality. This supersedes earlier statements that no fork build was available. The old default branch and its review remain historical evidence.
 
 The hosted connector cannot retrieve the 867 MB raw artifact (512 MB transfer limit), so the VM attempt runs inside GitHub Actions. No local PC installation or disk modification is performed.
+
+## Linux desktop packaging checks — 19 October 2026
+
+Dedicated test-and-package runs started for [RepoForge](https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/39130396625) and [AgentFoundry](https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39130398211). They install using npm ci, run tests and attempt AppImage/deb builds with publishing disabled. These gates do not establish desktop launch or successful package installation. Any package build failures remain blockers until repaired and retested.
