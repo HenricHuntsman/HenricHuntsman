@@ -63,7 +63,8 @@ jobs:
       - name: Retrieve ISO linked by upstream
         run: |
           mkdir -p evidence
-          curl --fail --location --max-time 300 --retry 2 --dump-header evidence/download-headers.txt 'https://sourceforge.net/projects/skos/files/sk_os.iso/download' -o skorpion.iso
+          curl --fail --location --max-time 300 --retry 2 --dump-header evidence/download-headers.txt 'https://downloads.sourceforge.net/project/skos/skorpion_lite-3.5/skorpion_lite-3.5.iso' -o skorpion.iso
+          echo '4444cafed9a14dc4057a8aabca6f077d0b6db5fb210aead762611c96ea8f250b  skorpion.iso' | sha256sum -c - | tee evidence/iso-checksum-verification.txt
           sha256sum skorpion.iso > evidence/iso-sha256.txt
           file skorpion.iso > evidence/image-type.txt
           xorriso -indev skorpion.iso -report_el_torito plain > evidence/boot-catalog.txt 2>&1
