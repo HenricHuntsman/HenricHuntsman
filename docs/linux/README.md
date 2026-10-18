@@ -35,3 +35,9 @@ The hosted connector cannot retrieve the 867 MB raw artifact (512 MB transfer li
 ## Linux desktop packaging checks — 19 October 2026
 
 Dedicated test-and-package runs started for [RepoForge](https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/39130396625) and [AgentFoundry](https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39130398211). They install using npm ci, run tests and attempt AppImage/deb builds with publishing disabled. These gates do not establish desktop launch or successful package installation. Any package build failures remain blockers until repaired and retested.
+
+### Executed results
+
+- RepoForge: [qualification rerun passed](https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/39130525484). Eight tests passed, the frontend built, and AppImage/deb packages were retained in the linux-packages artifact. Fixed missing deb maintainer metadata. Installation and desktop behavior still require testing.
+- Vitruvian first capture showed SeaBIOS stuck at Booting from Hard Disk. The artifact is vos-uefi.raw; this establishes a firmware mismatch in the initial test, not a guest OS failure. Corrected to OVMF pflash and started [UEFI rerun](https://github.com/HenricHuntsman/Vitruvian/actions/runs/39130673114). The intermediate -bios attempt failed before guest startup.
+- AgentFoundry: clean installation exposed missing XInput headers, then a legacy ANGLE source missing cstdint with the modern compiler. Added native prerequisites and an explicit compiler include; new package qualification is pending. No working installer is claimed.
