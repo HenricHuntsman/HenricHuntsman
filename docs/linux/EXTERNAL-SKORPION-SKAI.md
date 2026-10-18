@@ -23,3 +23,13 @@ Skai: test create/read, persistent memory roundtrip, absolute-path workspace bou
 The OS repository mainly contains Calamares configuration and visual assets, rather than a complete ISO build pipeline. Skai includes an absolute personal SKAI_HOME path; the test overrides it in memory. File creation constructs paths without rejecting absolute roots, so the runner probes this within a temporary fixture and records the result. Passing the job does not mean this boundary is repaired.
 
 Results are pending in the linked run. Check skai-capability-evidence and skorpion-boot-evidence artifacts. No upstream repository was modified, no message was sent, and no changes were made to the user's installed Ollama.
+
+## Follow-up — 19 October
+
+Initial run results: live CPU inference returned SKAI_RUNNER_OK, model-generated create_file JSON created runner-note.txt, file readback and memory roundtrip passed. The upstream absolute path probe escaped SKAI_HOME inside a disposable fixture. Original ISO URL returned HTTP 404 before VM startup.
+
+Added runner-side skai_guard.py to reject absolute paths, parent traversal, resolved symlink escapes and bulk deletion. Six local regression categories passed. The adapter changes the evaluation dispatch, not upstream code; concurrent symlink replacement is outside its guarantees. A normal nested path remains supported.
+
+Located current Lite 3.5 ISO at https://downloads.sourceforge.net/project/skos/skorpion_lite-3.5/skorpion_lite-3.5.iso . Current download-page SHA-256: cde94abb299ca213d38b69dfb1b9531903c9fe4ef3df9533ab2da566e2e03b64 . Source: https://sourceforge.net/projects/skos/files/skorpion_lite-3.5/skorpion_lite-3.5.iso/download . Earlier search snapshot had a different digest; the runner requires the current pinned value and refuses a mismatch.
+
+[Guarded AI and corrected ISO rerun](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39131834007) is pending. No Skorpion boot claim yet.
