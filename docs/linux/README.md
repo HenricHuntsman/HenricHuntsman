@@ -56,3 +56,9 @@ The [corrected UEFI run](https://github.com/HenricHuntsman/Vitruvian/actions/run
 - Kimi, DragonForge and Greenlight: latest sampled checks passed. Those checks do not establish GPU runtime or installation on the user's PC.
 
 Earlier pending/failure notes are retained to document repairs; latest results above supersede their current status.
+
+## Continued runtime qualification — 19 October, 01:14 Melbourne
+
+- Skorpion's earlier run reached only 182 MiB of the 3.3 GB ISO in five minutes; curl restarted after timeout and the 15-minute job was cancelled. This was a transfer timeout, not a guest boot failure. Replaced restarting curl transfers with resumable segmented aria2 download, a 25-minute transfer ceiling and 35-minute job limit. Check the latest external evaluation run for completion; checksum verification remains mandatory.
+- RepoForge now has an actual offline Electron-window test using production dist assets and its real main process. First attempt failed before UI startup because chrome-sandbox lacked root ownership/setuid permissions on the runner. Configured the disposable runner's helper and started a new run. No successful desktop render is claimed yet. AppImage/deb builds still passed before that runtime failure.
+- TraceForge failed-job logs returned BlobNotFound, so failure causes remain unknown from this inspection. No speculative source repair was made.
