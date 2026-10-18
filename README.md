@@ -23,10 +23,13 @@ My current focus is **DragonForge Code, OpenCode revival, local Ollama workflows
 
 These updates reflect repository documentation. A merged regression does not establish that every hardware configuration passes; check project CI, releases and reproducible run reports for validation.
 
+[Latest activity check — 19 October](docs/ACTIVITY-CHECK-2026-10-19.md): workflow results, Linux build progress and remaining runtime checks.
+
 ## Featured work
 
 | Project | Focus |
 | --- | --- |
+| [FORGE Integration Lab / Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | Python prototype with a local Ollama/Qwen adapter; live GPU and browser qualification pending |
 | [DragonForge Code](https://github.com/HenricHuntsman/dragonforge-code) | Independent local-first Go coding agent, preserving OpenCode ancestry and upstream attribution |
 | [OpenCode — Welcome Back Edition](https://github.com/HenricHuntsman/opencode) | Community continuation of the original OpenCode terminal assistant, including local model endpoints and reusable skills |
 | [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) | Local-first Python coding agent, model gateway and experimental Linux workspace |
