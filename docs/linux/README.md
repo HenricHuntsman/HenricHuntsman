@@ -45,3 +45,14 @@ Dedicated test-and-package runs started for [RepoForge](https://github.com/Henri
 ### Verified graphical boot
 
 The [corrected UEFI run](https://github.com/HenricHuntsman/Vitruvian/actions/runs/39130673114) produced a 120-second screenshot showing the Vitruvian graphical Welcome screen, with language/keymap controls and Install / Try It Now buttons. The screenshot was downloaded and visually inspected. Serial output shows the root filesystem check completed cleanly. This verifies graphical boot of the pinned candidate in QEMU TCG with 2 GiB RAM, not installation, desktop application interaction, shutdown or bare-metal support. [Evidence artifact](https://github.com/HenricHuntsman/Vitruvian/actions/runs/39130673114/artifacts/12137478087).
+
+## Latest check — 19 October, 00:36 Melbourne
+
+- AgentFoundry: [Linux package qualification passed](https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39130748499); linux-packages artifact retained (971 MB archive). Native dependency prerequisites and legacy ANGLE compiler include resolved the observed installation blockers. Desktop installation/runtime remains untested.
+- RepoForge: tests, build and AppImage/deb packaging passed in run 39130525484; installation/runtime remains untested.
+- Vitruvian: latest ISO, arm64 and native amd64 workflows passed. Pinned earlier amd64 candidate was visually verified at its graphical Welcome screen in run 39130673114.
+- Skai: guarded evaluation passed in [run 39131834007](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39131834007). Local CPU response matched, model-created file and memory passed, and absolute path escape was blocked by the evaluation adapter. Upstream remains unchanged.
+- Skorpion: same run still retrieving the corrected ISO. Boot capture is pending; no Skorpion boot success established.
+- Kimi, DragonForge and Greenlight: latest sampled checks passed. Those checks do not establish GPU runtime or installation on the user's PC.
+
+Earlier pending/failure notes are retained to document repairs; latest results above supersede their current status.
