@@ -18,6 +18,11 @@ with tempfile.TemporaryDirectory() as tmp:
         and t.attr in ("stdin", "stdout") for t in n.targets))]
     ns = {"__name__": "skai_evaluation", "__file__": str(pathlib.Path("upstream/skai/skterminal/main.py").resolve())}
     exec(compile(tree, "upstream/skai/skterminal/main.py", "exec"), ns)
+    from skai_guard import guarded_dispatch, self_test
+    self_test()
+    original_dispatch = ns["dispatch_tool"]
+    ns["dispatch_tool"] = guarded_dispatch(original_dispatch, config.SKAI_HOME)
+    report["adaptations"].append("Runner-side path guard; upstream source unchanged")
     def check(name, fn):
         try: report["checks"][name] = fn()
         except Exception as exc: report["checks"][name] = {"error": str(exc)}
@@ -32,6 +37,7 @@ with tempfile.TemporaryDirectory() as tmp:
     def absolute_probe():
         target = root / "outside.txt"
         value = ns["dispatch_tool"]("create_file", {"filename": str(target), "content":"temporary boundary probe"})
+        assert not target.exists(), "Runner guard allowed an absolute-path escape"
         return {"escaped_workspace": target.exists(), "result": value}
     check("absolute_path_boundary", absolute_probe)
     def plain():
@@ -52,7 +58,7 @@ with tempfile.TemporaryDirectory() as tmp:
             "file_created":(config.SKAI_HOME/"runner-note.txt").exists()}
     check("model_to_tool", model_tool)
     report["limits"]=["No upstream default 14B/GPU qualification", "No live web search or browser-extension execution",
-        "Path boundary findings are diagnostic; do not grant broad filesystem access"]
+        "Guard covers runner dispatch only; upstream remains vulnerable and concurrent symlink swaps are not covered"]
 pathlib.Path("evidence").mkdir(exist_ok=True)
 pathlib.Path("evidence/skai-report.json").write_text(json.dumps(report,indent=2))
 print(json.dumps(report,indent=2))
