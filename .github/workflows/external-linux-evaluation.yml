@@ -50,7 +50,7 @@ jobs:
           path: evidence/
   skorpion:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -62,11 +62,11 @@ jobs:
       - name: Install VM tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends qemu-system-x86 ovmf xorriso
+          sudo apt-get install -y --no-install-recommends qemu-system-x86 ovmf xorriso aria2
       - name: Retrieve ISO linked by upstream
         run: |
           mkdir -p evidence
-          curl --fail --location --max-time 300 --retry 2 --dump-header evidence/download-headers.txt 'https://downloads.sourceforge.net/project/skos/skorpion_lite-3.5/skorpion_lite-3.5.iso' -o skorpion.iso
+          timeout 1500 aria2c --continue=true --max-connection-per-server=8 --split=8 --min-split-size=16M --connect-timeout=15 --timeout=30 --max-tries=3 --retry-wait=5 --summary-interval=30 --file-allocation=none --dir=. --out=skorpion.iso 'https://downloads.sourceforge.net/project/skos/skorpion_lite-3.5/skorpion_lite-3.5.iso' 2>&1 | tee evidence/download.log
           echo 'cde94abb299ca213d38b69dfb1b9531903c9fe4ef3df9533ab2da566e2e03b64  skorpion.iso' | sha256sum -c - | tee evidence/iso-checksum-verification.txt
           sha256sum skorpion.iso > evidence/iso-sha256.txt
           file skorpion.iso > evidence/image-type.txt
