@@ -6,21 +6,31 @@
 
 **Australian developer · Local-first AI · Developer tools · Game tooling**
 
-[Explore repositories](https://github.com/HenricHuntsman?tab=repositories) · [OpenCode](https://github.com/HenricHuntsman/opencode) · [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) · [mini-AGI](https://github.com/HenricHuntsman/mini-AGI)
+[Explore repositories](https://github.com/HenricHuntsman?tab=repositories) · [DragonForge Code](https://github.com/HenricHuntsman/dragonforge-code) · [OpenCode](https://github.com/HenricHuntsman/opencode) · [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) · [mini-AGI](https://github.com/HenricHuntsman/mini-AGI)
 
 </div>
 
 I learn by building, testing and improving practical software. My interests include local AI on Linux, terminal coding assistants, game tools and creative applications.
 
-My current focus is **OpenCode revival, local Ollama workflows, and reproducible development**. Projects here range from experiments to maintained community forks; check each repository's documentation, tests and releases for its current state.
+My current focus is **DragonForge Code, OpenCode revival, local Ollama workflows, and reproducible development**. Projects here range from experiments to maintained community forks; check each repository's documentation, tests and releases for its current state.
+
+## Current focus — 19 October 2026
+
+- **DragonForge Code:** a standalone continuation built from OpenCode Revival, with original commit ancestry and licence notices preserved. Historical OpenCode releases are documented separately from DragonForge builds.
+- **OpenCode — Welcome Back Edition:** terminal coding assistance, compatible local model endpoints, reusable skills, MCP tools and local session storage.
+- **Greenlight Recur:** the R5 checkpoint/restart regression gate is merged in [PR #30](https://github.com/HenricHuntsman/mini-AGI/pull/30). Consumer-GPU resume validation and long-running training remain ongoing.
+- **Mobile experiments:** Greenlight includes early Android and iPhone companion scaffolds for read-only Linux telemetry. They remain experimental.
+
+These updates reflect repository documentation. A merged regression does not establish that every hardware configuration passes; check project CI, releases and reproducible run reports for validation.
 
 ## Featured work
 
 | Project | Focus |
 | --- | --- |
+| [DragonForge Code](https://github.com/HenricHuntsman/dragonforge-code) | Independent local-first Go coding agent, preserving OpenCode ancestry and upstream attribution |
 | [OpenCode — Welcome Back Edition](https://github.com/HenricHuntsman/opencode) | Community continuation of the original OpenCode terminal assistant, including local model endpoints and reusable skills |
 | [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) | Local-first Python coding agent, model gateway and experimental Linux workspace |
-| [mini-AGI / Greenlight](https://github.com/HenricHuntsman/mini-AGI) | Separate AI research track: training, checkpoints, evaluation and tooling |
+| [Greenlight Recur / mini-AGI](https://github.com/HenricHuntsman/mini-AGI) | Experimental local AI training, checkpoint/resume reliability, evaluation and Training Doctor tooling |
 | [Huntsman Repo Manager](https://github.com/HenricHuntsman/repo-manager-ultimate) | Repository inventory and review tools |
 | [QuestMaster Pro](https://github.com/HenricHuntsman/QuestMaster-Pro) | World of Warcraft addon and guide tooling |
 | [Book Publish Forge](https://github.com/HenricHuntsman/book-publish-forge) | Writing and publishing workflows |
@@ -79,7 +89,7 @@ The [18 October repository audit](docs/REPOSITORY-AUDIT-2026-10-18.md) records t
 
 Development hours are not yet published. Git commits are not a measure of time worked.
 
-*Updated 18 October 2026. Project links describe scope, not a guarantee of a passing build.*
+*Updated 19 October 2026 (Australia/Melbourne). Project links describe scope, not a guarantee of a passing build.*
 
 [Linux projects: folders, preserved history and revival milestones](docs/linux/README.md).
 
