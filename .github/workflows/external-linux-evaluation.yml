@@ -1,0 +1,76 @@
+name: External Linux and Skai evaluation
+on:
+  push:
+    paths: [.github/workflows/external-linux-evaluation.yml, tools/external-linux/**]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  skai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      OLLAMA_NO_CLOUD: '1'
+      OLLAMA_HOST: '127.0.0.1:11434'
+      OLLAMA_MODELS: /tmp/skai-models
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Endrx2008/skai_ap
+          ref: 3bd015fe45653b867fab2cb8c98e7c8c8f0a8238
+          path: upstream/skai
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install local inference runtime
+        run: |
+          mkdir -p evidence /tmp/ollama
+          python -m pip install requests
+          curl --fail --location --max-time 300 'https://github.com/ollama/ollama/releases/download/v0.40.6/ollama-linux-amd64.tar.zst' -o /tmp/ollama.tar.zst
+          echo 'c164ab8b1b28e2a247c29719b8e404c423c5b83ae64c3ab4e59d50c7ff7fc5e0  /tmp/ollama.tar.zst' | sha256sum -c -
+          tar --zstd -xf /tmp/ollama.tar.zst -C /tmp/ollama
+          /tmp/ollama/bin/ollama serve > evidence/ollama.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:11434/api/version > evidence/ollama-version.json; then break; fi
+            sleep 1
+          done
+          /tmp/ollama/bin/ollama pull qwen2.5:0.5b
+          /tmp/ollama/bin/ollama list > evidence/model-list.txt
+      - name: Exercise upstream tools, memory and local inference
+        run: python tools/external-linux/skai_evaluate.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: skai-capability-evidence
+          path: evidence/
+  skorpion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Endrx2008/skorpion_os
+          ref: e24616de79cfb5941b9287e9ebe4534baa45a7b5
+          path: upstream/skorpion
+          persist-credentials: false
+      - name: Install VM tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends qemu-system-x86 ovmf xorriso
+      - name: Retrieve ISO linked by upstream
+        run: |
+          mkdir -p evidence
+          curl --fail --location --max-time 300 --retry 2 --dump-header evidence/download-headers.txt 'https://sourceforge.net/projects/skos/files/sk_os.iso/download' -o skorpion.iso
+          sha256sum skorpion.iso > evidence/iso-sha256.txt
+          file skorpion.iso > evidence/image-type.txt
+          xorriso -indev skorpion.iso -report_el_torito plain > evidence/boot-catalog.txt 2>&1
+      - name: Capture isolated UEFI boot
+        run: python tools/external-linux/skorpion_capture.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: skorpion-boot-evidence
+          path: evidence/
