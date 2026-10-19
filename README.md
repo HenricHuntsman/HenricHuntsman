@@ -6,7 +6,7 @@
 
 **Australian developer · Local-first AI · Developer tools · Game tooling**
 
-[Explore repositories](https://github.com/HenricHuntsman?tab=repositories) · [DragonForge Code](https://github.com/HenricHuntsman/dragonforge-code) · [OpenCode](https://github.com/HenricHuntsman/opencode) · [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) · [mini-AGI](https://github.com/HenricHuntsman/mini-AGI)
+[**Open project hub**](https://github.com/HenricHuntsman/repo-manager-ultimate) · [Explore repositories](https://github.com/HenricHuntsman?tab=repositories) · [DragonForge Code](https://github.com/HenricHuntsman/dragonforge-code) · [OpenCode](https://github.com/HenricHuntsman/opencode) · [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) · [mini-AGI](https://github.com/HenricHuntsman/mini-AGI)
 
 </div>
 
