@@ -12,9 +12,12 @@
 
 I learn by building, testing and improving practical software. My interests include local AI on Linux, terminal coding assistants, game tools and creative applications.
 
-My current focus is **DragonForge Code, OpenCode revival, local Ollama workflows, and reproducible development**. Projects here range from experiments to maintained community forks; check each repository's documentation, tests and releases for its current state.
+My current focus is **Seed Engine debugging, ARM64 tooling, local Ollama workflows, DragonForge Code and reproducible development**. Projects here range from experiments to maintained community forks; check each repository's documentation, tests and releases for its current state.
 
-## Current focus — 19 October 2026
+## Current focus — 1 November 2026
+
+- **Seed Engine:** CPU/debugger harness repairs are recorded in the 1 November build report: 6/6 harness checks, 14/14 C++ regressions and 9/9 integration checks. ARM64 guest instruction execution remains unimplemented.
+- **Repository hub:** refreshed public project inventory, default-branch workflow history and visible failures. Current build evidence is separate from repository activity.
 
 - **DragonForge Code:** a standalone continuation built from OpenCode Revival, with original commit ancestry and licence notices preserved. Historical OpenCode releases are documented separately from DragonForge builds.
 - **OpenCode — Welcome Back Edition:** terminal coding assistance, compatible local model endpoints, reusable skills, MCP tools and local session storage.
@@ -23,7 +26,7 @@ My current focus is **DragonForge Code, OpenCode revival, local Ollama workflows
 
 These updates reflect repository documentation. A merged regression does not establish that every hardware configuration passes; check project CI, releases and reproducible run reports for validation.
 
-[Latest activity check — 19 October](docs/ACTIVITY-CHECK-2026-10-19.md): workflow results, Linux build progress and remaining runtime checks.
+[Latest activity check — 1 November](docs/ACTIVITY-CHECK-2026-11-01.md): current inventory, recorded checks, known errors and the next execution milestones. [19 October history](docs/ACTIVITY-CHECK-2026-10-19.md) remains available.
 
 ## Featured work
 
@@ -86,13 +89,13 @@ OpenCode has a published development release. Rabbit Code, RepoForge, QuestMaste
 
 This profile repository holds the banner, documentation, a local [development-hours tracker](tools/dev-hours/README.md), and [preserved early prototypes](archive/README.md).
 
-The [18 October repository audit](docs/REPOSITORY-AUDIT-2026-10-18.md) records the current inventory, file-structure findings and remaining checks. The connected inventory contains **37 repositories: 31 public and 6 private**, checked 18 October 2026 (Australia/Melbourne). Private project details are excluded from the public catalogue.
+The [1 November activity check](docs/ACTIVITY-CHECK-2026-11-01.md) records the current inventory and workflow findings. The connected inventory contains **44 repositories: 34 public and 10 private**, checked 1 November 2026 (Australia/Melbourne). Private project details are excluded from the public catalogue. The [18 October audit](docs/REPOSITORY-AUDIT-2026-10-18.md) remains a historical record.
 
 [Migration status](docs/HENRICHUNTSMAN-MIGRATION.md) · [Naming catalogue](docs/PROJECT-NAMING-CATALOGUE-2026-10-14.md) · [Live GitHub activity](https://github.com/HenricHuntsman)
 
 Development hours are not yet published. Git commits are not a measure of time worked.
 
-*Updated 19 October 2026 (Australia/Melbourne). Project links describe scope, not a guarantee of a passing build.*
+*Updated 1 November 2026 (Australia/Melbourne). Project links describe scope, not a guarantee of a passing build.*
 
 [Linux projects: folders, preserved history and revival milestones](docs/linux/README.md).
 
