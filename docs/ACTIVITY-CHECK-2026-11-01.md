@@ -4,7 +4,7 @@ Checked against the connected GitHub account and saved source-build evidence on 
 
 ## Inventory and scope
 
-The accessible owned inventory contains **44 repositories: 34 public and 10 private**. The public table below includes only public projects. The older 18 October inventory remains historical.
+The refreshed accessible owned inventory contains **45 repositories: 35 public and 10 private**. The public table below includes only public projects. The [current maturity and update review](PROGRAM-MATURITY-2026-11-01.md) records inspected default heads, workflow identities and pinned upstream candidate PRs for all 35 public projects. The older 18 October inventory remains historical.
 
 The check read up to 10 recent Actions runs per repository, plus up to 30 runs on each public repository's default branch. Each run retains its branch, date and source revision. A green feature-branch run does not qualify the default branch, and a successful scheduled report does not prove the application's full test suite passed. An empty run history is unverified.
 
@@ -21,7 +21,7 @@ The check read up to 10 recent Actions runs per repository, plus up to 30 runs o
 | --- | --- | --- |
 | [Profile external Linux evaluation](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39134948356) | The Skorpion ISO download did not complete; its checksum failed. The Skai job passed in that same run. | Complete and verify the pinned ISO before attempting another isolated boot. Preserve the failed checksum. |
 | [Azeroth localisation](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41217863555) | CurseForge returned HTTP 401; the job's API-key input was empty. | The repository owner must configure authorised service access before notification delivery can work. |
-| [DragonForge build](https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259397) | A separate build workflow failed although the `ci` workflow passed. | Inspect its check annotations; the passing workflow does not erase this historical failure. |
+| [DragonForge historical build](https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259397) | A separate Go build workflow failed although `ci` passed on that older source. Current HEAD is an OpenCode Modes shell launcher with no workflow directory. | Preserve the old failure against its own revision. Current launcher Bash syntax and menu smoke tests passed locally; real Ollama acceptance is pending. |
 
 Research branches, upstream copies and repositories without default-branch runs remain visible; they are not automatically treated as broken or release-ready.
 
@@ -46,6 +46,7 @@ Research branches, upstream copies and repositories without default-branch runs 
 | [HenricHuntsman](https://github.com/HenricHuntsman/HenricHuntsman) | `main` | [failure · 2026-10-18](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39134948356) | [External Linux and Skai evaluation](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39134948356) |
 | [https-github.com-SpidermanTotro-genspark-os](https://github.com/HenricHuntsman/https-github.com-SpidermanTotro-genspark-os) | `main` | No runs found | None observed in this window |
 | [kilocode](https://github.com/HenricHuntsman/kilocode) | `main` | No runs found | None observed in this window |
+| [kilo](https://github.com/HenricHuntsman/kilo) | `main` | No runs found | Separate moved-repository reference; not the active kilocode fork |
 | [Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | `main` | [success · 2026-10-18](https://github.com/HenricHuntsman/Kimi-K2/actions/runs/39083094509) | None observed in this window |
 | [LisaAI-DatingApp](https://github.com/HenricHuntsman/LisaAI-DatingApp) | `main` | No runs found | None observed in this window |
 | [LLM4Decompile](https://github.com/HenricHuntsman/LLM4Decompile) | `main` | No runs found | None observed in this window |

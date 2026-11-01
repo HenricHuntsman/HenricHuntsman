@@ -1,0 +1,2445 @@
+{
+  "checked_date": "2026-11-01",
+  "timezone": "Australia/Melbourne",
+  "owned_counts": {
+    "total": 45,
+    "public": 35,
+    "private": 10
+  },
+  "scope": "Public-only default-branch and pinned-parent snapshot; draft candidates are separate from application defaults.",
+  "repositories": [
+    {
+      "name": "-https-SpidermanTotro.github.io-nebula-ultimate-",
+      "full_name": "HenricHuntsman/-https-SpidermanTotro.github.io-nebula-ultimate-",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "48d0700326d7dfb0f3809aae956d035f6a35e353",
+      "head_date": "2026-10-17T14:43:58Z",
+      "tree_sha": "9c0f72dd0dee88a025d37fcc29ec24b6740b4589",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 3,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "0145d14321123b5ce0a3748b3f5625fbcdaae6f8",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/-https-SpidermanTotro.github.io-nebula-ultimate-/pull/3"
+        }
+      ],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "Nebula Legacy Installation Page",
+        "stage": "Legacy archive",
+        "next": "Preserve old page; replace misleading download and 100%-functional claims"
+      }
+    },
+    {
+      "name": "4NXCI",
+      "full_name": "HenricHuntsman/4NXCI",
+      "visibility": "public",
+      "default_branch": "master",
+      "head_sha": "8f0b076dd0cdeb386ca13f90022d7cd96a668f44",
+      "head_date": "2019-02-24T06:12:57Z",
+      "tree_sha": "acde7bdd4d81e0fbe74734639990ced9a94f0a33",
+      "empty": false,
+      "parent": {
+        "full_name": "tiliarou/4NXCI",
+        "default_branch": "master",
+        "head_sha": "8f0b076dd0cdeb386ca13f90022d7cd96a668f44"
+      },
+      "comparison": {
+        "status": "identical",
+        "ahead_by": 0,
+        "behind_by": 0
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "fdc2a7110e80a1c36d04b5ae50d570958c37d505",
+          "base": "master",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/4NXCI/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "4NXCI",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "AgentFoundry-instantly",
+      "full_name": "HenricHuntsman/AgentFoundry-instantly",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "718fdbf9c33e49ee2427415e712a6fa5344be182",
+      "head_date": "2026-10-19T02:33:20Z",
+      "tree_sha": "d234ba0ef041e739b43b2589537bdd2f01cd7e06",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [
+        {
+          "id": 39190517509,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "branch": "main",
+          "sha": "718fdbf9c33e49ee2427415e712a6fa5344be182",
+          "date": "2026-10-19T02:33:23Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39190517509"
+        },
+        {
+          "id": 39130748499,
+          "name": "Linux package qualification",
+          "path": ".github/workflows/linux-package-qualification.yml",
+          "branch": "main",
+          "sha": "a12736f1a20d1dc3eaa1d026ed597f4c578cf78b",
+          "date": "2026-10-18T13:15:26Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": false,
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39130748499"
+        },
+        {
+          "id": 29180142585,
+          "name": "Copilot Setup Steps",
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "branch": "main",
+          "sha": "4712d8cb4c5510de429d4307180a05c9597108fe",
+          "date": "2026-07-12T04:44:07Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": false,
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/29180142585"
+        }
+      ],
+      "sampled_runs": 21,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [],
+      "workflow_paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/copilot-setup-steps.yml",
+        ".github/workflows/linux-package-qualification.yml"
+      ],
+      "update": null,
+      "assessment": {
+        "display": "AgentFoundry Workspace",
+        "stage": "Alpha",
+        "next": "CI at current default HEAD passed; earlier Linux package qualification passed on another revision. Qualify current packaging and offline workflows."
+      }
+    },
+    {
+      "name": "AgentFoundry-TrinityCore-Studio",
+      "full_name": "HenricHuntsman/AgentFoundry-TrinityCore-Studio",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "f5dba3e27e1b94d81c02c6835f2fe87539c41c60",
+      "head_date": "2026-10-17T14:26:22Z",
+      "tree_sha": "be3744e61fb2b88dee20df1572b307d8fcd73b23",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 4,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "bac7cf1ef5096da56cd08ed1f7741c82e91a50f0",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-TrinityCore-Studio/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "docs: clarify project maturity and next validation steps",
+          "head": "docs/clarify-project-status-20261014",
+          "sha": "8ade61e81c0b0f63ca9a4482973a07bc100335d9",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/AgentFoundry-TrinityCore-Studio/pull/3"
+        }
+      ],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "Trinity Studio Placeholder",
+        "stage": "Planning",
+        "next": "Define first executable milestone before adding features"
+      }
+    },
+    {
+      "name": "anomalyco-opencode-",
+      "full_name": "HenricHuntsman/anomalyco-opencode-",
+      "visibility": "public",
+      "default_branch": "dev",
+      "head_sha": "802f2d8e75098ae0b45ad839ce98a31589ea8102",
+      "head_date": "2026-10-18T15:03:36Z",
+      "tree_sha": "70f906f9142d4a29f507262516b131b0b548fea5",
+      "empty": false,
+      "parent": {
+        "full_name": "anomalyco/opencode",
+        "default_branch": "dev",
+        "head_sha": "69269e4ebe309a08919b3c9be7948b9fd699c3a4"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 1274
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261101-69269e4",
+        "sha": "69269e4ebe309a08919b3c9be7948b9fd699c3a4",
+        "number": 1,
+        "url": "https://github.com/HenricHuntsman/anomalyco-opencode-/pull/1",
+        "operation": "new upstream snapshot draft",
+        "ci": []
+      },
+      "assessment": {
+        "display": "OpenCode \u2014 Anomaly TypeScript lineage",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Build the pinned Bun/TypeScript candidate; keep it separate from the Go OpenCode continuation."
+      }
+    },
+    {
+      "name": "artcraft",
+      "full_name": "HenricHuntsman/artcraft",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373",
+      "head_date": "2026-10-11T13:47:59Z",
+      "tree_sha": "d59692ef5e625005032a99ebb566574f7907e037",
+      "empty": false,
+      "parent": {
+        "full_name": "storytold/artcraft",
+        "default_branch": "main",
+        "head_sha": "1f969a9224934a55417daf10359a6fb1458b63f4"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 5
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "f7ff0a290304c1c7efe33727893a9a26bc88971c",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/artcraft/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261101-1f969a9",
+        "sha": "1f969a9224934a55417daf10359a6fb1458b63f4",
+        "number": 2,
+        "url": "https://github.com/HenricHuntsman/artcraft/pull/2",
+        "operation": "new upstream snapshot draft",
+        "ci": [
+          {
+            "id": 41294254363,
+            "name": "SonarCloud",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/artcraft/actions/runs/41294254363"
+          }
+        ]
+      },
+      "assessment": {
+        "display": "artcraft",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "azeroth-pilot-reloaded",
+      "full_name": "HenricHuntsman/azeroth-pilot-reloaded",
+      "visibility": "public",
+      "default_branch": "dev",
+      "head_sha": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+      "head_date": "2026-10-07T21:49:16Z",
+      "tree_sha": "4429d5f63de51e12d22713dd6cf6bba72e52dfeb",
+      "empty": false,
+      "parent": {
+        "full_name": "Azeroth-Pilot-Reloaded/azeroth-pilot-reloaded",
+        "default_branch": "main",
+        "head_sha": "8236346e3186a3a8441c21ce3590a54a4ee9c051"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 174
+      },
+      "default_runs": [
+        {
+          "id": 41272841640,
+          "name": "Update TOC Interface versions",
+          "path": ".github/workflows/toc-updater.yml",
+          "branch": "dev",
+          "sha": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+          "date": "2026-11-01T04:22:26Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41272841640"
+        },
+        {
+          "id": 41217863555,
+          "name": "Localization ping",
+          "path": ".github/workflows/localization_post_discord.yml",
+          "branch": "dev",
+          "sha": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+          "date": "2026-10-31T16:04:15Z",
+          "status": "completed",
+          "conclusion": "failure",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41217863555"
+        },
+        {
+          "id": 40282586191,
+          "name": "Update embedded libraries",
+          "path": ".github/workflows/update-libraries.yml",
+          "branch": "dev",
+          "sha": "dc7916b1d5df98ea393d17011478b7b0d6ad8ff2",
+          "date": "2026-10-26T06:54:38Z",
+          "status": "completed",
+          "conclusion": "skipped",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/40282586191"
+        }
+      ],
+      "sampled_runs": 30,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 5,
+          "title": "chore: prepare pinned upstream synchronisation",
+          "head": "sync/upstream-20261018-c286c7e",
+          "sha": "c286c7e3cecf9e7e7f64ddccbe7aa506d239b7e6",
+          "base": "dev",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "546218bd59eb6388fe8009148762da373b4704b7",
+          "base": "dev",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "Update supported WoW Interface versions",
+          "head": "interface-version",
+          "sha": "dd52d0f77a4267fdf6fa1b8beaff39414dcc7a0c",
+          "base": "dev",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "CI: add safe CurseForge credential preflight",
+          "head": "fix/localization-credential-preflight-20261014",
+          "sha": "dcac7e1a090329ef39d12c96c2c6b6ddd153a8d7",
+          "base": "dev",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/pull/2"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/check_translations.yml",
+        ".github/workflows/linter.yml",
+        ".github/workflows/localization_post_discord.yml",
+        ".github/workflows/post-discord.yml",
+        ".github/workflows/release.yml",
+        ".github/workflows/test-report.yml",
+        ".github/workflows/tests.yml",
+        ".github/workflows/toc-updater.yml",
+        ".github/workflows/update-libraries.yml"
+      ],
+      "update": {
+        "branch": "sync/upstream-20261018-c286c7e",
+        "sha": "8236346e3186a3a8441c21ce3590a54a4ee9c051",
+        "number": 5,
+        "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/pull/5",
+        "operation": "fast-forward existing draft",
+        "ci": [
+          {
+            "id": 41294179467,
+            "name": "Check translations",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41294179467"
+          },
+          {
+            "id": 41294179497,
+            "name": "Lua Code Quality",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41294179497"
+          },
+          {
+            "id": 41294179473,
+            "name": "PR Tests",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41294179473"
+          }
+        ]
+      },
+      "assessment": {
+        "display": "azeroth-pilot-reloaded",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Resolve localization workflow failure; verify actual route/runtime checks separately"
+      }
+    },
+    {
+      "name": "book-publish-forge",
+      "full_name": "HenricHuntsman/book-publish-forge",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "ae9900a4f4b2d7feced19b00846eb362b97fa4e9",
+      "head_date": "2026-10-09T03:12:08Z",
+      "tree_sha": "d174f89ed6248a9d7df739c9ce45c8925bd800e7",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [
+        {
+          "id": 37878180468,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "branch": "main",
+          "sha": "ae9900a4f4b2d7feced19b00846eb362b97fa4e9",
+          "date": "2026-10-09T03:12:11Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/book-publish-forge/actions/runs/37878180468"
+        }
+      ],
+      "sampled_runs": 3,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 10,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "fe4614a28d4aaf5313fdce2e8a347f26ddd7ca4e",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/book-publish-forge/pull/10"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/web-checks.yml"
+      ],
+      "update": null,
+      "assessment": {
+        "display": "Book Publish Forge",
+        "stage": "Beta candidate",
+        "next": "Test real manuscript import/save/export and local-model failure handling"
+      }
+    },
+    {
+      "name": "codex",
+      "full_name": "HenricHuntsman/codex",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "6a57d7980bca3121ca6d0e9b795304ec2d294208",
+      "head_date": "2026-01-11T02:41:08Z",
+      "tree_sha": "e296f92eb84352c7c7ffc2f32f800fcdd75b9435",
+      "empty": false,
+      "parent": {
+        "full_name": "openai/codex",
+        "default_branch": "main",
+        "head_sha": "67f0994b532b8740f14b5b738af7b7b2a915b1d6"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 10176
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 2,
+          "title": "chore: prepare pinned upstream synchronisation",
+          "head": "sync/upstream-20261018-7b44ac1",
+          "sha": "7b44ac1661433ae3a6f375fde873fa7123c935fe",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/codex/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "de7433ce7868c56b14546e7b0541f92bc16d09a2",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/codex/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261018-7b44ac1",
+        "sha": "67f0994b532b8740f14b5b738af7b7b2a915b1d6",
+        "number": 2,
+        "url": "https://github.com/HenricHuntsman/codex/pull/2",
+        "operation": "fast-forward existing draft",
+        "ci": [
+          {
+            "id": 41294184075,
+            "name": "blocking-ci",
+            "status": "in_progress",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/codex/actions/runs/41294184075"
+          },
+          {
+            "id": 41294184032,
+            "name": "v8-canary",
+            "status": "completed",
+            "conclusion": "failure",
+            "url": "https://github.com/HenricHuntsman/codex/actions/runs/41294184032"
+          }
+        ]
+      },
+      "assessment": {
+        "display": "codex",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "continue",
+      "full_name": "HenricHuntsman/continue",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "a1ead04122664b308131bdf1c3345ead00146bbc",
+      "head_date": "2026-04-02T03:03:03Z",
+      "tree_sha": "23e3b06c52475cecd7d872155ecf5358acde3cef",
+      "empty": false,
+      "parent": {
+        "full_name": "continuedev/continue",
+        "default_branch": "main",
+        "head_sha": "5522c6f44ca0ac3528b37244818fbfa39b5af470"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 77
+      },
+      "default_runs": [
+        {
+          "id": 39080144414,
+          "name": "CLA Assistant",
+          "path": ".github/workflows/cla.yaml",
+          "branch": "main",
+          "sha": "a1ead04122664b308131bdf1c3345ead00146bbc",
+          "date": "2026-10-17T23:44:02Z",
+          "status": "completed",
+          "conclusion": "skipped",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/continue/actions/runs/39080144414"
+        }
+      ],
+      "sampled_runs": 1,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 2,
+          "title": "chore: prepare pinned upstream synchronisation",
+          "head": "sync/upstream-20261018-5522c6f",
+          "sha": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/continue/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "cd855dae697d64ee8f93b6e726cb8045ffd0c993",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/continue/pull/1"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/auto-assign-issue.yaml",
+        ".github/workflows/auto-fix-failed-tests.yml",
+        ".github/workflows/auto-release.yml",
+        ".github/workflows/cla.yaml",
+        ".github/workflows/cli-pr-checks.yml",
+        ".github/workflows/continue-agents.yml",
+        ".github/workflows/delete-stale-branches.yaml",
+        ".github/workflows/jetbrains-release.yaml",
+        ".github/workflows/label-merged-prs.yml",
+        ".github/workflows/main-build.yaml",
+        ".github/workflows/main.yaml",
+        ".github/workflows/metrics.yaml",
+        ".github/workflows/pr-build-upload-vsix.yaml",
+        ".github/workflows/pr-checks.yaml",
+        ".github/workflows/preview.yaml",
+        ".github/workflows/release-config-yaml.yml",
+        ".github/workflows/release-fetch.yml",
+        ".github/workflows/release-llm-info.yml",
+        ".github/workflows/release-openai-adapters.yml",
+        ".github/workflows/reusable-release.yml",
+        ".github/workflows/run-continue-agent.yml",
+        ".github/workflows/runloop-blueprint-staging-template.json",
+        ".github/workflows/runloop-blueprint-template.json",
+        ".github/workflows/similar-issues.yml",
+        ".github/workflows/snyk-agent.yaml",
+        ".github/workflows/stable-release.yml",
+        ".github/workflows/stale-issue-helper.yaml",
+        ".github/workflows/submit-github-dependency-graph.yml",
+        ".github/workflows/tidy-up-codebase.yml",
+        ".github/workflows/upload-runloop-blueprint.yml",
+        ".github/workflows/vscode-prerelease.yml",
+        ".github/workflows/vscode-version-bump.yml"
+      ],
+      "update": {
+        "branch": "sync/upstream-20261018-5522c6f",
+        "sha": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+        "number": 2,
+        "url": "https://github.com/HenricHuntsman/continue/pull/2",
+        "operation": "existing draft already matches current upstream",
+        "ci": []
+      },
+      "assessment": {
+        "display": "continue",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "dragonforge-code",
+      "full_name": "HenricHuntsman/dragonforge-code",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "19145d1a246637412ecd6a388e4b003367bae339",
+      "head_date": "2026-11-01T08:51:24Z",
+      "tree_sha": "998e6009aaa8798bc3febc70780f35ac243aa73b",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [
+        {
+          "id": 39497259492,
+          "name": "DragonForge local-first labs",
+          "path": ".github/workflows/dragonforge-labs.yml",
+          "branch": "main",
+          "sha": "9143c6556d8a500f756cc5ed1d01464415468a0f",
+          "date": "2026-10-20T21:03:42Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": false,
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259492"
+        },
+        {
+          "id": 39497259544,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "branch": "main",
+          "sha": "9143c6556d8a500f756cc5ed1d01464415468a0f",
+          "date": "2026-10-20T21:03:42Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": false,
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259544"
+        },
+        {
+          "id": 39497259397,
+          "name": "build",
+          "path": ".github/workflows/build.yml",
+          "branch": "main",
+          "sha": "9143c6556d8a500f756cc5ed1d01464415468a0f",
+          "date": "2026-10-20T21:03:42Z",
+          "status": "completed",
+          "conclusion": "failure",
+          "current_head": false,
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259397"
+        },
+        {
+          "id": 39084419305,
+          "name": "Preserve historical upstream releases",
+          "path": ".github/workflows/archive-upstream-releases.yml",
+          "branch": "main",
+          "sha": "170e9ac3a683d7de0b5fab88f9e1b30d61829740",
+          "date": "2026-10-18T00:53:09Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": false,
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39084419305"
+        }
+      ],
+      "sampled_runs": 30,
+      "latest_any_branch": [],
+      "releases": [
+        {
+          "tag": "upstream-v0.0.9",
+          "date": "2026-10-17T14:38:09Z",
+          "assets": 15,
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/releases/tag/upstream-v0.0.9"
+        },
+        {
+          "tag": "upstream-v0.0.7",
+          "date": "2026-10-17T14:37:41Z",
+          "assets": 15,
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/releases/tag/upstream-v0.0.7"
+        },
+        {
+          "tag": "upstream-v0.0.6",
+          "date": "2026-10-17T14:38:38Z",
+          "assets": 15,
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/releases/tag/upstream-v0.0.6"
+        },
+        {
+          "tag": "upstream-v0.0.55",
+          "date": "2026-10-18T01:06:32Z",
+          "assets": 13,
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/releases/tag/upstream-v0.0.55"
+        },
+        {
+          "tag": "upstream-v0.0.54",
+          "date": "2026-10-18T01:06:14Z",
+          "assets": 12,
+          "url": "https://github.com/HenricHuntsman/dragonforge-code/releases/tag/upstream-v0.0.54"
+        }
+      ],
+      "open_prs": [],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "OpenCode Modes / DragonForge history",
+        "stage": "Alpha \u2014 shell launcher",
+        "next": "Run an interactive Ollama tool-call session and qualify the launcher on Ubuntu; historical Go CI and mirrored releases describe older source."
+      }
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "HenricHuntsman/gemini-cli",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "bd590bbde66f9aa7695940635b816d17f80a05ed",
+      "head_date": "2026-03-14T23:33:14Z",
+      "tree_sha": "0b0e06dfaf7c9a1565ba8216480d9484d1a9a460",
+      "empty": false,
+      "parent": {
+        "full_name": "google-gemini/gemini-cli",
+        "default_branch": "main",
+        "head_sha": "6814e00d6b148c3a1d57244d5d7040f7c541009d"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 1273
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 3,
+          "title": "chore: prepare pinned upstream synchronisation",
+          "head": "sync/upstream-20261018-ed96fae",
+          "sha": "ed96faedfd5571f055c44f2c9509d62321d1138d",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/gemini-cli/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "5ec94a5249cace6a06befd52520cc6031f8db002",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/gemini-cli/pull/2"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261018-ed96fae",
+        "sha": "6814e00d6b148c3a1d57244d5d7040f7c541009d",
+        "number": 3,
+        "url": "https://github.com/HenricHuntsman/gemini-cli/pull/3",
+        "operation": "fast-forward existing draft",
+        "ci": [
+          {
+            "id": 41294191810,
+            "name": "Links",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/gemini-cli/actions/runs/41294191810"
+          },
+          {
+            "id": 41294191758,
+            "name": "Testing: CI",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/gemini-cli/actions/runs/41294191758"
+          },
+          {
+            "id": 41294191772,
+            "name": "Agent Session Drift Check",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/gemini-cli/actions/runs/41294191772"
+          },
+          {
+            "id": 41294191764,
+            "name": "Trigger E2E",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/gemini-cli/actions/runs/41294191764"
+          },
+          {
+            "id": 41294191835,
+            "name": "Testing: Tools (Python)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/gemini-cli/actions/runs/41294191835"
+          }
+        ]
+      },
+      "assessment": {
+        "display": "gemini-cli",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "HenricHuntsman",
+      "full_name": "HenricHuntsman/HenricHuntsman",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "2344d8f0e202b1f009bf55f8ee38234ccfc0db2f",
+      "head_date": "2026-11-01T09:11:31Z",
+      "tree_sha": "8060226d29b0399df86716632a6a31b2745c3f30",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [
+        {
+          "id": 39134948356,
+          "name": "External Linux and Skai evaluation",
+          "path": ".github/workflows/external-linux-evaluation.yml",
+          "branch": "main",
+          "sha": "7ae84c80939d1620f5bcea548214bd3d18b5d049",
+          "date": "2026-10-18T14:12:26Z",
+          "status": "completed",
+          "conclusion": "failure",
+          "current_head": false,
+          "url": "https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39134948356"
+        }
+      ],
+      "sampled_runs": 6,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 5,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "d8ef9340d48559dcf77c2bd4cfbdce5aec178223",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/HenricHuntsman/pull/5"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/external-linux-evaluation.yml"
+      ],
+      "update": null,
+      "assessment": {
+        "display": "Henric \u2014 Project Hub",
+        "stage": "Documentation",
+        "next": "Maintain dated public evidence and keep private findings in the private review. The old external ISO checksum failure remains historical evidence."
+      }
+    },
+    {
+      "name": "https-github.com-SpidermanTotro-genspark-os",
+      "full_name": "HenricHuntsman/https-github.com-SpidermanTotro-genspark-os",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "d50c5c06af6b6243dfb3f0640b9b0c66ca8e8b93",
+      "head_date": "2026-10-17T23:40:45Z",
+      "tree_sha": "135b8b9d87258871fb1aec50586302c463575772",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "2b93dbe838443c49577884bdb3c22285ec4b3335",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/https-github.com-SpidermanTotro-genspark-os/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "Genspark OS Concept",
+        "stage": "Planning",
+        "next": "Define scope; no bootable OS or installer verified"
+      }
+    },
+    {
+      "name": "kilo",
+      "full_name": "HenricHuntsman/kilo",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "6f08110d4dcc36200c084a7b4134ec040cedfd61",
+      "head_date": "2026-02-22T15:30:31Z",
+      "tree_sha": "e25480622be38eeaddc138a08278b99e187726ae",
+      "empty": false,
+      "parent": {
+        "full_name": "Kilo-Org/kilo",
+        "default_branch": "main",
+        "head_sha": "6f08110d4dcc36200c084a7b4134ec040cedfd61"
+      },
+      "comparison": {
+        "status": "identical",
+        "ahead_by": 0,
+        "behind_by": 0
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "Kilo \u2014 moved repository reference",
+        "stage": "Upstream reference \u2014 moved",
+        "next": "Upstream README redirects to Kilo-Org/kilocode. No new commits are incoming; qualify the active kilocode fork separately."
+      }
+    },
+    {
+      "name": "kilocode",
+      "full_name": "HenricHuntsman/kilocode",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "b3036eb73b3dd0ff755faeb9eb802e447420a4a3",
+      "head_date": "2026-10-09T12:29:25Z",
+      "tree_sha": "35c1e0a99ac56e29ea761c20162d34346d6152a2",
+      "empty": false,
+      "parent": {
+        "full_name": "Kilo-Org/kilocode",
+        "default_branch": "main",
+        "head_sha": "dd35e09db9c74c62c84423df485fb3603a02dba1"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 641
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 5,
+          "title": "chore: prepare pinned upstream synchronisation",
+          "head": "sync/upstream-20261018-2a1903f",
+          "sha": "2a1903f29186e25adec0bace14f6ee589095f7eb",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/kilocode/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "40976e8f359dcdf8608fd5b829baaa73c464007d",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/kilocode/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "feat(rabbit): Rabbit Code Native \u2014 Fedora host + Ollama, no Distrobox",
+          "head": "feat/rabbit-code-fedora-native",
+          "sha": "b8e5d197e197c0930b76898023574eeff733ec01",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/kilocode/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "feat: NebulaShell v1.0.0 \u2014 Fedora AI launcher rebuilt from scratch",
+          "head": "feat/nebulashell",
+          "sha": "321a2ce0713590a4bd8d435b599ee5fea3481c63",
+          "base": "fix/fedora-distrobox-desktop",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/kilocode/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "feat(fedora): Fedora/Distrobox launcher, Ollama setup, CI",
+          "head": "fix/fedora-distrobox-desktop",
+          "sha": "c271b3b9bb4d57f51d3e5235089021201c4be733",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/kilocode/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261018-2a1903f",
+        "sha": "dd35e09db9c74c62c84423df485fb3603a02dba1",
+        "number": 5,
+        "url": "https://github.com/HenricHuntsman/kilocode/pull/5",
+        "operation": "fast-forward existing draft",
+        "ci": [
+          {
+            "id": 41294194394,
+            "name": "Check Links",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194394"
+          },
+          {
+            "id": 41294194308,
+            "name": "Check Source Links",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194308"
+          },
+          {
+            "id": 41294194341,
+            "name": "test",
+            "status": "queued",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194341"
+          },
+          {
+            "id": 41294194411,
+            "name": "nix-eval",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194411"
+          },
+          {
+            "id": 41294194300,
+            "name": "CodeQL Advanced",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194300"
+          },
+          {
+            "id": 41294194331,
+            "name": "v2-port tracker",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194331"
+          },
+          {
+            "id": 41294194360,
+            "name": "CodeQL Kotlin",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194360"
+          },
+          {
+            "id": 41294194352,
+            "name": "Check forbidden strings",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194352"
+          },
+          {
+            "id": 41294194257,
+            "name": "Check Kilo generated artifacts",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194257"
+          },
+          {
+            "id": 41294194401,
+            "name": "Check markdown table padding",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194401"
+          },
+          {
+            "id": 41294194235,
+            "name": "Check shared upstream annotations",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194235"
+          },
+          {
+            "id": 41294194310,
+            "name": "Community triage test",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194310"
+          },
+          {
+            "id": 41294194405,
+            "name": "docs-build",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194405"
+          },
+          {
+            "id": 41294194317,
+            "name": "test-vscode",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194317"
+          },
+          {
+            "id": 41294194406,
+            "name": "Visual Regression Tests",
+            "status": "completed",
+            "conclusion": "failure",
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194406"
+          },
+          {
+            "id": 41294194289,
+            "name": "typecheck",
+            "status": "queued",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/kilocode/actions/runs/41294194289"
+          }
+        ]
+      },
+      "assessment": {
+        "display": "kilocode",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "Kimi-K2",
+      "full_name": "HenricHuntsman/Kimi-K2",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "d98112ffba1e695620f116054e74666b0da20c58",
+      "head_date": "2026-10-18T00:31:47Z",
+      "tree_sha": "d0b54cb6be607677f69b7f8e7998506c14530260",
+      "empty": false,
+      "parent": {
+        "full_name": "MoonshotAI/Kimi-K2",
+        "default_branch": "main",
+        "head_sha": "1b4022bbb7187cf4011a8bdf0b4cd10e2daa26c4"
+      },
+      "comparison": {
+        "status": "ahead",
+        "ahead_by": 38,
+        "behind_by": 0
+      },
+      "default_runs": [
+        {
+          "id": 39083094509,
+          "name": "Prototype integrity checks",
+          "path": ".github/workflows/demo-checks.yml",
+          "branch": "main",
+          "sha": "d98112ffba1e695620f116054e74666b0da20c58",
+          "date": "2026-10-18T00:31:50Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/Kimi-K2/actions/runs/39083094509"
+        }
+      ],
+      "sampled_runs": 9,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 47,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "525f818f9ad4c828ed14d674020f58c2024d36a6",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/Kimi-K2/pull/47"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/demo-checks.yml"
+      ],
+      "update": null,
+      "assessment": {
+        "display": "FORGE Integration Lab \u2014 Kimi K2 / Local Qwen",
+        "stage": "Prototype \u2014 opt-in local Ollama adapter",
+        "next": "Run a real local Qwen session; fixture tests do not establish live inference, training, tool execution or OS creation."
+      }
+    },
+    {
+      "name": "LisaAI-DatingApp",
+      "full_name": "HenricHuntsman/LisaAI-DatingApp",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "355c4a2ca0dffea742985c1705b5d2b7c06b0bde",
+      "head_date": "2026-07-13T02:48:27Z",
+      "tree_sha": "16a6448a303fc700c596ace99f41661868cdda3b",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 3,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "9fbf47b5853017d54fc17d3496f397015d0b9a79",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/LisaAI-DatingApp/pull/3"
+        }
+      ],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "Lisa AI Journal Prototype",
+        "stage": "Prototype",
+        "next": "Resolve README-reported historical privacy exposure and create a valid Xcode project"
+      }
+    },
+    {
+      "name": "LLM4Decompile",
+      "full_name": "HenricHuntsman/LLM4Decompile",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "09077026542220583340859b87a9f31a5b77f283",
+      "head_date": "2026-10-17T14:39:29Z",
+      "tree_sha": "31564e3670ea592ad1316c5b9d92466fbd1d017e",
+      "empty": false,
+      "parent": {
+        "full_name": "albertan017/LLM4Decompile",
+        "default_branch": "main",
+        "head_sha": "85b364bf093eb2ee4f3687cfe38a203fca89f23e"
+      },
+      "comparison": {
+        "status": "ahead",
+        "ahead_by": 6,
+        "behind_by": 0
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "6e513ca35c5ef6c569c63288c1cb1bb0e7c7b4a0",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/LLM4Decompile/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "Henric N64 Decompiler Lab",
+        "stage": "Alpha / research",
+        "next": "Run real local checkpoint and Ghidra/MIPS fixture; verify emulator behavior"
+      }
+    },
+    {
+      "name": "mini-AGI",
+      "full_name": "HenricHuntsman/mini-AGI",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "3f2dc7a665e29f8d3feff92d7370386e76f44ef0",
+      "head_date": "2026-10-14T03:14:46Z",
+      "tree_sha": "f2d288e3dbe2ab03033f855b3bbf4d24a0c09cab",
+      "empty": false,
+      "parent": {
+        "full_name": "volotat/mini-AGI",
+        "default_branch": "main",
+        "head_sha": "9b2bc5a9f1b381bee738b624dee331e543f80917"
+      },
+      "comparison": {
+        "status": "diverged",
+        "ahead_by": 139,
+        "behind_by": 10
+      },
+      "default_runs": [
+        {
+          "id": 38505247412,
+          "name": "Tests",
+          "path": ".github/workflows/tests.yml",
+          "branch": "main",
+          "sha": "3f2dc7a665e29f8d3feff92d7370386e76f44ef0",
+          "date": "2026-10-14T03:14:49Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/actions/runs/38505247412"
+        },
+        {
+          "id": 37850744699,
+          "name": "Android",
+          "path": ".github/workflows/android.yml",
+          "branch": "main",
+          "sha": "89ade1f99345de29ed2f8d5144b5de600cae99b4",
+          "date": "2026-10-08T22:01:09Z",
+          "status": "completed",
+          "conclusion": "failure",
+          "current_head": false,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/actions/runs/37850744699"
+        }
+      ],
+      "sampled_runs": 30,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 53,
+          "title": "hotfix: run paged causality benchmark directly without PYTHONPATH",
+          "head": "hotfix/paged-benchmark-cli-20261028",
+          "sha": "523755ab6e0fe3c22bd1fb8614015adf8f1108be",
+          "base": "fix/paged-eval-causal-admission-20261028",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/53"
+        },
+        {
+          "number": 52,
+          "title": "test: isolate remaining paged training causality regression",
+          "head": "debug/paged-training-causality-20261028",
+          "sha": "d0c7f62dc76b88561c4b957b36bb572fa39cbf76",
+          "base": "fix/paged-eval-causal-admission-20261028",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/52"
+        },
+        {
+          "number": 51,
+          "title": "fix: causal paged expert admission for no-grad evaluation",
+          "head": "fix/paged-eval-causal-admission-20261028",
+          "sha": "eaed13feb96bdb87262a9a4254325783cb29bcdc",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/51"
+        },
+        {
+          "number": 50,
+          "title": "fix: harden model artifact verification against unsafe manifests",
+          "head": "fix/model-artifact-verifier-safety-20261028",
+          "sha": "9ec6dee73e2a7c504335f6cb0ea48c648d3975b1",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/50"
+        },
+        {
+          "number": 49,
+          "title": "docs: inventory and renew Greenlight folder documentation",
+          "head": "maintenance/repository-folder-renewal-20261028",
+          "sha": "b70fd21f2501bc8de7b2bb48f18cdfb7e4774638",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/49"
+        },
+        {
+          "number": 48,
+          "title": "docs: renew rebuild and checkpoint recovery instructions",
+          "head": "docs/checkpoint-recovery-refresh-20261028",
+          "sha": "d72dd39efd8c4606ccf00de4ad45d921ead74170",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/48"
+        },
+        {
+          "number": 47,
+          "title": "fix: validate checkpoint manifest expert entries before loading",
+          "head": "fix/checkpoint-loader-manifest-safety-20261028",
+          "sha": "136087a7cc6bc9d9ed549a4d20798c561309c4e9",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/47"
+        },
+        {
+          "number": 46,
+          "title": "fix: Training Doctor reports malformed checkpoint manifests safely",
+          "head": "fix/training-doctor-invalid-manifest-20261028",
+          "sha": "9622739ca1cb072b8d398c258eb6038389f5e332",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/46"
+        },
+        {
+          "number": 45,
+          "title": "test: reproduce paged expert causality regression",
+          "head": "debug/paged-causality-regression-20261028",
+          "sha": "c7eef59ff6f70076ba87ad99f682963cf724b1de",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/45"
+        },
+        {
+          "number": 44,
+          "title": "fix: normalize pool.balance in self-knowledge facts",
+          "head": "fix/chat-facts-balance-type-20261028",
+          "sha": "254f3bf013a7bad115b74321d2b8f78e4938592f",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/44"
+        },
+        {
+          "number": 43,
+          "title": "chore: integrate upstream training updates with Greenlight safeguards",
+          "head": "sync/upstream-20261018-95e901e",
+          "sha": "2063613a6c93fbaf1fb613e5a1d4c7da38d12db6",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/43"
+        },
+        {
+          "number": 42,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "ac8ad75ba538514dfa4572cf641e2d8613146dd0",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/42"
+        },
+        {
+          "number": 41,
+          "title": "Greenlight Next v0.1: checkpoint-safe development baseline",
+          "head": "feature/greenlight-next-v01-20261011",
+          "sha": "7f21a61ba30c50596448cdeba989e92d1a987407",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/41"
+        },
+        {
+          "number": 36,
+          "title": "test: protect Greenlight GradSNR against conditional-gradient regressions",
+          "head": "fix/greenlight-gradsnr-regression-20261011",
+          "sha": "f68d5d94301c2c0ff84c3fd0743bfbcca14835a4",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/36"
+        },
+        {
+          "number": 33,
+          "title": "Experiment: deterministic upstream expert balance",
+          "head": "experiment/upstream-expert-balance",
+          "sha": "9feddbcee92da27627da4c7abc2945c69c718da3",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/33"
+        },
+        {
+          "number": 25,
+          "title": "Experiment: isolated router balance candidate",
+          "head": "experiment/router-balance-00035",
+          "sha": "784eccaf095288981e90cda7f3fd80a1402f5162",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/mini-AGI/pull/25"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/android.yml",
+        ".github/workflows/tests.yml"
+      ],
+      "update": {
+        "branch": "sync/upstream-20261101-9b2bc5a",
+        "sha": "f4fd38f40fbe4e6d14e013855704d4ad7ebaa7cd",
+        "number": 54,
+        "url": "https://github.com/HenricHuntsman/mini-AGI/pull/54",
+        "operation": "new two-parent integration draft; older candidate retained",
+        "tree": "deb0967d94f4910ef915e7922511f14da980fdad",
+        "ci": [
+          {
+            "id": 41295712164,
+            "name": "Tests",
+            "status": "queued",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/mini-AGI/actions/runs/41295712164"
+          }
+        ]
+      },
+      "assessment": {
+        "display": "mini-AGI / Greenlight",
+        "stage": "Alpha / research",
+        "next": "Keep CPU CI separate from RTX 5060 Ti resume, optimizer and router-balance evidence"
+      }
+    },
+    {
+      "name": "NebulaUltimate",
+      "full_name": "HenricHuntsman/NebulaUltimate",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "dc01a532366566a4ef2b41a1d19c57c291ac5095",
+      "head_date": "2026-07-18T18:45:39Z",
+      "tree_sha": "9638be8ce9abf9439f86306601c3045c9d315290",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [
+        {
+          "id": 29656493840,
+          "name": "CI",
+          "path": ".github/workflows/pylint.yml",
+          "branch": "main",
+          "sha": "dc01a532366566a4ef2b41a1d19c57c291ac5095",
+          "date": "2026-07-18T18:45:41Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/NebulaUltimate/actions/runs/29656493840"
+        }
+      ],
+      "sampled_runs": 4,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 5,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "376425971740d06f3e41494b624932e8ed82eaa1",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/NebulaUltimate/pull/5"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/pylint.yml"
+      ],
+      "update": null,
+      "assessment": {
+        "display": "Nebula Ultimate",
+        "stage": "Alpha",
+        "next": "Launch against local Ollama and test actual UI workflow"
+      }
+    },
+    {
+      "name": "nvm",
+      "full_name": "HenricHuntsman/nvm",
+      "visibility": "public",
+      "default_branch": "master",
+      "head_sha": "ec8906b284d000b414da78855be90d7ae8152b77",
+      "head_date": "2019-12-06T03:30:26Z",
+      "tree_sha": "c6c10dce1fec5c04cd626b895b212d7b426a8f65",
+      "empty": false,
+      "parent": {
+        "full_name": "nvm-sh/nvm",
+        "default_branch": "master",
+        "head_sha": "5e38bc0caed342356ffd26eb21e0e9b995ac228b"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 218
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 2,
+          "title": "chore: prepare pinned upstream synchronisation",
+          "head": "sync/upstream-20261018-b1b3a00",
+          "sha": "b1b3a0038c0666c7436cb5d383608b4b72c8300b",
+          "base": "master",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/nvm/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "8c1272ecaae46f3c8e77dafbee77e34e9c9a1595",
+          "base": "master",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/nvm/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261018-b1b3a00",
+        "sha": "5e38bc0caed342356ffd26eb21e0e9b995ac228b",
+        "number": 2,
+        "url": "https://github.com/HenricHuntsman/nvm/pull/2",
+        "operation": "fast-forward existing draft",
+        "ci": []
+      },
+      "assessment": {
+        "display": "nvm",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "nxdumptool",
+      "full_name": "HenricHuntsman/nxdumptool",
+      "visibility": "public",
+      "default_branch": "rewrite",
+      "head_sha": "ade1a481121498ec649fbc832afe733050790acd",
+      "head_date": "2026-08-04T00:02:39Z",
+      "tree_sha": "d44f182aa497a81527c8c506aeb35163a49c939b",
+      "empty": false,
+      "parent": {
+        "full_name": "DarkMatterCore/nxdumptool",
+        "default_branch": "rewrite",
+        "head_sha": "5ca8cd5e491fb0d7c196b06e7ceeee5c0dcc6a26"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 2
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "583d20db8bed671e62ef33d976c3f671b548866b",
+          "base": "rewrite",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/nxdumptool/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261101-5ca8cd5",
+        "sha": "5ca8cd5e491fb0d7c196b06e7ceeee5c0dcc6a26",
+        "number": 2,
+        "url": "https://github.com/HenricHuntsman/nxdumptool/pull/2",
+        "operation": "new upstream snapshot draft",
+        "ci": []
+      },
+      "assessment": {
+        "display": "nxdumptool",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Review the two-commit candidate, including upstream\u2019s discontinued-project notice. Toolchain and on-console acceptance remain unverified."
+      }
+    },
+    {
+      "name": "opencode",
+      "full_name": "HenricHuntsman/opencode",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "029871c47eaa3b551865fb67e3196d8f3da4050a",
+      "head_date": "2026-10-19T02:33:15Z",
+      "tree_sha": "cd26b6ae0fee086c63383e1940ab25e9d334fd12",
+      "empty": false,
+      "parent": {
+        "full_name": "opencode-ai/opencode",
+        "default_branch": "main",
+        "head_sha": "73ee493265acf15fcd8caab2bc8cd3bd375b63cb"
+      },
+      "comparison": {
+        "status": "ahead",
+        "ahead_by": 12,
+        "behind_by": 0
+      },
+      "default_runs": [
+        {
+          "id": 39190511075,
+          "name": "build",
+          "path": ".github/workflows/build.yml",
+          "branch": "main",
+          "sha": "029871c47eaa3b551865fb67e3196d8f3da4050a",
+          "date": "2026-10-19T02:33:18Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/opencode/actions/runs/39190511075"
+        },
+        {
+          "id": 39190511069,
+          "name": "ci",
+          "path": ".github/workflows/ci.yml",
+          "branch": "main",
+          "sha": "029871c47eaa3b551865fb67e3196d8f3da4050a",
+          "date": "2026-10-19T02:33:18Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/opencode/actions/runs/39190511069"
+        }
+      ],
+      "sampled_runs": 19,
+      "latest_any_branch": [],
+      "releases": [
+        {
+          "tag": "v0.0.56",
+          "date": "2026-10-17T12:15:32Z",
+          "assets": 9,
+          "url": "https://github.com/HenricHuntsman/opencode/releases/tag/v0.0.56"
+        }
+      ],
+      "open_prs": [
+        {
+          "number": 14,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "d6ec46684153f26a10f6f133d1fc5bae1e3fcef7",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/opencode/pull/14"
+        },
+        {
+          "number": 12,
+          "title": "Prepare independent DragonForge Code migration (no changes to engine)",
+          "head": "feat/dragonforge-independence-prep",
+          "sha": "ba8f743b765ee757ead0349888232699c8fec127",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/opencode/pull/12"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/build.yml",
+        ".github/workflows/ci.yml",
+        ".github/workflows/release.yml"
+      ],
+      "update": null,
+      "assessment": {
+        "display": "OpenCode \u2014 Welcome Back Edition",
+        "stage": "Released development build",
+        "next": "Smoke-test v0.0.56 on Ubuntu with an installed Ollama model; check upgrade and rollback"
+      }
+    },
+    {
+      "name": "QuestMaster-Pro",
+      "full_name": "HenricHuntsman/QuestMaster-Pro",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "4b3eccec267cfce9bab128d795831051c539ba7b",
+      "head_date": "2026-10-08T22:00:51Z",
+      "tree_sha": "be1a2690986961f25ab2d82af80d33b45a972e09",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [
+        {
+          "id": 37850715181,
+          "name": "Lua validation",
+          "path": ".github/workflows/luacheck.yml",
+          "branch": "main",
+          "sha": "4b3eccec267cfce9bab128d795831051c539ba7b",
+          "date": "2026-10-08T22:00:54Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/QuestMaster-Pro/actions/runs/37850715181"
+        }
+      ],
+      "sampled_runs": 10,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 15,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "4e5ca955da7b8e6143c8074b8a8544052514d86d",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/QuestMaster-Pro/pull/15"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/luacheck.yml"
+      ],
+      "update": null,
+      "assessment": {
+        "display": "QuestMaster Pro",
+        "stage": "Beta candidate",
+        "next": "Validate current Retail/Classic clients in-game and test real guide routes"
+      }
+    },
+    {
+      "name": "QuestMasterPro",
+      "full_name": "HenricHuntsman/QuestMasterPro",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "d036a65a0c160cb7a40ad3f3b4c6cb8de48895cc",
+      "head_date": "2026-10-17T14:28:30Z",
+      "tree_sha": "66b4eebe71babc32f8057540fbd9d724390a9fd3",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 4,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "503863bf2106ed53c8b2a64b22bd01bf57c2a11b",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/QuestMasterPro/pull/4"
+        }
+      ],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "QuestMaster Legacy Archives",
+        "stage": "Legacy archive",
+        "next": "Compare retained experimental archives before porting unique code"
+      }
+    },
+    {
+      "name": "rabbit-foundry",
+      "full_name": "HenricHuntsman/rabbit-foundry",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "a9b0913f16ba56e7eff6601f01f7edbc82f811dc",
+      "head_date": "2026-10-19T02:33:11Z",
+      "tree_sha": "6aa40e3fd8090537fde0643418fdf39832cc0aaa",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [
+        {
+          "id": 39190504315,
+          "name": "Rabbit Code tests",
+          "path": ".github/workflows/tests.yml",
+          "branch": "main",
+          "sha": "a9b0913f16ba56e7eff6601f01f7edbc82f811dc",
+          "date": "2026-10-19T02:33:13Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/rabbit-foundry/actions/runs/39190504315"
+        }
+      ],
+      "sampled_runs": 30,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 2,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "795f7ac90e650dd13d6a141594d0a36787cf37f3",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/rabbit-foundry/pull/2"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/tests.yml"
+      ],
+      "update": null,
+      "assessment": {
+        "display": "Rabbit Code",
+        "stage": "Beta candidate",
+        "next": "Run a real local-model tool-call session, then verify installer and session resume"
+      }
+    },
+    {
+      "name": "rea",
+      "full_name": "HenricHuntsman/rea",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "2c7583599b9ac1c847bd77b1940930fd8d4594c7",
+      "head_date": "2026-10-16T05:10:49Z",
+      "tree_sha": "350a787c14292ae44d46effd31407bf585e70ea1",
+      "empty": false,
+      "parent": {
+        "full_name": "morluto/rea",
+        "default_branch": "main",
+        "head_sha": "7c755f2147528151d8186278d1c739fbf455f238"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 2896
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 4,
+          "title": "feat(fork): start Dragon REA independent cloud development edition",
+          "head": "feature/rea-independent-edition-20261020",
+          "sha": "b0c3d2dfafd39f3732fd43f776d5bbe217efc18a",
+          "base": "sync/upstream-20261018-d205c52",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/rea/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "docs: start REA iPhone review workflow (no app changes)",
+          "head": "review/iphone-rea-20261020",
+          "sha": "708854f47fcee6a15d91cbc9d5b68aeabe709fb3",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/rea/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "chore: prepare pinned upstream synchronisation",
+          "head": "sync/upstream-20261018-d205c52",
+          "sha": "d205c528e31897f1f2919b80a4245356b502c703",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/rea/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "7b801bb9e8ec743eb4b656cc54c31ff312b08aba",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/rea/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261101-7c755f2",
+        "sha": "7c755f2147528151d8186278d1c739fbf455f238",
+        "number": 5,
+        "url": "https://github.com/HenricHuntsman/rea/pull/5",
+        "operation": "new upstream snapshot draft",
+        "ci": [
+          {
+            "id": 41294247070,
+            "name": "CodeQL production",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/HenricHuntsman/rea/actions/runs/41294247070"
+          },
+          {
+            "id": 41294247003,
+            "name": "CI",
+            "status": "queued",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/rea/actions/runs/41294247003"
+          },
+          {
+            "id": 41294247006,
+            "name": "PR title",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/rea/actions/runs/41294247006"
+          },
+          {
+            "id": 41294247120,
+            "name": "Real Go binary metadata",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/rea/actions/runs/41294247120"
+          }
+        ]
+      },
+      "assessment": {
+        "display": "rea",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "repo-manager-ultimate",
+      "full_name": "HenricHuntsman/repo-manager-ultimate",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "faf58a3c9901d3f607a6f707c4025826af0155f0",
+      "head_date": "2026-11-01T09:13:34Z",
+      "tree_sha": "cc7762719367df0cd2ba73e2b9a569fc63ce6b8d",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [
+        {
+          "id": 41288422482,
+          "name": "Phone & Cloud Progress",
+          "path": ".github/workflows/cloud-continuity.yml",
+          "branch": "main",
+          "sha": "93bfed9c63c8d57e0d0537eef1a464d99beedb76",
+          "date": "2026-11-01T09:20:06Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": false,
+          "url": "https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/41288422482"
+        },
+        {
+          "id": 41292185102,
+          "name": "CI",
+          "path": ".github/workflows/ci.yml",
+          "branch": "main",
+          "sha": "faf58a3c9901d3f607a6f707c4025826af0155f0",
+          "date": "2026-11-01T09:13:37Z",
+          "status": "completed",
+          "conclusion": "success",
+          "current_head": true,
+          "url": "https://github.com/HenricHuntsman/repo-manager-ultimate/actions/runs/41292185102"
+        }
+      ],
+      "sampled_runs": 30,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 11,
+          "title": "feat(inventory): integrate local Dragon Project Doctor reports",
+          "head": "feature/local-doctor-inventory-20261019",
+          "sha": "3423b6904494a1cafc4bf35be0099b18758ccd75",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/repo-manager-ultimate/pull/11"
+        },
+        {
+          "number": 10,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "29159a2f436a150c0c6e02d36c4ee35ccf67b717",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/repo-manager-ultimate/pull/10"
+        }
+      ],
+      "workflow_paths": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/cloud-continuity.yml",
+        ".github/workflows/linux-package-qualification.yml",
+        ".github/workflows/package-linux.yml",
+        ".github/workflows/repoforge-website.yml"
+      ],
+      "update": null,
+      "assessment": {
+        "display": "Huntsman Repo Manager / RepoForge",
+        "stage": "Beta candidate",
+        "next": "Test packaged AppImage/deb and read-only live scans on Ubuntu"
+      }
+    },
+    {
+      "name": "skai_ap",
+      "full_name": "HenricHuntsman/skai_ap",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "3bd015fe45653b867fab2cb8c98e7c8c8f0a8238",
+      "head_date": "2026-03-14T19:32:44Z",
+      "tree_sha": "ea31fa2d4afe1370a8a7ce7ef4c4b19cbc0e2413",
+      "empty": false,
+      "parent": {
+        "full_name": "Endrx2008/skai_ap",
+        "default_branch": "main",
+        "head_sha": "3bd015fe45653b867fab2cb8c98e7c8c8f0a8238"
+      },
+      "comparison": {
+        "status": "identical",
+        "ahead_by": 0,
+        "behind_by": 0
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "Skai local chat reference",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Verify the browser and loopback Ollama workflow; profile-hosted evaluation is separate from this fork\u2019s own CI."
+      }
+    },
+    {
+      "name": "skorpion_os",
+      "full_name": "HenricHuntsman/skorpion_os",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "e24616de79cfb5941b9287e9ebe4534baa45a7b5",
+      "head_date": "2026-08-30T07:54:22Z",
+      "tree_sha": "87e9d4168ff8786325452cae630f13262f2b6d52",
+      "empty": false,
+      "parent": {
+        "full_name": "Endrx2008/skorpion_os",
+        "default_branch": "main",
+        "head_sha": "921ef358e954b490d3a075cb8c9b733a1e6a31ef"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 1
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261101-921ef35",
+        "sha": "921ef358e954b490d3a075cb8c9b733a1e6a31ef",
+        "number": 1,
+        "url": "https://github.com/HenricHuntsman/skorpion_os/pull/1",
+        "operation": "new upstream snapshot draft",
+        "ci": []
+      },
+      "assessment": {
+        "display": "Skorpion OS reference",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Review the new ISO link, verify the complete download and checksum, then capture independent guest boot evidence."
+      }
+    },
+    {
+      "name": "Trinity-Studio-Architecture",
+      "full_name": "HenricHuntsman/Trinity-Studio-Architecture",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "093d52c9b205172881b9c8a35d6ac8f68eaaf22f",
+      "head_date": "2026-10-17T14:44:01Z",
+      "tree_sha": "65c34c1c4f66d7dc9cf7b529556cce3f5215971c",
+      "empty": false,
+      "parent": null,
+      "comparison": null,
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 7,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "73381a6e67ba1088dfb4fcb29914d3c0f8cb4758",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/Trinity-Studio-Architecture/pull/7"
+        },
+        {
+          "number": 6,
+          "title": "docs: clarify project maturity and next validation steps",
+          "head": "docs/clarify-project-status-20261014",
+          "sha": "67051966c4bb395beb232289a1ee7b1f42756281",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/Trinity-Studio-Architecture/pull/6"
+        }
+      ],
+      "workflow_paths": null,
+      "update": null,
+      "assessment": {
+        "display": "Trinity Studio \u2014 Architecture Seed",
+        "stage": "Planning",
+        "next": "Implement proposed read-only status/doctor CLI as a separately tested change"
+      }
+    },
+    {
+      "name": "TrinityCore",
+      "full_name": "HenricHuntsman/TrinityCore",
+      "visibility": "public",
+      "default_branch": "master",
+      "head_sha": "4dc5b8c198de9a516b30d64fdc60828258937068",
+      "head_date": "2026-10-17T23:46:11Z",
+      "tree_sha": "c5f3ff3a7059829d4e3fa51a15b7434c2c98c731",
+      "empty": false,
+      "parent": {
+        "full_name": "TrinityCore/TrinityCore",
+        "default_branch": "master",
+        "head_sha": "761b1a2f5f12744568befb9b94739d97167f0c84"
+      },
+      "comparison": {
+        "status": "diverged",
+        "ahead_by": 3,
+        "behind_by": 1603
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 4,
+          "title": "chore: synchronise upstream and preserve fork recovery records",
+          "head": "sync/upstream-20261018-f7cac24",
+          "sha": "35f70d32071b3476348a49d9a1d8f7ff0e3a3dd3",
+          "base": "master",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/TrinityCore/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "96e501f8dac454fae510f08c71e550cdd6720387",
+          "base": "master",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/TrinityCore/pull/3"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261018-f7cac24",
+        "sha": "da6853a060d56d7b1cfd843b04be7134d6c59c36",
+        "number": 4,
+        "url": "https://github.com/HenricHuntsman/TrinityCore/pull/4",
+        "operation": "two-parent upstream integration",
+        "tree": "31db82b74d69f2b437d7a251f0e3d9eaa221285e",
+        "ci": [
+          {
+            "id": 41294631789,
+            "name": "Ubuntu x64",
+            "status": "queued",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/TrinityCore/actions/runs/41294631789"
+          },
+          {
+            "id": 41294631786,
+            "name": "Windows x64",
+            "status": "in_progress",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/TrinityCore/actions/runs/41294631786"
+          },
+          {
+            "id": 41294631776,
+            "name": "macOS arm64",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/TrinityCore/actions/runs/41294631776"
+          }
+        ]
+      },
+      "assessment": {
+        "display": "TrinityCore",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "Vitruvian",
+      "full_name": "HenricHuntsman/Vitruvian",
+      "visibility": "public",
+      "default_branch": "master",
+      "head_sha": "f1532bc1ec5944e1a4dfa34b05262dae07ebec4d",
+      "head_date": "2026-10-17T23:40:42Z",
+      "tree_sha": "dd584a6cef1a56f5fb3d3cba2b7399e9c4d801d7",
+      "empty": false,
+      "parent": {
+        "full_name": "VitruvianOS/Vitruvian",
+        "default_branch": "master",
+        "head_sha": "ae9e032ac215d078f1b6595244d0dca854642d1f"
+      },
+      "comparison": {
+        "status": "diverged",
+        "ahead_by": 2,
+        "behind_by": 1551
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 2,
+          "title": "chore: synchronise upstream and preserve fork recovery records",
+          "head": "sync/upstream-20261018-606e033",
+          "sha": "3166cec463920cb6402eb16aaaf2770a0c157671",
+          "base": "master",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/Vitruvian/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "681262f53fe412d0ac102dc3687dc33831632d49",
+          "base": "master",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/Vitruvian/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261018-606e033",
+        "sha": "87e257129d56342e2260569b9b75ef97e7888664",
+        "number": 2,
+        "url": "https://github.com/HenricHuntsman/Vitruvian/pull/2",
+        "operation": "two-parent upstream integration",
+        "tree": "f9fe23e5a13ddce18fb7be493c0da9e46518a9b2",
+        "ci": []
+      },
+      "assessment": {
+        "display": "Vitruvian",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    },
+    {
+      "name": "wordcraft",
+      "full_name": "HenricHuntsman/wordcraft",
+      "visibility": "public",
+      "default_branch": "main",
+      "head_sha": "04f6f53b8a4d8140c7bb62f949b0a6099a473da1",
+      "head_date": "2026-10-14T06:05:18Z",
+      "tree_sha": "c874207c5f8fb6f09d46b00a157fa693d9110e7c",
+      "empty": false,
+      "parent": {
+        "full_name": "storytold/wordcraft",
+        "default_branch": "main",
+        "head_sha": "a88e005256087285bc7d34310cc0f5f932bc8562"
+      },
+      "comparison": {
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 1987
+      },
+      "default_runs": [],
+      "sampled_runs": 0,
+      "latest_any_branch": [],
+      "releases": [],
+      "open_prs": [
+        {
+          "number": 2,
+          "title": "chore: prepare pinned upstream synchronisation",
+          "head": "sync/upstream-20261018-2f6311c",
+          "sha": "2f6311cc37776dad81998f4e4e50114476c2882c",
+          "base": "main",
+          "draft": true,
+          "url": "https://github.com/HenricHuntsman/wordcraft/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "Add matching dragon repository icon",
+          "head": "design/dragon-repository-icon-20261018",
+          "sha": "e87abdad328812bba9a95017070b27fe305ea1ad",
+          "base": "main",
+          "draft": false,
+          "url": "https://github.com/HenricHuntsman/wordcraft/pull/1"
+        }
+      ],
+      "workflow_paths": null,
+      "update": {
+        "branch": "sync/upstream-20261018-2f6311c",
+        "sha": "a88e005256087285bc7d34310cc0f5f932bc8562",
+        "number": 2,
+        "url": "https://github.com/HenricHuntsman/wordcraft/pull/2",
+        "operation": "fast-forward existing draft",
+        "ci": [
+          {
+            "id": 41294197685,
+            "name": "Windows ARM64",
+            "status": "in_progress",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/wordcraft/actions/runs/41294197685"
+          },
+          {
+            "id": 41294197703,
+            "name": "CI",
+            "status": "in_progress",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/wordcraft/actions/runs/41294197703"
+          },
+          {
+            "id": 41294197664,
+            "name": "Packaging lint",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/wordcraft/actions/runs/41294197664"
+          },
+          {
+            "id": 41294197444,
+            "name": "Printing",
+            "status": "in_progress",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/wordcraft/actions/runs/41294197444"
+          },
+          {
+            "id": 41294197813,
+            "name": "Nix",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/wordcraft/actions/runs/41294197813"
+          },
+          {
+            "id": 41294197687,
+            "name": "FreeBSD",
+            "status": "in_progress",
+            "conclusion": null,
+            "url": "https://github.com/HenricHuntsman/wordcraft/actions/runs/41294197687"
+          },
+          {
+            "id": 41294197677,
+            "name": "SonarCloud",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/HenricHuntsman/wordcraft/actions/runs/41294197677"
+          }
+        ]
+      },
+      "assessment": {
+        "display": "wordcraft",
+        "stage": "Upstream-derived / unqualified",
+        "next": "Reproduce this checkout's build and compare local changes with upstream before assigning a release stage"
+      }
+    }
+  ]
+}
