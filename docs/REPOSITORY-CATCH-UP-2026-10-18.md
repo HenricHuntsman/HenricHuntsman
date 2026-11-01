@@ -1,5 +1,7 @@
 # Repository catch-up review — 18 October 2026
 
+**Current review:** [1 November 2026 — updated inventory, pinned parent comparisons and draft update queue](PROGRAM-MATURITY-2026-11-01.md). The counts and candidate revisions below are historical.
+
 The account inventory contains **37 repositories: 31 public and 6 private**. All were checked for metadata, default-branch head, up to five recent default-branch workflow runs, open PRs and the latest published release. Seventeen public fork defaults were compared with their parent default branches. This is an account-wide status and ancestry review, not a line-by-line review, dependency upgrade, full build or runtime test of all projects.
 
 ## Changes and discoveries

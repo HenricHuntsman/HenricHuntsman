@@ -1,5 +1,7 @@
 # Program maturity and catch-up catalogue
 
+**Current review:** [1 November 2026 — all 35 public repositories, current source revisions and upstream update PRs](PROGRAM-MATURITY-2026-11-01.md). The material below is the preserved 18 October snapshot, with its dated follow-ups.
+
 Checked 18 October 2026 (Australia/Melbourne). Covers all **31 public repositories** in the connected account. Six private projects are assessed only in the personal catch-up report.
 
 ## How to read the labels
