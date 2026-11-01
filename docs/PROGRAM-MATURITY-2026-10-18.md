@@ -1,3 +1,7 @@
+# Historical assessment — 18 October 2026
+
+The [1 November catalogue](PROGRAM-MATURITY-2026-11-01.md) supersedes this page's repository count and build-status snapshot. The assessments and executed follow-ups below remain dated evidence.
+
 # Program maturity and catch-up catalogue
 
 Checked 18 October 2026 (Australia/Melbourne). Covers all **31 public repositories** in the connected account. Six private projects are assessed only in the personal catch-up report.

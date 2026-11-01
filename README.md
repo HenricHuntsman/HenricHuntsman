@@ -81,7 +81,7 @@ FORGE is my broader direction for modular local developer tooling. It remains wo
 
 ## Development status
 
-[**Program maturity and catch-up catalogue — 18 October 2026**](docs/PROGRAM-MATURITY-2026-10-18.md)
+[**Program maturity and build evidence — 1 November 2026**](docs/PROGRAM-MATURITY-2026-11-01.md)
 
 OpenCode has a published development release. Rabbit Code, RepoForge, QuestMaster Pro and the Book Publish Forge desktop app are beta candidates for controlled testing. Other projects range from alpha research to planning and upstream references. These are review assessments; none is qualified as RC or RTM by this review.
 

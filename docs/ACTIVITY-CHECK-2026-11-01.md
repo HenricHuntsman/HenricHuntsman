@@ -13,7 +13,7 @@ The check read up to 10 recent Actions runs per repository, plus up to 30 runs o
 - **Seed Engine:** the saved 1 November source-build report records 6/6 CPU/debugger harness checks, 14/14 C++ regressions, a backing-memory ownership probe, and 9/9 integration checks. The repair covers PC/SP register bounds, trace delivery, memory lifetime, error exits and build/run scripts. ASan/UBSan passed with leak detection disabled; LeakSanitizer was unavailable. These are execution results from the report's build host, not a fresh run on the developer's PC.
 - **ARM64 milestone:** the Seed instruction step is still a placeholder. The assembly fixture was not loaded or executed. A working harness does not establish guest execution, a game boot, graphics or gameplay.
 - **Local developer tools:** DragonForge Code, OpenCode, Rabbit Code and Greenlight remain active areas. Current CI evidence and known failures are recorded by branch below; consumer-GPU training and resume qualification remain separate milestones.
-- **RepoForge / DragonHub page:** replace the old sample list with a dated public inventory; inspect the latest result of each workflow on the selected repository's default branch. Independent failing workflows must remain visible after another workflow succeeds. Public scans exclude private and unclassified entries.
+- **RepoForge / DragonHub page:** the dated 34-project public inventory and per-workflow inspection are published. The follow-up refresh records the captured HEAD and preserves failed, queued and unverified workflows. [All-project maturity and build evidence](PROGRAM-MATURITY-2026-11-01.md) keeps acceptance gates separate from CI. Public scans exclude private and unclassified entries.
 
 ## Errors still requiring evidence
 
@@ -22,6 +22,7 @@ The check read up to 10 recent Actions runs per repository, plus up to 30 runs o
 | [Profile external Linux evaluation](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39134948356) | The Skorpion ISO download did not complete; its checksum failed. The Skai job passed in that same run. | Complete and verify the pinned ISO before attempting another isolated boot. Preserve the failed checksum. |
 | [Azeroth localisation](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41217863555) | CurseForge returned HTTP 401; the job's API-key input was empty. | The repository owner must configure authorised service access before notification delivery can work. |
 | [DragonForge build](https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259397) | A separate build workflow failed although the `ci` workflow passed. | Inspect its check annotations; the passing workflow does not erase this historical failure. |
+| [OpenCode-derived process daemon](https://github.com/HenricHuntsman/anomalyco-opencode-/actions/runs/41296545138) | Windows x64 failed to spawn the generated Zig `uucode_generate.exe`; Windows arm64 was cancelled. Unix core checks and Miri passed. | Reproduce the Windows build and verify a scoped repair; retain the failed platform result. |
 
 Research branches, upstream copies and repositories without default-branch runs remain visible; they are not automatically treated as broken or release-ready.
 
@@ -35,26 +36,26 @@ Research branches, upstream copies and repositories without default-branch runs 
 | [4NXCI](https://github.com/HenricHuntsman/4NXCI) | `master` | No runs found | None observed in this window |
 | [AgentFoundry-instantly](https://github.com/HenricHuntsman/AgentFoundry-instantly) | `main` | [success · 2026-10-19](https://github.com/HenricHuntsman/AgentFoundry-instantly/actions/runs/39190517509) | None observed in this window |
 | [AgentFoundry-TrinityCore-Studio](https://github.com/HenricHuntsman/AgentFoundry-TrinityCore-Studio) | `main` | No runs found | None observed in this window |
-| [anomalyco-opencode-](https://github.com/HenricHuntsman/anomalyco-opencode-) | `dev` | No runs found | None observed in this window |
+| [anomalyco-opencode-](https://github.com/HenricHuntsman/anomalyco-opencode-) | `dev` | [success · 2026-11-01](https://github.com/HenricHuntsman/anomalyco-opencode-/actions/runs/41302279530) | [Process daemon](https://github.com/HenricHuntsman/anomalyco-opencode-/actions/runs/41296545138) |
 | [artcraft](https://github.com/HenricHuntsman/artcraft) | `main` | No runs found | None observed in this window |
-| [azeroth-pilot-reloaded](https://github.com/HenricHuntsman/azeroth-pilot-reloaded) | `dev` | [success · 2026-11-01](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41272841640) | [Localization ping](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41217863555) |
+| [azeroth-pilot-reloaded](https://github.com/HenricHuntsman/azeroth-pilot-reloaded) | `dev` | [failure · 2026-11-01](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41295804447) | [Localization ping](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/actions/runs/41295804447) |
 | [book-publish-forge](https://github.com/HenricHuntsman/book-publish-forge) | `main` | [success · 2026-10-09](https://github.com/HenricHuntsman/book-publish-forge/actions/runs/37878180468) | None observed in this window |
 | [codex](https://github.com/HenricHuntsman/codex) | `main` | No runs found | None observed in this window |
-| [continue](https://github.com/HenricHuntsman/continue) | `main` | [skipped · 2026-10-17](https://github.com/HenricHuntsman/continue/actions/runs/39080144414) | None observed in this window |
-| [dragonforge-code](https://github.com/HenricHuntsman/dragonforge-code) | `main` | [success · 2026-10-20](https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259492) | [build](https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259397) |
-| [gemini-cli](https://github.com/HenricHuntsman/gemini-cli) | `main` | No runs found | None observed in this window |
-| [HenricHuntsman](https://github.com/HenricHuntsman/HenricHuntsman) | `main` | [failure · 2026-10-18](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39134948356) | [External Linux and Skai evaluation](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39134948356) |
+| [continue](https://github.com/HenricHuntsman/continue) | `main` | [skipped · 2026-10-18](https://github.com/HenricHuntsman/continue/actions/runs/39080144414) | None observed in this window |
+| [dragonforge-code](https://github.com/HenricHuntsman/dragonforge-code) | `main` | [success · 2026-10-21](https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259492) | [build](https://github.com/HenricHuntsman/dragonforge-code/actions/runs/39497259397) |
+| [gemini-cli](https://github.com/HenricHuntsman/gemini-cli) | `main` | [skipped · 2026-11-01](https://github.com/HenricHuntsman/gemini-cli/actions/runs/41294203074) | None observed in this window |
+| [HenricHuntsman](https://github.com/HenricHuntsman/HenricHuntsman) | `main` | [failure · 2026-10-19](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39134948356) | [External Linux and Skai evaluation](https://github.com/HenricHuntsman/HenricHuntsman/actions/runs/39134948356) |
 | [https-github.com-SpidermanTotro-genspark-os](https://github.com/HenricHuntsman/https-github.com-SpidermanTotro-genspark-os) | `main` | No runs found | None observed in this window |
 | [kilocode](https://github.com/HenricHuntsman/kilocode) | `main` | No runs found | None observed in this window |
 | [Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | `main` | [success · 2026-10-18](https://github.com/HenricHuntsman/Kimi-K2/actions/runs/39083094509) | None observed in this window |
 | [LisaAI-DatingApp](https://github.com/HenricHuntsman/LisaAI-DatingApp) | `main` | No runs found | None observed in this window |
 | [LLM4Decompile](https://github.com/HenricHuntsman/LLM4Decompile) | `main` | No runs found | None observed in this window |
 | [mini-AGI](https://github.com/HenricHuntsman/mini-AGI) | `main` | [success · 2026-10-14](https://github.com/HenricHuntsman/mini-AGI/actions/runs/38505247412) | [Android](https://github.com/HenricHuntsman/mini-AGI/actions/runs/37850744699) |
-| [NebulaUltimate](https://github.com/HenricHuntsman/NebulaUltimate) | `main` | [success · 2026-07-18](https://github.com/HenricHuntsman/NebulaUltimate/actions/runs/29656493840) | None observed in this window |
+| [NebulaUltimate](https://github.com/HenricHuntsman/NebulaUltimate) | `main` | [success · 2026-07-19](https://github.com/HenricHuntsman/NebulaUltimate/actions/runs/29656493840) | None observed in this window |
 | [nvm](https://github.com/HenricHuntsman/nvm) | `master` | No runs found | None observed in this window |
 | [nxdumptool](https://github.com/HenricHuntsman/nxdumptool) | `rewrite` | No runs found | None observed in this window |
 | [opencode](https://github.com/HenricHuntsman/opencode) | `main` | [success · 2026-10-19](https://github.com/HenricHuntsman/opencode/actions/runs/39190511075) | None observed in this window |
-| [QuestMaster-Pro](https://github.com/HenricHuntsman/QuestMaster-Pro) | `main` | [success · 2026-10-08](https://github.com/HenricHuntsman/QuestMaster-Pro/actions/runs/37850715181) | None observed in this window |
+| [QuestMaster-Pro](https://github.com/HenricHuntsman/QuestMaster-Pro) | `main` | [success · 2026-10-09](https://github.com/HenricHuntsman/QuestMaster-Pro/actions/runs/37850715181) | None observed in this window |
 | [QuestMasterPro](https://github.com/HenricHuntsman/QuestMasterPro) | `main` | No runs found | None observed in this window |
 | [rabbit-foundry](https://github.com/HenricHuntsman/rabbit-foundry) | `main` | [success · 2026-10-19](https://github.com/HenricHuntsman/rabbit-foundry/actions/runs/39190504315) | None observed in this window |
 | [rea](https://github.com/HenricHuntsman/rea) | `main` | No runs found | None observed in this window |
