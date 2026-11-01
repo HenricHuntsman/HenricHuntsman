@@ -1,5 +1,7 @@
 # Project activity check — 1 November 2026
 
+> Historical snapshot. Continue with the [2 November activity and missing-work report](ACTIVITY-CHECK-2026-11-02.md) for the 45-repository inventory, completed Windows/desktop repairs and current follow-up gates. The failures below describe the earlier check.
+
 Checked against the connected GitHub account and saved source-build evidence on 1 November 2026. This is a dated report, not a live build badge.
 
 ## Inventory and scope
