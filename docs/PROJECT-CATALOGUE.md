@@ -1,6 +1,6 @@
 # Henric — project names, maturity and remaining work
 
-Updated 18 October 2026. Canonical display names for all 31 public repositories. Repository slugs, package/import identifiers, upstream authorship and licences are preserved. These are review labels, not official release declarations.
+Inventory refreshed 2 November 2026: canonical display names for all 35 public repositories. Existing stage labels retain the dated 18 October assessment unless a follow-up is explicitly recorded; newly added entries are unassessed. Repository slugs, package/import identifiers, upstream authorship and licences are preserved. These are review labels, not official release declarations. See the [current activity and missing-work report](ACTIVITY-CHECK-2026-11-02.md) for captured-HEAD CI and completed repairs.
 
 ## Maturity rules
 
@@ -12,17 +12,19 @@ Alpha means incomplete implementation/integration; beta candidate means suitable
 | --- | --- | --- | --- |
 | 4NXCI | [4NXCI](https://github.com/HenricHuntsman/4NXCI) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | AgentFoundry Workspace | [AgentFoundry-instantly](https://github.com/HenricHuntsman/AgentFoundry-instantly) | Alpha | Reconcile README claims with tested features; validate Electron packaging and offline behavior |
+| anomalyco-opencode- | [anomalyco-opencode-](https://github.com/HenricHuntsman/anomalyco-opencode-) | Upstream-derived / unqualified | Native process-daemon checks pass on Windows x64/ARM64, Linux, macOS and Miri; complete the separate queued Bun/Nix checks and application acceptance |
 | artcraft | [artcraft](https://github.com/HenricHuntsman/artcraft) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | azeroth-pilot-reloaded | [azeroth-pilot-reloaded](https://github.com/HenricHuntsman/azeroth-pilot-reloaded) | Upstream-derived / unqualified | Resolve localization workflow failure; verify actual route/runtime checks separately |
 | Book Publish Forge | [book-publish-forge](https://github.com/HenricHuntsman/book-publish-forge) | Beta candidate | Test real manuscript import/save/export and local-model failure handling |
 | codex | [codex](https://github.com/HenricHuntsman/codex) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | continue | [continue](https://github.com/HenricHuntsman/continue) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
-| DragonForge Code | [dragonforge-code](https://github.com/HenricHuntsman/dragonforge-code) | Alpha | Finish branding/install/release migration and test standalone binary |
+| DragonForge Code | [dragonforge-code](https://github.com/HenricHuntsman/dragonforge-code) | Alpha | Run build checks for current HEAD, inspect the older separate build failure, and verify the installed Ubuntu binary with local Ollama |
 | FORGE Integration Lab — Kimi K2 / Local Qwen | [Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | Prototype — opt-in local Ollama adapter | Run actual local Qwen smoke; tool execution, training and OS creation remain unimplemented |
 | gemini-cli | [gemini-cli](https://github.com/HenricHuntsman/gemini-cli) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | Genspark OS Concept | [https-github.com-SpidermanTotro-genspark-os](https://github.com/HenricHuntsman/https-github.com-SpidermanTotro-genspark-os) | Planning | Define scope; no bootable OS or installer verified |
 | Henric — Project Hub | [HenricHuntsman](https://github.com/HenricHuntsman/HenricHuntsman) | Documentation | Maintain project status catalogue and distinguish snapshots from current checks |
 | Henric N64 Decompiler Lab | [LLM4Decompile](https://github.com/HenricHuntsman/LLM4Decompile) | Alpha / research | Run real local checkpoint and Ghidra/MIPS fixture; verify emulator behavior |
+| kilo | [kilo](https://github.com/HenricHuntsman/kilo) | Upstream fork / unassessed | Reproduce this checkout's build/test gate and compare changes with upstream; keep its history distinct from kilocode |
 | kilocode | [kilocode](https://github.com/HenricHuntsman/kilocode) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | Lisa AI Journal Prototype | [LisaAI-DatingApp](https://github.com/HenricHuntsman/LisaAI-DatingApp) | Prototype | Resolve README-reported historical privacy exposure and create a valid Xcode project |
 | mini-AGI / Greenlight | [mini-AGI](https://github.com/HenricHuntsman/mini-AGI) | Alpha / research | Keep CPU CI separate from RTX 5060 Ti resume, optimizer and router-balance evidence |
@@ -35,7 +37,9 @@ Alpha means incomplete implementation/integration; beta candidate means suitable
 | QuestMaster Pro | [QuestMaster-Pro](https://github.com/HenricHuntsman/QuestMaster-Pro) | Beta candidate | Validate current Retail/Classic clients in-game and test real guide routes |
 | Rabbit Code | [rabbit-foundry](https://github.com/HenricHuntsman/rabbit-foundry) | Beta candidate | Run a real local-model tool-call session, then verify installer and session resume |
 | rea | [rea](https://github.com/HenricHuntsman/rea) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
-| RepoForge | [repo-manager-ultimate](https://github.com/HenricHuntsman/repo-manager-ultimate) | Beta candidate | Test packaged AppImage/deb and read-only live scans on Ubuntu |
+| RepoForge | [repo-manager-ultimate](https://github.com/HenricHuntsman/repo-manager-ultimate) | Beta candidate | Public page, Linux packaging and offline source-window CI pass; verify Ubuntu installation/upgrade/rollback and physical GPU, and track 15 moderate packaging findings |
+| skai_ap | [skai_ap](https://github.com/HenricHuntsman/skai_ap) | Unassessed | Reproduce this checkout's build and runtime checks before assigning a release stage; an older external evaluation does not qualify current HEAD |
+| skorpion_os | [skorpion_os](https://github.com/HenricHuntsman/skorpion_os) | Unassessed / OS research | Complete and checksum the pinned ISO before an isolated boot; the historical download/checksum failure is not a successful boot |
 | Trinity Studio — Architecture Seed | [Trinity-Studio-Architecture](https://github.com/HenricHuntsman/Trinity-Studio-Architecture) | Planning | Implement proposed read-only status/doctor CLI as a separately tested change |
 | Trinity Studio Placeholder | [AgentFoundry-TrinityCore-Studio](https://github.com/HenricHuntsman/AgentFoundry-TrinityCore-Studio) | Planning | Define first executable milestone before adding features |
 | TrinityCore | [TrinityCore](https://github.com/HenricHuntsman/TrinityCore) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
@@ -44,7 +48,7 @@ Alpha means incomplete implementation/integration; beta candidate means suitable
 
 Upstream-derived/reference rows remain unqualified as local builds. Mature upstream branding does not establish the state of this checkout. Vitruvian contains OS source and build infrastructure; unlike the Genspark README-only concept, its operating-system description has a source basis, but no boot/install qualification was performed here.
 
-## Build order and daily-use catch-up
+## Build order — dated 18 October assessment
 
 1. OpenCode v0.0.56: published development release, nine assets, observed passing main CI/build. Start with an Ubuntu/local-model smoke test.
 2. Rabbit Code, RepoForge, QuestMaster Pro and Book Publish Forge desktop: observed passing checks; qualify real workflows and packages before RC.
@@ -52,7 +56,7 @@ Upstream-derived/reference rows remain unqualified as local builds. Mature upstr
 4. DragonForge and specialist research: keep migration, GPU/checkpoint work, Ghidra/MIPS and emulator qualification distinct.
 5. Kimi/FORGE, Lisa AI components, planning seeds and legacy collections: reconcile simulations, placeholders and old claims before adding release labels.
 
-[Build evidence and folder guide](PROGRAM-MATURITY-2026-10-18.md) · [Misleading-claims review](CLAIMS-REVIEW-2026-10-18.md) · [Cleanup audit](REPOSITORY-AUDIT-2026-10-18.md)
+[1 November maturity/build assessment](PROGRAM-MATURITY-2026-11-01.md) · [2 November activity and missing work](ACTIVITY-CHECK-2026-11-02.md) · [18 October build assessment](PROGRAM-MATURITY-2026-10-18.md) · [Misleading-claims review](CLAIMS-REVIEW-2026-10-18.md) · [Cleanup audit](REPOSITORY-AUDIT-2026-10-18.md)
 
 Private projects are assessed separately and are not named here.
 
