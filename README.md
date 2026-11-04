@@ -14,6 +14,10 @@ I learn by building, testing and improving practical software. My interests incl
 
 My current focus is **Seed Engine debugging, ARM64 tooling, local Ollama workflows, DragonForge Code and reproducible development**. Projects here range from experiments to maintained community forks; check each repository's documentation, tests and releases for its current state.
 
+## 4 November 2026 · DragonHub diagnostics
+
+I added nine skills for investigating Linux development issues, including tracing a busy port to its owner, checking FTP transfers against reference files, and identifying boot failures from QEMU serial logs. All 62 regression tests passed using local test fixtures.
+
 ## Current focus — 2 November 2026
 
 - **Seed Engine:** CPU/debugger harness repairs are recorded in the 1 November build report: 6/6 harness checks, 14/14 C++ regressions and 9/9 integration checks. ARM64 guest instruction execution remains unimplemented.
