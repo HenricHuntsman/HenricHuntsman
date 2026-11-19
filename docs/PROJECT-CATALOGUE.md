@@ -28,7 +28,7 @@ Alpha means incomplete implementation/integration; beta candidate means suitable
 | kilo | [kilo](https://github.com/HenricHuntsman/kilo) | Upstream fork / unassessed | Reproduce this checkout's build/test gate and compare changes with upstream; keep its history distinct from kilocode |
 | kilocode | [kilocode](https://github.com/HenricHuntsman/kilocode) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | Lisa AI Journal Prototype | [LisaAI-DatingApp](https://github.com/HenricHuntsman/LisaAI-DatingApp) | Prototype | Resolve README-reported historical privacy exposure and create a valid Xcode project |
-| MacNativeGames | [MacNativeGames](https://github.com/HenricHuntsman/MacNativeGames) | Upstream-derived / unassessed | Investigate the failing source regressions alongside passing Linux shader protocol checks |
+| MacNativeGames | [MacNativeGames](https://github.com/HenricHuntsman/MacNativeGames) | Upstream-derived / unassessed | Reproduce the macOS settings-panel height assertion on the base branch. Linux shader protocol checks passed |
 | mini-AGI / Greenlight | [mini-AGI](https://github.com/HenricHuntsman/mini-AGI) | Alpha / research | Keep CPU CI separate from RTX 5060 Ti resume, optimizer and router-balance evidence |
 | Nebula Legacy Installation Page | [-https-SpidermanTotro.github.io-nebula-ultimate-](https://github.com/HenricHuntsman/-https-SpidermanTotro.github.io-nebula-ultimate-) | Legacy archive | Preserve old page; replace misleading download and 100%-functional claims |
 | Nebula Ultimate | [NebulaUltimate](https://github.com/HenricHuntsman/NebulaUltimate) | Alpha | Launch against local Ollama and test actual UI workflow |
@@ -50,7 +50,7 @@ Alpha means incomplete implementation/integration; beta candidate means suitable
 | TrinityCore | [TrinityCore](https://github.com/HenricHuntsman/TrinityCore) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | Vitruvian | [Vitruvian](https://github.com/HenricHuntsman/Vitruvian) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | wordcraft | [wordcraft](https://github.com/HenricHuntsman/wordcraft) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
-| XenonRecomp | [XenonRecomp](https://github.com/HenricHuntsman/XenonRecomp) | Upstream-derived / unassessed | Track the synthetic NSO0 metadata audit and review its scope before merging |
+| XenonRecomp | [XenonRecomp](https://github.com/HenricHuntsman/XenonRecomp) | Upstream-derived / unassessed | Read-only NSO0 audit merged after nine synthetic tests passed in GitHub Actions. Guest execution remains a separate milestone |
 
 Upstream-derived/reference rows remain unqualified as local builds. Mature upstream branding does not establish the state of this checkout. Vitruvian contains OS source and build infrastructure; unlike the Genspark README-only concept, its operating-system description has a source basis, but no boot/install qualification was performed here.
 
