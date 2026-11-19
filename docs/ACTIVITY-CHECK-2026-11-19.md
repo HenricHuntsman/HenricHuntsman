@@ -43,3 +43,13 @@ The connected inventory review covered 51 owned repositories and 114 open PRs, i
 Four existing draft PRs were fast-forwarded to verified upstream revisions: [Azeroth Pilot Reloaded](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/pull/5), [nvm](https://github.com/HenricHuntsman/nvm/pull/2), [Gemini CLI](https://github.com/HenricHuntsman/gemini-cli/pull/3), and [Codex](https://github.com/HenricHuntsman/codex/pull/2). Continue's review branch already matched upstream. TrinityCore's candidate and the Greenlight default branch have diverged from upstream and require integration review.
 
 [MacNativeGames PR #5](https://github.com/HenricHuntsman/MacNativeGames/pull/5) now caps compact row height at the regular height. The earlier CI run showed that reducing the gap could otherwise make compact rows taller than regular rows. [CI for the corrected revision](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/44473369745) was still running at publication.
+
+## Further upstream refresh and macOS merge
+
+- [artcraft draft #2](https://github.com/HenricHuntsman/artcraft/pull/2) fast-forwarded by 31 upstream commits to `a6d52df45e55`.
+- [wordcraft draft #2](https://github.com/HenricHuntsman/wordcraft/pull/2) fast-forwarded by 1077 upstream commits to `6ef13b2cc8a6`.
+- [kilocode draft #5](https://github.com/HenricHuntsman/kilocode/pull/5) fast-forwarded by 403 upstream commits to `00a5d30cf76f`.
+- [skorpion_os draft #1](https://github.com/HenricHuntsman/skorpion_os/pull/1) fast-forwarded by 10 upstream commits to `a013a223d7d4`.
+- [rea draft #5](https://github.com/HenricHuntsman/rea/pull/5) fast-forwarded by 2164 upstream commits to `dd1bb43db3d4`.
+- nxdumptool's review branch already matched upstream. Vitruvian's candidate and upstream both contain unique commits, so integration review remains open.
+- [MacNativeGames #5](https://github.com/HenricHuntsman/MacNativeGames/pull/5) merged after the [macOS source regressions passed](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/44473369745). [PR #4](https://github.com/HenricHuntsman/MacNativeGames/pull/4) now also runs Linux shader verification on matching pushes to main and has fresh CI pending.
