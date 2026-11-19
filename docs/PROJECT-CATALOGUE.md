@@ -1,6 +1,6 @@
 # Henric — project names, maturity and remaining work
 
-Inventory refreshed 2 November 2026: canonical display names for all 35 public repositories. Existing stage labels retain the dated 18 October assessment unless a follow-up is explicitly recorded; newly added entries are unassessed. Repository slugs, package/import identifiers, upstream authorship and licences are preserved. These are review labels, not official release declarations. See the [current activity and missing-work report](ACTIVITY-CHECK-2026-11-02.md) for captured-HEAD CI and completed repairs.
+Inventory refreshed 19 November 2026 with all 41 public repositories. Existing stage labels retain the dated 18 October assessment unless a follow-up is explicitly recorded; newly added entries are unassessed. Repository slugs, package/import identifiers, upstream authorship and licences are preserved. These are review labels, not official release declarations. See the [19 November activity report](ACTIVITY-CHECK-2026-11-19.md) for sampled commit and pull request evidence.
 
 ## Maturity rules
 
@@ -16,9 +16,10 @@ Alpha means incomplete implementation/integration; beta candidate means suitable
 | artcraft | [artcraft](https://github.com/HenricHuntsman/artcraft) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | azeroth-pilot-reloaded | [azeroth-pilot-reloaded](https://github.com/HenricHuntsman/azeroth-pilot-reloaded) | Upstream-derived / unqualified | Resolve localization workflow failure; verify actual route/runtime checks separately |
 | Book Publish Forge | [book-publish-forge](https://github.com/HenricHuntsman/book-publish-forge) | Beta candidate | Test real manuscript import/save/export and local-model failure handling |
+| CivSwitch | `CivSwitch` | Unassessed | Inventory entry |
 | codex | [codex](https://github.com/HenricHuntsman/codex) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | continue | [continue](https://github.com/HenricHuntsman/continue) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
-| DragonForge Code | [dragonforge-code](https://github.com/HenricHuntsman/dragonforge-code) | Alpha | Run build checks for current HEAD, inspect the older separate build failure, and verify the installed Ubuntu binary with local Ollama |
+| DragonForge Code | [dragonforge-code](https://github.com/HenricHuntsman/dragonforge-code) | Alpha | Verify the Ubuntu Bash launcher, its OpenCode Revival build path and a live local Ollama session |
 | FORGE Integration Lab — Kimi K2 / Local Qwen | [Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | Prototype — opt-in local Ollama adapter | Run actual local Qwen smoke; tool execution, training and OS creation remain unimplemented |
 | gemini-cli | [gemini-cli](https://github.com/HenricHuntsman/gemini-cli) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | Genspark OS Concept | [https-github.com-SpidermanTotro-genspark-os](https://github.com/HenricHuntsman/https-github.com-SpidermanTotro-genspark-os) | Planning | Define scope; no bootable OS or installer verified |
@@ -27,6 +28,7 @@ Alpha means incomplete implementation/integration; beta candidate means suitable
 | kilo | [kilo](https://github.com/HenricHuntsman/kilo) | Upstream fork / unassessed | Reproduce this checkout's build/test gate and compare changes with upstream; keep its history distinct from kilocode |
 | kilocode | [kilocode](https://github.com/HenricHuntsman/kilocode) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | Lisa AI Journal Prototype | [LisaAI-DatingApp](https://github.com/HenricHuntsman/LisaAI-DatingApp) | Prototype | Resolve README-reported historical privacy exposure and create a valid Xcode project |
+| MacNativeGames | [MacNativeGames](https://github.com/HenricHuntsman/MacNativeGames) | Upstream-derived / unassessed | Investigate the failing source regressions alongside passing Linux shader protocol checks |
 | mini-AGI / Greenlight | [mini-AGI](https://github.com/HenricHuntsman/mini-AGI) | Alpha / research | Keep CPU CI separate from RTX 5060 Ti resume, optimizer and router-balance evidence |
 | Nebula Legacy Installation Page | [-https-SpidermanTotro.github.io-nebula-ultimate-](https://github.com/HenricHuntsman/-https-SpidermanTotro.github.io-nebula-ultimate-) | Legacy archive | Preserve old page; replace misleading download and 100%-functional claims |
 | Nebula Ultimate | [NebulaUltimate](https://github.com/HenricHuntsman/NebulaUltimate) | Alpha | Launch against local Ollama and test actual UI workflow |
@@ -38,13 +40,17 @@ Alpha means incomplete implementation/integration; beta candidate means suitable
 | Rabbit Code | [rabbit-foundry](https://github.com/HenricHuntsman/rabbit-foundry) | Beta candidate | Run a real local-model tool-call session, then verify installer and session resume |
 | rea | [rea](https://github.com/HenricHuntsman/rea) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | RepoForge | [repo-manager-ultimate](https://github.com/HenricHuntsman/repo-manager-ultimate) | Beta candidate | Public page, Linux packaging and offline source-window CI pass; verify Ubuntu installation/upgrade/rollback and physical GPU, and track 15 moderate packaging findings |
+| Sapphire Blue AI | [sapphire](https://github.com/HenricHuntsman/sapphire) | Upstream-derived / unassessed | Validate self-hosted startup and a local voice workflow |
 | skai_ap | [skai_ap](https://github.com/HenricHuntsman/skai_ap) | Unassessed | Reproduce this checkout's build and runtime checks before assigning a release stage; an older external evaluation does not qualify current HEAD |
 | skorpion_os | [skorpion_os](https://github.com/HenricHuntsman/skorpion_os) | Unassessed / OS research | Complete and checksum the pinned ISO before an isolated boot; the historical download/checksum failure is not a successful boot |
+| Stela | [Stela](https://github.com/HenricHuntsman/Stela) | Upstream-derived / unassessed | Verify an isolated build and capture boot diagnostics |
+| TotK PC recompilation reference | [totk-pc-recomp](https://github.com/HenricHuntsman/totk-pc-recomp) | Upstream-derived / unassessed | Qualify Linux build and runtime claims independently |
 | Trinity Studio — Architecture Seed | [Trinity-Studio-Architecture](https://github.com/HenricHuntsman/Trinity-Studio-Architecture) | Planning | Implement proposed read-only status/doctor CLI as a separately tested change |
 | Trinity Studio Placeholder | [AgentFoundry-TrinityCore-Studio](https://github.com/HenricHuntsman/AgentFoundry-TrinityCore-Studio) | Planning | Define first executable milestone before adding features |
 | TrinityCore | [TrinityCore](https://github.com/HenricHuntsman/TrinityCore) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | Vitruvian | [Vitruvian](https://github.com/HenricHuntsman/Vitruvian) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
 | wordcraft | [wordcraft](https://github.com/HenricHuntsman/wordcraft) | Upstream-derived / unqualified | Reproduce this checkout's build and compare local changes with upstream before assigning a release stage |
+| XenonRecomp | [XenonRecomp](https://github.com/HenricHuntsman/XenonRecomp) | Upstream-derived / unassessed | Track the synthetic NSO0 metadata audit and review its scope before merging |
 
 Upstream-derived/reference rows remain unqualified as local builds. Mature upstream branding does not establish the state of this checkout. Vitruvian contains OS source and build infrastructure; unlike the Genspark README-only concept, its operating-system description has a source basis, but no boot/install qualification was performed here.
 
