@@ -53,3 +53,10 @@ Four existing draft PRs were fast-forwarded to verified upstream revisions: [Aze
 - [rea draft #5](https://github.com/HenricHuntsman/rea/pull/5) fast-forwarded by 2164 upstream commits to `dd1bb43db3d4`.
 - nxdumptool's review branch already matched upstream. Vitruvian's candidate and upstream both contain unique commits, so integration review remains open.
 - [MacNativeGames #5](https://github.com/HenricHuntsman/MacNativeGames/pull/5) merged after the [macOS source regressions passed](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/44473369745). [PR #4](https://github.com/HenricHuntsman/MacNativeGames/pull/4) now also runs Linux shader verification on matching pushes to main and has fresh CI pending.
+
+## Shader workflow merge and upstream CI triage
+
+- [MacNativeGames #4](https://github.com/HenricHuntsman/MacNativeGames/pull/4) merged after [Linux shader verification](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/44474408443) and [macOS source regressions](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/44474408366) passed. The workflow is present on main.
+- [Azeroth Pilot Reloaded #5](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/pull/5) received a targeted fix for the sole Luacheck warning. Both navigation service lookups are preserved. Retest is pending.
+- [Codex #2](https://github.com/HenricHuntsman/codex/pull/2) remains a draft. The [V8 canary](https://github.com/HenricHuntsman/codex/actions/runs/44473537729) failed during change detection because it could not resolve a V8 version at the merge base. It did not reach the build jobs.
+- Artcraft house rules, packaging lint and SonarCloud passed, but instrumented build and test jobs were skipped. Wordcraft, Kilo Code and REA still had unfinished CI. Gemini CLI's Python job passed with several other workflows skipped. Continue, nvm, nxdumptool and Skorpion OS returned no pull request workflow runs in this check.
