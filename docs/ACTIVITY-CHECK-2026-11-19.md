@@ -26,3 +26,9 @@ MacNativeGames PRs #2 and #3 remain open. The PR #3 source regression log shows 
 ## Account-wide catch-up
 
 The connected inventory review covered 51 owned repositories and 114 open PRs, including 70 drafts. The catch-up merged 22 PRs, including 21 documentation-only dragon branding updates and the XenonRecomp audit. Repository-specific release assessments retain their recorded dates.
+
+## Follow-up on 19 November
+
+- Six more branding-only PRs merged in [opencode](https://github.com/HenricHuntsman/opencode/pull/14), [repo-manager-ultimate](https://github.com/HenricHuntsman/repo-manager-ultimate/pull/10), [Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2/pull/47), [TrinityCore](https://github.com/HenricHuntsman/TrinityCore/pull/3), [Vitruvian](https://github.com/HenricHuntsman/Vitruvian/pull/1), [https-github.com-SpidermanTotro-genspark-os](https://github.com/HenricHuntsman/https-github.com-SpidermanTotro-genspark-os/pull/1). The account-wide total rose to 28 merges.
+- [MacNativeGames PR #4](https://github.com/HenricHuntsman/MacNativeGames/pull/4) adds a Linux NativeAOT Actions gate on current `main`. It runs the existing test for malformed-request recovery, subsequent synthetic shader translation, and SPIR-V validation. [The new workflow run](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/44470409406) was queued at publication.
+- Greenlight PR #55 passed hosted [Python 3.11 and 3.14 checks](https://github.com/HenricHuntsman/mini-AGI/actions/runs/43532140840). It remains a draft pending GPU validation and further integration review.
