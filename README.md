@@ -14,30 +14,21 @@ I learn by building, testing and improving practical software. My interests incl
 
 My current focus is **Seed Engine debugging, ARM64 tooling, local Ollama workflows, DragonForge Code and reproducible development**. Projects here range from experiments to maintained community forks; check each repository's documentation, tests and releases for its current state.
 
-## 4 November 2026 · DragonHub diagnostics
+## Current focus — 19 November 2026
 
-I added nine skills for investigating Linux development issues, including tracing a busy port to its owner, checking FTP transfers against reference files, and identifying boot failures from QEMU serial logs. All 62 regression tests passed using local test fixtures.
+- **DragonHub diagnostics** — Nine Linux development diagnostics were added on 4 November. The milestone recorded 62 passing regression tests using local fixtures.
+- **ARM64 and Linux tooling** — Following Stela’s translation and boot work, XenonRecomp’s synthetic NSO0 metadata audit, and MacNativeGames’ Linux shader service. The shader protocol checks passed, and source regressions still need investigation.
+- **Local coding tools** — DragonForge Code’s current default branch provides an Ubuntu launcher for OpenCode Revival with optional Ollama. OpenCode and Rabbit Code cover terminal coding and local model workflows.
+- **Greenlight Recur** — Checkpoint and restart reliability remain the focus. Consumer-GPU resume validation and longer training runs remain open in the published assessment.
 
-## Current focus — 2 November 2026
-
-- **Seed Engine:** CPU/debugger harness repairs are recorded in the 1 November build report: 6/6 harness checks, 14/14 C++ regressions and 9/9 integration checks. ARM64 guest instruction execution remains unimplemented.
-- **Repository hub:** 35 public projects, current-revision workflow evidence and visible missing milestones. Linux package/source-window CI and Windows process-daemon checks pass; desktop acceptance and separate queued upstream suites remain open.
-
-- **DragonForge Code:** a standalone continuation built from OpenCode Revival, with original commit ancestry and licence notices preserved. Historical OpenCode releases are documented separately from DragonForge builds.
-- **OpenCode — Welcome Back Edition:** terminal coding assistance, compatible local model endpoints, reusable skills, MCP tools and local session storage.
-- **Greenlight Recur:** the R5 checkpoint/restart regression gate is merged in [PR #30](https://github.com/HenricHuntsman/mini-AGI/pull/30). Consumer-GPU resume validation and long-running training remain ongoing.
-- **Mobile experiments:** Greenlight includes early Android and iPhone companion scaffolds for read-only Linux telemetry. They remain experimental.
-
-These updates reflect repository documentation. A merged regression does not establish that every hardware configuration passes; check project CI, releases and reproducible run reports for validation.
-
-[Latest activity and missing-work check — 2 November](docs/ACTIVITY-CHECK-2026-11-02.md): current inventory, recorded checks, known errors and the next execution milestones. [19 October history](docs/ACTIVITY-CHECK-2026-10-19.md) remains available.
+[19 November public activity and CI evidence](docs/ACTIVITY-CHECK-2026-11-19.md) · [2 November activity snapshot](docs/ACTIVITY-CHECK-2026-11-02.md) · [19 October history](docs/ACTIVITY-CHECK-2026-10-19.md)
 
 ## Featured work
 
 | Project | Focus |
 | --- | --- |
 | [FORGE Integration Lab / Kimi-K2](https://github.com/HenricHuntsman/Kimi-K2) | Python prototype with a local Ollama/Qwen adapter; live GPU and browser qualification pending |
-| [DragonForge Code](https://github.com/HenricHuntsman/dragonforge-code) | Independent local-first Go coding agent, preserving OpenCode ancestry and upstream attribution |
+| [DragonForge Code](https://github.com/HenricHuntsman/dragonforge-code) | Ubuntu Bash launcher for Go-based OpenCode Revival, with selectable workspaces and optional Ollama |
 | [OpenCode — Welcome Back Edition](https://github.com/HenricHuntsman/opencode) | Community continuation of the original OpenCode terminal assistant, including local model endpoints and reusable skills |
 | [Rabbit Code](https://github.com/HenricHuntsman/rabbit-foundry) | Local-first Python coding agent, model gateway and experimental Linux workspace |
 | [Greenlight Recur / mini-AGI](https://github.com/HenricHuntsman/mini-AGI) | Experimental local AI training, checkpoint/resume reliability, evaluation and Training Doctor tooling |
@@ -93,14 +84,14 @@ OpenCode has a published development release. Rabbit Code, RepoForge, QuestMaste
 
 This profile repository holds the banner, documentation, a local [development-hours tracker](tools/dev-hours/README.md), and [preserved early prototypes](archive/README.md).
 
-The [2 November activity check](docs/ACTIVITY-CHECK-2026-11-02.md) records the current inventory and workflow findings. The connected inventory contains **45 repositories: 35 public and 10 private**, checked 2 November 2026 (Australia/Melbourne). Private project details are excluded from the public catalogue. The [18 October audit](docs/REPOSITORY-AUDIT-2026-10-18.md) remains a historical record.
+The [public catalogue](docs/PROJECT-CATALOGUE.md) covers all **41 public repositories** checked on 19 November 2026 (Australia/Melbourne). The [18 October audit](docs/REPOSITORY-AUDIT-2026-10-18.md) remains available as a historical record.
 
 [Migration status](docs/HENRICHUNTSMAN-MIGRATION.md) · [Naming catalogue](docs/PROJECT-NAMING-CATALOGUE-2026-10-14.md) · [Live GitHub activity](https://github.com/HenricHuntsman)
 
 Development hours are not yet published. Git commits are not a measure of time worked.
 
-*Updated 2 November 2026 (Australia/Melbourne). Project links describe scope, not a guarantee of a passing build.*
+*Updated 19 November 2026 (Australia/Melbourne).*
 
 [Linux projects: folders, preserved history and revival milestones](docs/linux/README.md).
 
-[Latest repository-wide catch-up: upstream gaps, update PRs and new findings](docs/REPOSITORY-CATCH-UP-2026-10-18.md).
+[18 October repository catch-up: upstream gaps, update PRs and new findings](docs/REPOSITORY-CATCH-UP-2026-10-18.md).
