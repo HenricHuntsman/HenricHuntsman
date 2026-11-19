@@ -37,3 +37,9 @@ The connected inventory review covered 51 owned repositories and 114 open PRs, i
 
 - [PR #4](https://github.com/HenricHuntsman/MacNativeGames/pull/4) passed [Linux NativeAOT shader protocol and SPIR-V validation](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/44470409406). Its [macOS source regression run](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/44470409801) repeated the four panel height failures even though the PR only adds a Linux workflow.
 - [PR #5](https://github.com/HenricHuntsman/MacNativeGames/pull/5) updates the macOS probe to check rendered row geometry in both regular and compact layouts. Hosted macOS verification is pending.
+
+## Upstream refresh and settings panel follow-up
+
+Four existing draft PRs were fast-forwarded to verified upstream revisions: [Azeroth Pilot Reloaded](https://github.com/HenricHuntsman/azeroth-pilot-reloaded/pull/5), [nvm](https://github.com/HenricHuntsman/nvm/pull/2), [Gemini CLI](https://github.com/HenricHuntsman/gemini-cli/pull/3), and [Codex](https://github.com/HenricHuntsman/codex/pull/2). Continue's review branch already matched upstream. TrinityCore's candidate and the Greenlight default branch have diverged from upstream and require integration review.
+
+[MacNativeGames PR #5](https://github.com/HenricHuntsman/MacNativeGames/pull/5) now caps compact row height at the regular height. The earlier CI run showed that reducing the gap could otherwise make compact rows taller than regular rows. [CI for the corrected revision](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/44473369745) was still running at publication.
