@@ -17,11 +17,11 @@ My current focus is **Seed Engine debugging, ARM64 tooling, local Ollama workflo
 ## Current focus — 19 November 2026
 
 - **DragonHub diagnostics** — Nine Linux development diagnostics were added on 4 November. The milestone recorded 62 passing regression tests using local fixtures.
-- **ARM64 and Linux tooling** — Following Stela’s translation and boot work, XenonRecomp’s synthetic NSO0 metadata audit, and MacNativeGames’ Linux shader service. The shader protocol checks passed, and source regressions still need investigation.
+- **ARM64 and Linux tooling** — XenonRecomp’s read-only NSO0 metadata audit merged after nine synthetic tests passed in GitHub Actions. MacNativeGames’ Linux shader protocol checks passed. Its macOS settings-panel regression remains open. Stela’s translation and boot work is still in development.
 - **Local coding tools** — DragonForge Code’s current default branch provides an Ubuntu launcher for OpenCode Revival with optional Ollama. OpenCode and Rabbit Code cover terminal coding and local model workflows.
 - **Greenlight Recur** — Checkpoint and restart reliability remain the focus. Consumer-GPU resume validation and longer training runs remain open in the published assessment.
 
-[19 November public activity and CI evidence](docs/ACTIVITY-CHECK-2026-11-19.md) · [2 November activity snapshot](docs/ACTIVITY-CHECK-2026-11-02.md) · [19 October history](docs/ACTIVITY-CHECK-2026-10-19.md)
+[19 November repository catch-up and CI evidence](docs/ACTIVITY-CHECK-2026-11-19.md) · [2 November activity snapshot](docs/ACTIVITY-CHECK-2026-11-02.md) · [19 October history](docs/ACTIVITY-CHECK-2026-10-19.md)
 
 ## Featured work
 
@@ -84,7 +84,7 @@ OpenCode has a published development release. Rabbit Code, RepoForge, QuestMaste
 
 This profile repository holds the banner, documentation, a local [development-hours tracker](tools/dev-hours/README.md), and [preserved early prototypes](archive/README.md).
 
-The [public catalogue](docs/PROJECT-CATALOGUE.md) covers all **41 public repositories** checked on 19 November 2026 (Australia/Melbourne). The [18 October audit](docs/REPOSITORY-AUDIT-2026-10-18.md) remains available as a historical record.
+The 19 November catch-up covered **51 owned repositories**. The [public catalogue](docs/PROJECT-CATALOGUE.md) lists all **41 public repositories**. The [18 October audit](docs/REPOSITORY-AUDIT-2026-10-18.md) remains available as a historical record.
 
 [Migration status](docs/HENRICHUNTSMAN-MIGRATION.md) · [Naming catalogue](docs/PROJECT-NAMING-CATALOGUE-2026-10-14.md) · [Live GitHub activity](https://github.com/HenricHuntsman)
 
