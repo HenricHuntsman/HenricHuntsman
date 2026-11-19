@@ -19,4 +19,10 @@ Inventory checked on GitHub on 19 November (Australia/Melbourne). The account ha
 | [MacNativeGames PR #2](https://github.com/HenricHuntsman/MacNativeGames/pull/2) | `f214b7437c31d81faa89c4b34a34113b6131d6af` | [Linux foundation passed](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/41712238125), the [NativeAOT shader service protocol passed](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/41712238095), and [source regressions failed](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/41712238103). |
 | [MacNativeGames PR #3](https://github.com/HenricHuntsman/MacNativeGames/pull/3) | `92e10169a74a0830637bc2f92d767107b0b849fa` | The [shader protocol passed](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/43572218006), and [source regressions failed](https://github.com/HenricHuntsman/MacNativeGames/actions/runs/43572218009). |
 
-The three PRs were open at review time. Investigating the MacNativeGames source-regression failure is the next pre-merge check. The workflow-level XenonRecomp result was checked without independently counting individual test cases. Existing maturity labels retain their dated assessments.
+XenonRecomp PR #1 [merged into main](https://github.com/HenricHuntsman/XenonRecomp/commit/968df9ce47a45c18b79e7fa8376889745c550aa9). The Actions job log records **nine passing synthetic tests**.
+
+MacNativeGames PRs #2 and #3 remain open. The PR #3 source regression log shows four settings-panel height assertion failures at `settings_panel_probe.m:829`, across the compact and corners layouts with both override settings. The Linux shader protocol checks passed. The next check is to reproduce the macOS layout failure on the base branch.
+
+## Account-wide catch-up
+
+The connected inventory review covered 51 owned repositories and 114 open PRs, including 70 drafts. The catch-up merged 22 PRs, including 21 documentation-only dragon branding updates and the XenonRecomp audit. Repository-specific release assessments retain their recorded dates.
